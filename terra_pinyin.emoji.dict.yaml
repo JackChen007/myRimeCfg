@@ -278,6 +278,7 @@ use_preset_vocabulary: false
 ☠️	ju4 du2
 ☠️	ku1 lou1
 ☠️	ku1 lou1 tou2
+☠️	skullandbones
 ☢️	fang4 she4 xing4
 ☢️	fang4 she4 xing4 biao1 zhi4
 ☢️	fu2 she4
@@ -3975,14 +3976,14 @@ use_preset_vocabulary: false
 🗂️	ka pian suo yin qi
 🗃️	ka pian cun dang he
 🗃️	ka pian wen jian he
-🗄️	dang an gui
-🗄️	wen jian gui
+🗄️	dang3 an4 gui4
+🗄️	wen2 jian4 gui4
 🗑️	fei4 zhi3 lou
 🗒️	ji4 shi4 ben3
 🗒️	luo2 xuan2 xian4 quan1 bi3 ji4 ben3
 🗒️	xian quan bi ji ben
 🗓️	luo xuan xian quan ri li
-🗓️	ri li
+🗓️	ri4 li4
 🗓️	xian quan ri li
 🗜️	jia qian
 🗜️	ya suo
@@ -3992,60 +3993,63 @@ use_preset_vocabulary: false
 🗡️	bi4 shou3
 🗡️	duan3 dao1
 🗡️	duan3 jian4
-🗣️	da sheng rang rang
-🗣️	da sheng shuo hua
+🗣️	da4 sheng1 rang1 rang1
+🗣️	da4 sheng1 shuo1 hua4
 🗣️	shuo hua de lun kuo
 🗯️	you ce fen nu qi pao kuang
-🗳️	tou piao xiang
-🗺	di tu
+🗳️	tou2 piao4 xiang1
+🗺	di4 tu2
 🗺️	shi jie de tu
-🗻	fu shi shan
-🗼	dian shi ta
-🗼	fa she ta
-🗼	tie ta
+🗻	fu4 shi4 shan1
+🗼	dian4 shi4 ta3
+🗼	fa1 she4 ta3
+🗼	tie3 ta3
 🗽	huo dong
-🗽	mei guo
-🗽	zi you nv shen
-🗾	ri ben
-🗿	diao xiang
+🗽	mei3 guo2
+🗽	zi4 you2 nv3 shen2
+🗾	ri4 ben3
+🗿	diao1 xiang4
 🗿	fu huo jie dao shi xiang
-🗿	shi xiang
-🤐️	bi zui
-🤐️	biao qing
+🗿	shi2 xiang4
+🤐️	bi4 zui3
+🤐️	biao3 qing2
 🤐️	la lian kou biao qing
-🤑️	biao qing
+🤑️	biao3 qing2
 🤑️	jian qian yan kai
-🤒️	biao qing
-🤒️	fa shao
-🤒️	liang ti wen
-🤓️	biao qing
-🤓️	shu dai zi
-🤓️	yan jing nan
-🤔️	biao qing
-🤔️	si kao yi xia
+🤒️	biao3 qing2
+🤒️	fa1 shao1
+🤒️	liang2 ti3 wen1
+🤓️	biao3 qing2
+🤓️	shu1 dai1 zi1
+🤓️	yan3 jing4 nan2
+🤔️	biao3 qing2
+🤔️	si1 kao3 yi1 xia4
 🤔️	wo xiang xiang
 🤔️	xiang yi xiang
 🤕️	biao qing
-🤕️	shou shang
-🤕️	tou bu shou shang
+🤕️	shou4 shang1
+🤕️	tou2 bu4 shou4 shang1
 🤕️	tou shou shang da bang dai
-🤖️	ji qi ren
+🤖️	ji1 qi4 ren2
+🤖	robotface
+🤖	robot
 🤗️	ai de bao bao
-🤗️	biao qing
+🤗️	biao3 qing2
 🤗️	bu yue
-🤗️	gei ni yi ge yong bao
-🤗️	gei wo yi ge yong bao
+🤗️	gei3 ni2 yi1 ge4 yong1 bao4
+🤗️	gei3 wo3 yi1 ge4 yong1 bao4
 🤘️	e mo zhi jiao
 🤘️	shu qi shi zhi yu xiao zhi
 🤘️	shu shi zhi yu xiao zhi
-🦀️	pang xie
-🦁️	shi zi
-🦂️	xie zi
-🦃️	huo ji
+🦀️	pang2 xie4
+🦁️	shi1 zi1
+🦂️	xie1 zi1
+🦃️	huo3 ji1
 🦃️	tu shou ji
-🦄️	du jiao shou
-🧀️	nai lao
-🧀️	qi si
+🦄️	du2 jiao3 shou4
+🦄️	unicorn
+🧀️	nai3 lao4
+🧀️	qi3 si1
 😀	biao zhun xiao
 😀	kai kou xiao
 😀	lu chi xiao
@@ -4111,112 +4115,112 @@ use_preset_vocabulary: false
 😆	sha xiao
 😆	xiao
 😆	xiao bu jian yan
-😇	biao qing
+😇	biao2 qing2
 😇	chun jie
 😇	tian shi
 😇	tian shi de wei xiao
-😈	biao qing
-😈	e mo
-😈	xiao e mo
-😈	xie e
-😉	biao qing
-😉	qing song
-😉	shi yan se
-😉	zha yan
-😊	biao qing
-😊	gao xing
-😊	hai xiu
-😊	ke ai
+😈	biao3 qing2
+😈	e4 mo2
+😈	xiao3 e4 mo2
+😈	xie2 e4
+😉	biao3 qing2
+😉	qing1 song1
+😉	shi3 yan3 se4
+😉	zha3 yan3
+😊	biao3 qing2
+😊	gao1 xing4
+😊	hai4 xiu1
+😊	ke3 ai4
 😊	mi yan wei xiao
-😊	wei xiao
-😊	xiao
-😊	xiao lian
-😊	xiao rong
-😋	biao qing
-😋	hao chi
-😋	tu she tou
-😋	yan chan
+😊	wei1 xiao4
+😊	xiao4
+😊	xiao4 lian3
+😊	xiao4 rong2
+😋	biao3 qing2
+😋	hao3 chi1
+😋	tu3 she2 tou2
+😋	yan2 chan2
 😋	zui chan
 😌	biao qing
 😌	fang song
 😌	shi ran
 😌	shu fu
-😍	ai
-😍	ai ni
-😍	biao qing
-😍	xi huan
+😍	ai4
+😍	ai4 ni3
+😍	biao3 qing2
+😍	xi3 huan1
 😍	xin xin yan
-😍	zhao mi
+😍	zhao2 mi2
 😎	ban ku
-😎	biao qing
-😎	de yi
-😎	ku
-😎	mo jing
-😎	xiao lian
-😏	biao qing
-😏	chi xiao
-😏	de yi de xiao
-😏	jia xiao
-😏	leng xiao
-😏	tou xiao
+😎	biao3 qing2
+😎	de2 yi4
+😎	ku4
+😎	mo2 jing4
+😎	xiao4 lian3
+😏	biao3 qing2
+😏	chi1 xiao4
+😏	de2 yi4 de1 xiao4
+😏	jia3 xiao4
+😏	leng3 xiao4
+😏	tou1 xiao4
 😏	zui jiao shang yang
-😐	biao qing
+😐	biao3 qing2
 😐	dai ran
 😐	dan mo
-😐	mo ran
+😐	mo4 ran2
 😐	ping jing
 😐	wu biao qing
 😑	mian wu biao qing
 😒	ba bu de
-😒	bi shi
-😒	biao qing
-😒	bu gao xing
-😒	bu kai xin
-😒	chou mei ku lian
-😒	leng mo
-😒	yu men
-😓	biao qing
+😒	bi3 shi4
+😒	biao3 qing2
+😒	bu4 gao1 xing4
+😒	bu4 kai1 xin1
+😒	chou2 mei2 ku3 lian3
+😒	leng3 mo4
+😒	yu4 men1
+😓	biao3 qing2
 😓	chu leng han
-😓	dan xin
-😓	dao mei
-😓	du nang
-😓	han
-😓	han yan
-😓	jin zhang
-😓	leng han
-😓	wu yu
-😔	biao qing
-😔	bu kai xin
-😔	bu ru yi
-😔	chen si
-😔	dan you
+😓	dan1 xin1
+😓	dao3 mei2
+😓	du1 nang1
+😓	han4
+😓	han4 yan2
+😓	jin3 zhang1
+😓	leng3 han4
+😓	wu2 yu3
+😔	biao3 qing2
+😔	bu4 kai1 xin1
+😔	bu4 ru2 yi4
+😔	chen2 si1
+😔	dan1 you1
 😔	fa
-😔	hao xin suan
-😔	hao xin teng
-😔	mei you dong li
-😔	nan guo
+😔	hao3 xin1 suan1
+😔	hao3 xin1 teng2
+😔	mei2 you3 dong4 li4
+😔	nan2 guo4
 😔	shen shang
-😔	shen si
-😔	si kao
-😔	xin suan
-😔	you lv
-😔	you shang
-😔	you yu
+😔	shen1 si1
+😔	si1 kao3
+😔	xin1 suan1
+😔	you1 lv4
+😔	you1 shang1
+😔	you1 yu4
 😔	zhen de hao lei
-😕	biao qing
-😕	bu shuang
-😕	bu xie
-😕	kun huo
-😕	pie zui
-😖	biao qing
-😖	ku nao
-😖	kun huo
-😖	tong ku
+😕	biao3 qing2
+😕	bu4 shuang3
+😕	bu2 xie4
+😕	kun4 huo4
+😕	pie3 zui3
+😖	biao3 qing2
+😖	ku3 nao3
+😖	kun4 huo4
+😖	tong4 ku3
 😖	yi wen
 😗	qin wen
-😘	ai
-😘	ai ni
-😘	biao qing
+😘	ai4
+😘	ai4 ni3
+😘	biao3 qing2
 😘	chuan qing
 😘	fei wen
 😘	qin qin
@@ -5184,6 +5188,7 @@ shift	shift
 🤝	wo4 shou3
 🤞	hao3 yun4
 🤞	shou3 shi4
+🤞	crossedfingers
 🤠	niu2 zai3
 🤡	chou3 jue2
 🤡	xiao3 chou3
@@ -5408,6 +5413,21 @@ shift	shift
 🦐	xiao3 xia1
 🦑	wu1 zei2
 🦑	you2 yu2
+#Unicode 5.1
+🀌	mahjong
+🀌	ma2 jiang4
+🀌	liu4 wan4
+⚅	shai3 zi1
+⚀ shai3 zi1
+🀃	mahjong
+🀃	ma2 jiang4
+🀃	bei2 feng1
+🀀	dong1 feng1
+🀀	mahjong
+🀀	ma2 jiang4
+🀂	xi1 feng1
+🀂	mahjong
+🀂	ma2 jiang4
 #Unicode 10.0 and Emoji 5.0 in 2017
 🥟	jiao3 zi1
 🥟	dumpling
@@ -5465,6 +5485,83 @@ shift	shift
 🥣	tang1 he2 shao2
 🥪	sandwich
 🥪	san1 ming2 zhi4
+🥌	curlingstone
+🥌	bing1 hu2
+🛷	sled
+🛷	xue3 qiao4
+🥨	pretzel
+🥨	bing3
+🛸	UFO
+🛸	UFO
+🛸	flyingsaucer
+🛸	fei1 die2
+🧗‍♂️	manclimbing
+🧗‍♂️	pan1 yan2
+🧗‍♂️	nan2 pan1 yan2 zhe3
+🤟	iloveu
+🤟	iloveyou
+🤟	wo3 ai4 ni3
+🤟	loveyou
+🤲	duan
+🤲	Palms Together Facing Up
+🧘‍♂️	Man in Lotus Position
+🧘‍♂️	da3 zuo4
+🧘‍♂️	yu2 jia1
+🧜‍♀️	mermaid
+🧜‍♀️	ren2 yu2 nv3
+🧜‍♂️	merman
+🧜‍♂️	ren2 yu2 nan2
+🧛	vampire
+🧛	xi1 xue3 gui3
+🧛🏻	vampire
+🧛🏻	xi1 xue3 gui3
+🧛🏾	vampire
+🧛🏾	xi1 xue3 gui3
+🧛‍♀️	womanvampire
+🧛‍♀️	nv3 xi1 xue3 gui3
+🧝	elf
+🧝	jing1 ling2
+🧝	xiao3 jing1 ling2
+🧝‍♀️	nv3 jing1 ling2
+🧝‍♀️	womanelf
+🧚	fairy
+🧚	xian1 zi3
+🧞	mo2 po2
+🧞	genie
+🧞	jinni
+🧟	zombie
+🧟	huan2 hun2 shi1
+🧓	olderadult
+🧓	olderperson
+🧓	lao3 ren2
+🧕	hijab
+🧕	tou2 jin1
+🧕	personwithheadscarf
+🧑	person
+🧑	adult
+🧑	ren2
+🧑	cheng2 nian2 ren2
+🤱	breastfeeding
+🤱	wei4 nai3
+🤱	mu3 ru3
+🧔	beardedperson
+🧔	hu2 zi1
+🧔	da4 hu2 zi1
+🧙	mage
+🧙	mo2 shu4 shi1
+🧙	mo2 fa3 shi1
+🧙	fang1 shi4
+🧙	dao4 shi4
+🧙	witch
+🧙	wizard
+🧙	sorcerer
+🧙‍♀️	sorceress
+🧙‍♀️	nv3 mo2 fa3 shi1
+🧒	child
+🧒	xiao3 hai2
+🧒	er2 tong2
+₿	bitcoin
+₿	bi3 te4 bi4
 #Unicode 11.0 and Emoji 11.0 in 2018
 🦚	dong4 wu4
 🦚	kong3 que4
@@ -5587,3 +5684,16 @@ shift	shift
 🧺	basket
 ♾️	wu2 qiong2
 ♾️	infinity
+🥬	lv4 ye4 cai4
+🦲	bald
+🦲	tu1 tou2
+🦲	tu1 zi1
+🦸	superhero
+🦸	chao1 ren2
+🦸	superman
+🦹	supervillain
+🦹	da4 fan3 pai4
+🦹	chao1 ji2 fan3 pai4
+🦹	da4 e4 ren2
+🥾	hikingboot
+🥾	deng1 shan1 xue1
