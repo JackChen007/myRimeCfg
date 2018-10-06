@@ -415,6 +415,7 @@ use_preset_vocabulary: false
 ⚱️	gu3 hui1 guan4
 ⚱️	gu3 hui1 he2
 ⚱️	gu3 hui1 tan2
+⚱️	funeralurn
 ⚽️	guo2 zu2
 ⚽️	ti1 qiu2
 ⚽	yun4 dong4
@@ -437,16 +438,16 @@ use_preset_vocabulary: false
 ⛈️	lei2 yu3 jiao1 jia1
 ⛈️	lei2 yu3 yun2
 ⛈️	yu3
-⛎	she fu zuo
+⛎	she2 fu1 zuo4
 ⛎	xing1 zuo4
 ⛏️	chu2 tou
 ⛏️	tie3 gao1
 ⛏️	tie3 hao1
 ⛑️	an1 quan2 mao4
 ⛑️	jiu sheng an quan mao
-⛓️	lian tiao
+⛓️	lian4 tiao2
 ⛔️	biao1 zhi4
-⛔️	jin xing
+⛔️	jin4 xing2
 ⛔️	jin4 zhi3
 ⛔️	jin4 zhi3 jin4 ru4
 ⛔️	jin4 zhi3 shi3 ru4
@@ -2991,37 +2992,37 @@ use_preset_vocabulary: false
 👸	bai xue gong zhu
 👸	gong zhu
 👸	hui gu niang
-👸	tong hua
-👸	tou xiang
+👸	tong2 hua4
+👸	tou2 xiang4
 👹	e gui
 👹	guai wu
-👹	gui guai
-👹	mo gui
+👹	gui3 guai4
+👹	mo2 gui3
 👹	shi ren mo mian ju
 👹	tou xiang
 👺	tian gou
 👺	tou xiang
-👺	yao guai
-👻	gui hun
-👻	gui lian
+👺	yao1 guai4
+👻	gui3 hun2
+👻	gui3 lian3
 👻	tou xiang
-👻	yao guai
-👻	you ling
+👻	yao1 guai4
+👻	you1 ling2
 👼	tian shi
 👼	tian shi bao bao
-👼	tou xiang
-👽	tou xiang
-👽	wai xing ren
+👼	tou2 xiang4
+👽	tou2 xiang4
+👽	wai4 xing1 ren2
 👾	guai shou
 👾	tou xiang
 👾	xiao jing ling
-👿	e mo
+👿	e4 mo2
 👿	mao huo
 👿	tong hua
 👿	tou xiang
 👿	xiao e mo
-💀	ku lou
-💀	ku lou tou
+💀	ku1 lou1
+💀	ku1 lou1 tou2
 💀	si wang
 💀	tou gu
 💀	tou xiang
@@ -3039,9 +3040,9 @@ use_preset_vocabulary: false
 💁‍♂️	tou xiang
 💂	nan wei bing
 💂	nan wei shi
-💂	tou xiang
-💂	wei bing
-💂	wei shi
+💂	tou2 xiang4
+💂	wei4 bing1
+💂	wei4 shi4
 💂‍♀️	nv wei bing
 💂‍♀️	nv wei shi
 💂‍♀️	tou xiang
@@ -3065,7 +3066,7 @@ use_preset_vocabulary: false
 💄	huo2 dong4
 💄	kou3 hong2
 💅	huo dong
-💅	mei jia
+💅	mei3 jia3
 💅	mo zhi jia you
 💅	zhi jia you
 💆	an4 mo1
@@ -3134,11 +3135,11 @@ use_preset_vocabulary: false
 💍	zuan4 jie4
 💎	bao3 shi2
 💎	lang4 man4
-💎	zhu bao
+💎	zhu1 bao3
 💎	zuan4 shi2
 💏	ai2 qing2 tian2 mi4
-💏	jie wen
-💏	lang man
+💏	jie1 wen3
+💏	lang4 man4
 💏	nan nv qin wen
 💏	qin1 wen3
 💐	cha1 hua1
@@ -3348,7 +3349,8 @@ use_preset_vocabulary: false
 💸	kui1 sun3
 💸	po4 cai2
 💸	po4 chan3
-💸	qian fei le
+💸	qian2 fei1 le1
+💸	moneywithwing
 💹	zhang3
 💺	fei1 ji1 zuo4 yi3
 💺	jiao1 tong1
@@ -3524,11 +3526,12 @@ use_preset_vocabulary: false
 📠	chuan2 zhen
 📠	chuan zhen ji
 📠	xin xi
-📡	tong xun
-📡	wei xing
-📡	wei xing tian xian
-📡	wei xing tong xun
-📡	xin xi
+📡	tong1 xun4
+📡	wei4 xing1
+📡	wei4 xing1 tian1 xian4
+📡	wei4 xing1 tong1 xun4
+📡	xin4 xi1
+📡	satelliteantenna
 📢	guang bo
 📢	kuo yin la ba
 📢	kuo yin qi
@@ -4970,7 +4973,8 @@ use_preset_vocabulary: false
 🛅	ji4 cun2
 🛅	xing2 li3 ji4 cun2 chu4
 🛅	xing2 li3 tuo1 guan3
-🛋️	sha1 fa1 he2 deng4
+🛋️	sha1 fa1 he2 deng1
+🛋️	couchandlamp
 🛌	shui4 jiao4
 🛌️	wo4 pu4
 🛌	xiu1 xi1
@@ -4986,6 +4990,7 @@ use_preset_vocabulary: false
 🛠️	chui2 zi he2 ban1 shou3
 🛡️	dun4 pai2
 🛢️	you2 tong3
+🛢️	oildrum
 🛣️	gao1 su4 gong1 lu4
 🛣️	gao1 su4 lu4
 🛤️	tie3 gui3
@@ -5428,6 +5433,10 @@ shift	shift
 🀂	xi1 feng1
 🀂	mahjong
 🀂	ma2 jiang4
+🀅	mahjong
+🀅	fa1 cai2
+🀁	mahjong
+🀁	nan2 feng1
 #Unicode 10.0 and Emoji 5.0 in 2017
 🥟	jiao3 zi1
 🥟	dumpling
@@ -5668,6 +5677,8 @@ shift	shift
 🧽	qing1 jie2
 🧽	hai3 mian2
 🧽	sponge
+🧂	yan2
+🧂	salt
 🧴	lotionbottle
 🧴	hu4 shou3 shuang1
 🧲	xi1 tie3 shi2
@@ -5688,6 +5699,14 @@ shift	shift
 🦲	bald
 🦲	tu1 tou2
 🦲	tu1 zi1
+🦰	redhaired
+🦰	hong2 tou2 fa1
+🦱	curlyhair
+🦱	juan3 fa4
+🦳	bai2 fa4
+🦳	bai2 tou2 fa1
+🦳	whitehair
+🧿	nazaramulet
 🦸	superhero
 🦸	chao1 ren2
 🦸	superman
@@ -5697,3 +5716,17 @@ shift	shift
 🦹	da4 e4 ren2
 🥾	hikingboot
 🥾	deng1 shan1 xue1
+🥿	ping2 di3 xie2
+🥿	nv3 xie2
+🥿	flatshoe
+🥼	labcoat
+🥼	bai2 da4 gua4
+🥽	goggles
+🥽	hu4 mu4 jing4
+🦛	he2 ma3
+🦛	hippopotamus
+🦝	raccoon
+🦝	huan4 xiong2
+🦝	xiao3 huan4 xiong2
+🦡	badger
+🦡	huan1
