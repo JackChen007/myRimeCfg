@@ -37,7 +37,7 @@ use_preset_vocabulary: false
 〽️	ge yao kai shi ji hao
 〽️	zhong ri han biao dian
 °	degree
-°	du
+°	du4
 ℃	degreec
 ℃	she4 shi4 du4
 ℉	degreef
@@ -45,11 +45,13 @@ use_preset_vocabulary: false
 ©	ban4 quan1
 ©️	ban4 quan1 fu2 hao4
 ©️	fu2 hao4
+©️	copyright
 ®️	fu2 hao4
 ®	quan1 r
 ®	zhu4 ce4
 ®️	zhu4 ce4 biao1 ji
 ®️	zhu4 ce4 shang1 biao1
+®	register
 ←	jian4 tou2
 ←	left
 ←	zuo3 jian4 tou2
@@ -242,16 +244,16 @@ use_preset_vocabulary: false
 ☑️	yi gou xuan
 ☔️	cheng san
 ☔️	da san
-☔️	san
-☔	tian qi
-☔️	xia yu
-☔️	xia yu tian
-☔️	yu
-☔️	yu di
-☔	yu san
-☔️	yu shui
-☔️	yu tian
-☔	zhou yu
+☔️	san3
+☔	tian1 qi4
+☔️	xia4 yu3
+☔️	xia4 yu3 tian1
+☔️	yu3
+☔️	yu3 di1
+☔	yu3 san3
+☔️	yu3 shui
+☔️	yu3 tian1
+☔	zhou4 yu3
 ☕️	can yin
 ☕	cha
 ☕️	he ka fei
@@ -269,9 +271,9 @@ use_preset_vocabulary: false
 ☘️	san1 ye4 cao3
 ☘️	xing4 yun4 cao3
 ☝️	di yi
-☝	shi zhi
-☝	shou shi
-☝️	yi ge
+☝	shi2 zhi3
+☝	shou3 shi4
+☝️	yi1 ge4
 ☟	shi2 zhi3 xiang4 xia4
 ☠️	ju4 du2
 ☠️	ku1 lou1
@@ -285,9 +287,10 @@ use_preset_vocabulary: false
 ☦️	zheng jiao hui shi zi
 ☪️	xing1 yue4
 ☪️	xing1 yue4 biao1 zhi4
-☮️	fan zhan
-☮️	fan zhan biao zhi
-☮️	he ping biao zhi
+☮️	fan3 zhan4
+☮️	nucleardisarmament
+☮️	fan3 zhan4 biao1 zhi4
+☮️	he2 ping2 biao1 zhi4
 ☯️	tai4 ji2
 ☯	yin1 yang2
 ☸️	fa3 lun2
@@ -357,7 +360,7 @@ use_preset_vocabulary: false
 ♨️	xiu1 xi1
 ♻️	fu2 hao4
 ♻️	huan2 bao3
-♻️	hui shou
+♻️	hui2 shou1
 ♻︎	xun2 huan2
 ♿	biao1 zhi4
 ♿️	can2 ji2 fu2 hao4
@@ -405,9 +408,9 @@ use_preset_vocabulary: false
 ⚣	nan2 nan2
 ⚪️	bai2 se4 yuan2 quan1
 ⚫️	hei1 se4 yuan2 quan1
-⚰️	guan cai
+⚰️	guan1 cai1
 ⚰️	guan1 guo3
-⚰️	ling jiu
+⚰️	ling2 jiu4
 ⚱️	gu3 hui1 guan4
 ⚱️	gu3 hui1 he2
 ⚱️	gu3 hui1 tan2
@@ -1117,13 +1120,15 @@ use_preset_vocabulary: false
 🀄️	huo2 dong4
 🀄	ma2 jiang4
 🀄️	zhong1
+🀄	mahjong
 🃏	huo2 dong4
 🃏	pu1 ke pai2
 🃏	wan2 pai2
 🃏	wang2 pai2
 🃏	xiao3 chou3
-🃏	xiao wang
+🃏	xiao3 wang2
 🃏	zhi3 pai2
+🃏	joker
 🌀	long2 juan3 feng1
 🌀	tai2 feng1
 🌀	tian1 qi4
@@ -1255,14 +1260,14 @@ use_preset_vocabulary: false
 🌦️	zhen4 yu3
 🌧️	xia4 yu3
 🌧️	yu3
-🌨️	xia xue
-🌩️	shan dian
-🌪️	long juan feng
+🌨️	xia4 xue3
+🌩️	shan3 dian4
+🌪️	long2 juan3 feng1
 🌫️	wu4
 🌫️	wu4 mai2
 🌬️	chui1 qi4
 🌭️	re4 gou3
-🌮️	mo xi ge juan
+🌮️	mo4 xi1 ge1 juan3
 🌮️	ta ke
 🌯️	mo4 xi1 ge1 juan3 bing3
 🌰	ban3 li4
@@ -1302,17 +1307,17 @@ use_preset_vocabulary: false
 🌶️	la4 jiao1
 🌷	hu2 die2 lan2
 🌷	hua1
-🌷	yu jin xiang
-🌷	zhi wu
-🌸	hua
-🌸	ying hua
-🌸	zhi wu
-🌹	hua
-🌹	lang man
-🌹	mei gui
-🌹	mei gui hua
-🌹	yue ji
-🌹	zhi wu
+🌷	yu4 jin1 xiang1
+🌷	zhi2 wu4
+🌸	hua1
+🌸	ying1 hua1
+🌸	zhi2 wu4
+🌹	hua1
+🌹	lang4 man4
+🌹	mei2 gui1
+🌹	mei1 gui1 hua1
+🌹	yue4 ji4
+🌹	zhi2 wu4
 🌺	fu2 rong2
 🌺	fu2 sang1 hua1
 🌺	hua1
@@ -1871,16 +1876,18 @@ use_preset_vocabulary: false
 🎯	zheng4 zhong4 hong2 xin1
 🎯	zhi2 jie1 ming4 zhong4
 🎰	chi jiao zi lao hu
-🎰	du chang
+🎰	du3 chang3
 🎰	lao3 hu3 ji1
 🎰	you2 xi4
 🎱	tai2 qiu2
 🎱	zhuang qiu2
 🎱	zhuo1 qiu2
+🎱	hei1 ba1
 🎲	du3 bo2
 🎲	shai3 zi
 🎲	tou2 zi
 🎲	you2 xi4
+🎲	dice
 🎳	bao3 ling2 qiu2
 🎴	hua pu ke4 pai2
 🎴	hua zha pai
@@ -1959,15 +1966,15 @@ use_preset_vocabulary: false
 🏃	pao bu zhe
 🏃	sai4 pao3
 🏃	yun4 dong4
-🏃‍♀️	ben pao
-🏃‍♀️	chen pao
-🏃‍♀️	kai pao
-🏃‍♀️	ma la song
-🏃‍♀️	nv pao bu zhe
-🏃‍♀️	pao bu
-🏃‍♀️	pao bu zhe
-🏃‍♀️	sai pao
-🏃‍♀️	yun dong
+🏃‍♀️	ben1 pao3
+🏃‍♀️	chen1 pao3
+🏃‍♀️	kai1 pao3
+🏃‍♀️	ma3 la1 song1
+🏃‍♀️	nv3 pao3 bu4 zhe3
+🏃‍♀️	pao3 bu4
+🏃‍♀️	pao3 bu4 zhe3
+🏃‍♀️	sai4 pao3
+🏃‍♀️	yun4 dong4
 🏄	chong1 lang4
 🏄	chong lang zhe
 🏄	nan chong lang zhe
@@ -2052,6 +2059,7 @@ use_preset_vocabulary: false
 🏚️	fei qi jian4 zhu4
 🏚️	wei fang
 🏛️	gu3 dian3 jian4 zhu4
+🏛️	classicalbuilding
 🏜️	sha1 mo4
 🏜️	sha1 mo4 hua ka
 🏝️	huang1 dao3
@@ -2734,34 +2742,34 @@ use_preset_vocabulary: false
 👧	nv3 hai2 zi
 👧	tou2 xiang4
 👧	xiao luo li
-👨	fu qin
-👨	lao die
-👨	nan ren
-👨	tou xiang
+👨	fu4 qin1
+👨	lao3 die1
+👨	nan2 ren2
+👨	tou2 xiang4
 👨‍⚕️	wei sheng gong zuo zhe
 👨‍⚕️	yi hu ren yuan
 👨‍⚕️	yi wu ren yuan
-👨‍⚖️	fa guan
-👨‍✈️	fei ji jia shi yuan
-👨‍✈️	fei xing yuan
+👨‍⚖️	fa3 guan1
+👨‍✈️	fei1 ji1 jia4 shi3 yuan2
+👨‍✈️	fei1 xing2 yuan2
 👨‍❤️‍👨	nan ren ai nan ren
 👨‍❤️‍👨	xiong di qing shen
 👨‍❤️‍💋‍👨	nan ren jie wen
 👨‍❤️‍💋‍👨	qin wen
-👨‍🌾	nong fu
-👨‍🌾	nong min
-👨‍🍳	chu shi
-👨‍🍳	chu zi
-👨‍🎓	tong xue
-👨‍🎓	xue sheng
-👨‍🎤	ge shou
-👨‍🎤	ge xing
-👨‍🎤	ge zhe
-👨‍🎨	yi shu da shi
+👨‍🌾	nong2 fu1
+👨‍🌾	nong2 min2
+👨‍🍳	chu2 shi1
+👨‍🍳	chu2 zi1
+👨‍🎓	tong2 xue2
+👨‍🎓	xue2 sheng1
+👨‍🎤	ge1 shou3
+👨‍🎤	ge1 xing1
+👨‍🎤	ge1 zhe3
+👨‍🎨	yi4 shu4 da4 shi1
 👨‍🎨	yi shu gong zuo zhe
-👨‍🎨	yi shu jia
-👨‍🏫	lao shi
-👨‍🏭	gong ren
+👨‍🎨	yi4 shu4 jia1
+👨‍🏫	lao3 shi1
+👨‍🏭	gong1 ren2
 👨‍👨‍👦	liang ba yi wa
 👨‍👨‍👦	yi jia san kou
 👨‍👨‍👦‍👦	liang ba liang er
@@ -2778,31 +2786,31 @@ use_preset_vocabulary: false
 👨‍👩‍👦‍👦	yi jia si kou
 👨‍👩‍👧	yi jia san kou
 👨‍👩‍👧‍👦	er nv shuang quan
-👨‍👩‍👧‍👦	jia you er nv
+👨‍👩‍👧‍👦	jia1 you3 er2 nv3
 👨‍👩‍👧‍👦	yi jia si kou
 👨‍👩‍👧‍👦	you er you nv
 👨‍👩‍👧‍👧	ba ma he liang ge nv er
 👨‍👩‍👧‍👧	shuang feng zhi jia
-👨‍👩‍👧‍👧	yi jia ren
-👨‍👩‍👧‍👧	yi jia si kou
+👨‍👩‍👧‍👧	yi1 jia1 ren2
+👨‍👩‍👧‍👧	yi4 jia1 si4 kou3
 👨‍💻	ji shi
-👨‍💼	shang ban zu
+👨‍💼	shang4 ban1 zu2
 👨‍💼	zhi yuan
-👨‍🔧	ji gong
-👨‍🔧	ji xie shi
-👨‍🔬	ke xue jia
-👨‍🚀	yu hang yuan
-👨‍🚒	jiu huo dui yuan
-👨‍🚒	xiao fang yuan
-👩	mu qin
-👩	nv ren
-👩	tou xiang
-👩‍⚕️	wei sheng gong zuo zhe
-👩‍⚕️	yi hu ren yuan
-👩‍⚕️	yi wu ren yuan
-👩‍⚖️	fa guan
-👩‍✈️	fei ji jia shi yuan
-👩‍✈️	fei xing yuan
+👨‍🔧	ji4 gong1
+👨‍🔧	ji1 xie4 shi11
+👨‍🔬	ke1 xue2 jia1
+👨‍🚀	yu3 hang2 yuan2
+👨‍🚒	jiu4 huo3 dui4 yuan2
+👨‍🚒	xiao1 fang2 yuan2
+👩	mu3 qin1
+👩	nv3 ren2
+👩	tou2 xiang4
+👩‍⚕️	wei4 sheng1 gong1 zuo4 zhe3
+👩‍⚕️	yi1 hu4 ren2 yuan2
+👩‍⚕️	yi1 wu4 ren2 yuan2
+👩‍⚖️	fa3 guan1
+👩‍✈️	fei1 ji1 jia4 shi3 yuan2
+👩‍✈️	fei1 xing2 yuan2
 👩‍❤️‍👩	gui1 mi4 qing2 yi4
 👩‍❤️‍👩	jie3 mei4 qing2 shen1
 👩‍❤️‍👩	la1 la1
@@ -3285,12 +3293,14 @@ use_preset_vocabulary: false
 💬	fa1 yan2 zhong1
 💬	shuo1 hua4
 💬	xin1 qing2
+💬	speechballoon
+💬	speechbox
 💭	biao1 zhi4
 💭	kao3 lv4
 💭	si1 kao3
 💭	si1 kao3 zhong1
-💭	xiang fa
-💭	xiang xiang zhong
+💭	xiang3 fa3
+💭	xiang3 xiang4 zhong1
 💯	bai dian
 💯	man3 fen1
 💯	xin1 qing2
@@ -3317,10 +3327,10 @@ use_preset_vocabulary: false
 💵	jin qian
 💵	mei yuan
 💵	yi die mei yuan
-💶	jin qian
-💶	ou yuan
-💶	yi die ou yuan
-💷	jin qian
+💶	jin1 qian2
+💶	ou1 yuan2
+💶	yi1 die2 ou1 yuan2
+💷	jin1 qian2
 💷	ying1 bang
 💸	jin1 qian2
 💸	kui1 sun3
@@ -3776,9 +3786,9 @@ use_preset_vocabulary: false
 🔥	shi huo
 🔥	ye huo
 🔥	zi ran
-🔦	gong ju
-🔦	shou dian tong
-🔦	zhao ming
+🔦	gong1 ju4
+🔦	shou3 dian4 tong3
+🔦	zhao4 ming2
 🔧	ban1 shou3
 🔧	gong1 ju4
 🔧	xiu1 li3
@@ -3812,11 +3822,11 @@ use_preset_vocabulary: false
 🔭	tian1 wen2
 🔭	tian1 wen2 guan1 cha2
 🔭	wang4 yuan2 jing4
-🔮	fu hao
+🔮	fu2 hao4
 🔮	shui3 jing1 qiu2
 🔮	zhan1 bo2
 🔮	zhan1 bu3
-🔮	zi shui jing
+🔮	zi3 shui3 jing1
 🔯	fu2 hao4
 🔯	liu4 jiao3 xing1
 🔯	liu4 mang2 xing1
@@ -3824,26 +3834,28 @@ use_preset_vocabulary: false
 🔰	dun4 pai2
 🔰	fu2 hao4
 🔱	fu2 hao4
-🔱	hai wang ji
-🔱	san cha ji
+🔱	tridentemblem
+🔱	trident
+🔱	hai3 wang2 ji3
+🔱	san1 cha4 ji3
 🔲	hei xian fang kuang
 🔳	bai xian fang kuang
 🔴	hong2 se4 yuan2 quan1
 🔵	lan2 se4 yuan2 quan1
 🔷	lan se da ling xing
 🔹	lan se xiao ling xing
-🔼	fu hao
-🔼	xiang shang
-🔽	fu hao
-🔽	xiang xia
+🔼	fu2 hao4
+🔼	xiang4 shang4
+🔽	fu2 hao4
+🔽	xiang4 xia4
 🕉️	ao mu fu hao
 🕉️	fan wen fu hao
-🕊️	ge zi
-🕊️	he ping ge
+🕊️	ge1 zi1
+🕊️	he2 ping2 ge1
 🕋️	ka ba sheng tang
 🕋️	ke er bai
-🕌️	hui jiao tang
-🕌️	qing zhen si
+🕌️	hui2 jiao4 tang2
+🕌️	qing1 zhen1 si4
 🕍️	you tai jiao tang
 🕎️	duo lian deng zhu tai
 🕎️	you tai jiao deng tai
@@ -3903,14 +3915,16 @@ use_preset_vocabulary: false
 🕯️	la4 zhu2
 🕯️	zhu2 guang1
 🕰️	bi lu zhong
-🕰️	tai zhong
-🕳️	di dong
-🕳️	dong
+🕰️	tai2 zhong1
+🕰️	mantelpiececlock
+🕳️	di4 dong4
+🕳️	dong4
+🕳️	hole
 🕴️	xi1 zhuang1 nan2
 🕵️	nan2 zhen tan
-🕵️	zhen tan
-🕵️‍♀️	nv3 zhen tan
-🕵️‍♀️	zhen tan
+🕵️	zhen1 tan4
+🕵️‍♀️	nv3 zhen1 tan4
+🕵️‍♀️	zhen1 tan4
 🕶️	hei chao
 🕶️	hei1 se4 tai4 yang2 jing4
 🕶️	mo4 jing4
@@ -5103,7 +5117,7 @@ control	ctl
 🆕	new
 🆕	xin1
 🆕	xin1 jian4
-🆖	bu gan
+🆖	bu2 gan4
 🆖	bu4 hao3
 🆖	bu4 xing2
 🆖	fu2 hao4
@@ -5125,7 +5139,7 @@ shift	shift
 🆘	qiu2 jiu4
 🆘	sos
 ™️	fu hao
-™	shang biao
+™	shang1 biao1
 🆙	ding3
 🆙	fu2 hao4
 🆙	up
@@ -5369,9 +5383,20 @@ shift	shift
 🦐	xiao3 xia1
 🦑	wu1 zei2
 🦑	you2 yu2
+#Unicode 10.0 and Emoji 5.0 in 2017
+🥟	jiao3 zi1
+🥟	dumpling
+🥟	xiao3 long2 bao1
+🦓	ban1 ma3
+🦓	zebra
+🧦	wa4 zi1
+🧦	socks
+🧤	shou3 tao4
+🧤	gloves
 #Unicode 11.0 and Emoji 11.0 in 2018
 🦚	dong4 wu4
 🦚	kong3 que4
+🦚	peacock
 🥮	shi2 wu4
 🥮	yue4 bing3
 🥮	dian3 xin1
@@ -5420,3 +5445,73 @@ shift	shift
 🧧	hui4 luo4
 🧧	gong1 xi3 fa1 cai2
 🧧	jiang1 jin1
+🦴	gu3 tou2
+🦴	bone
+🦜	parrot
+🦜	ying1 wu3
+🧁	cupcake
+🧁	zhi3 bei1 dan4 gao1
+🧨	pao4 zhang4
+🧨	pao4
+🧨	huo3 pao4
+🧨	firecracker
+🧳	luggage
+🧳	xing2 li3 xiang1
+🧳	xiang1 zi1
+🧳	tuo1 yun4
+🧱	brick
+🧱	zhuan1 tou2
+🧱	zhuan1
+🦟	mosquito
+🦟	wen2 zi1
+🦟	wen2
+🦟	dong4 wu2
+🦞	lobster
+🦞	xia1
+🦞	da4 xia1
+🦞	dong4 wu4
+🦞	long2 xia1
+🧭	compass
+🧭	zhi3 nan2 zhen1
+🧭	luo2 pan2
+🧾	shou1 ju4
+🧾	receipt
+🧰	gong1 ju4 xiang1
+🧰	toolbox
+🧬	DNA
+🧬	dna
+🧬	ji1 yin1
+🧪	shi4 guan3
+🧪	testtube
+🧪	hua4 xue2
+🧪	shi2 yan4
+🧪	shi4 yan4
+🛹	hua2 ban3
+🛹	skateboard
+🛹	yun4 dong4
+🛹	duan4 lian4
+🧯	mie4 huo3 qi4
+🧯	firextinguisher
+🧯	xiao1 fang2
+🧯	mie4 huo3
+🧫	petridish
+🧫	pei2 yang3 min3
+🧽	qing1 jie2
+🧽	hai3 mian2
+🧽	sponge
+🧴	lotionbottle
+🧴	hu4 shou3 shuang1
+🧲	xi1 tie3 shi2
+🧲	ci2 tie3
+🧲	magnet
+🧹	broom
+🧹	sao3 zhou1
+🧹	sao3 ba3
+🧹	sweep
+🧵	thread
+🧵	xian4 tuan2
+🧺	la1 ji1 tong3
+🧺	lan2 zi1
+🧺	basket
+♾️	wu2 qiong2
+♾️	infinity
