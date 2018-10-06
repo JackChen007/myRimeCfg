@@ -1,0 +1,10 @@
+var:
+  option:
+    _hide_candidate: false
+    _hide_comment: false
+    _hide_key_hint: false
+    ascii_mode: false
+  previously_selected_schema: flypy
+  schema_access_time:
+    flypy: 1526780116
+    flypyplus: 1526780096

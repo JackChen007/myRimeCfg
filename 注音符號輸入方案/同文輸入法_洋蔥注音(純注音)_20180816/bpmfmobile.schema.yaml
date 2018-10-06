@@ -1,0 +1,424 @@
+# Rime schema
+# encoding: utf-8
+schema:
+  schema_id: bpmfmobile
+  name: "洋蔥手機"
+  version: "201804"
+  author:
+    - 洋蔥
+    # 以佛振注音支持聲韻亂序方案改編
+  description: |
+    注音符號輸入，採用「大千式」鍵盤排列。
+
+  dependencies:
+    - sy_bpmf
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [" 中 ", " 英 "]
+  - name: full_shape
+    reset: 0
+    states: [" 半 ", " 全 "]
+  - name: simplification
+#    reset: 0
+    states: [" 原 ", " 简 "]
+  - name: zh_tw
+#    reset: 0
+    states: [" 原 ", " 臺 "]
+  - options: [ utf8, big5]
+#    reset: 0
+    states:
+      - " U "
+      - " B "
+  - name: emoji_segestion
+    reset: 1
+    states: [ " 無 ", " 圖 " ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  filters:
+    - simplifier
+    - simplifier@zh_tw
+    - charset_filter@big5
+    - simplifier@emoji_switch
+    - uniquifier
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+#    - fluency_editor
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - affix_segmentor@emoji_sy
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - table_translator@emoji_sy
+    - script_translator
+
+menu:
+  page_size: 6
+
+simplifier:
+  tips: all
+
+zh_tw:
+  opencc_config: s2twp.json
+  option_name: zh_tw
+  tips: all
+
+emoji_switch:
+  opencc_config: emoji.json
+  option_name: emoji_segestion
+  tags: [ abc ]
+  tips: all
+
+speller:
+  alphabet: "1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/-3467 "
+  initials: "1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/-"
+  finals: " 6347"
+  delimiter: "|"
+  use_space: true
+  algebra:
+    - xform/iu/iou/
+    - xform/ui/uei/
+    - xform/ong/ung/
+    - xform/yi?/i/
+    - xform/wu?/u/
+    - xform/iu/v/
+    - xform/([jqx])u/$1v/
+    - xform/([iuv])n/$1en/
+    - xform/zhi?/Z/
+    - xform/chi?/C/
+    - xform/shi?/S/
+    - xform/([zcsr])i/$1/
+    - xform/ai/A/
+    - xform/ei/I/
+    - xform/ao/O/
+    - xform/ou/U/
+    - xform/ang/K/
+    - xform/eng/G/
+    - xform/an/M/
+    - xform/en/N/
+    - xform/er/R/
+    - xform/eh/E/
+    - xform/([iv])e/$1E/
+    - abbrev/^([bpmfdtnlgkhjqxZCSrzcsiuv]).+$/$1/
+    - abbrev/^([bpmfdtnlgkhjqxZCSrzcsiuvaoeEAIOUMNKGR]+)\d$/$1/
+    - abbrev/^([bpmfdtnlgkhjqxZCSrzcsiuv]).+(\d)$/$1$2/
+    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])/$2$1/
+    - derive/^([iuv])([aoeEAIOUMNKGR])/$2$1/
+    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([aoeEAIOUMNKGR])/$2$1/
+    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])([aoeEAIOUMNKGR])/$3$2$1/
+    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])([aoeEAIOUMNKGR])/$3$1$2/
+    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])([aoeEAIOUMNKGR])/$2$3$1/
+    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])([aoeEAIOUMNKGR])/$1$3$2/
+    - 'xlit|bpmfdtnlgkhjqxZCSrzcsiuvaoeEAIOUMNKGR12345|1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 6347|'
+
+translator:
+  dictionary: bpmfmobile
+  prism: bpmfmobile
+  enable_completion: false
+  enable_sentence: false
+  enable_user_dict: true
+  preedit_format:
+    - "xlit|1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 6347|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˉˊˇˋ˙|"
+
+emoji_sy:
+  tag: emoji_sy
+  dictionary: sy_bpmf
+  enable_completion: false
+  enable_sentence: false
+  enable_user_dict: true
+  prefix: "3"
+  suffix: " "
+  tips: "《EMOJI集》▶"
+  closing_tips: "◀《EMOJI集》"
+  preedit_format:
+    - xform/b1vf/【日本星期】/
+    - xform/1eg/【辦公室】/
+    - xform/xgnea/【六十四卦名】/
+    - xform/xagy2/【羅馬數字大】/
+    - xform/xgne/【六十四卦】/
+    - xform/urea/【易經卦名(六十四卦名)】/
+    - xform/g-gv/【十二生肖(生肖)】/
+    - xform/1xww/【巴黎鐵塔】/
+    - xform/yusg/【自由女神】/
+    - xform/zcr2/【復活節島】/
+    - xform/yacf/【字母黑圈(字母帶圓圈)】/
+    - xform/yafc/【字母圈黑(字母帶圓圈)】/
+    - xform/yacz/【字母黑方(字母帶圓角方框)】/
+    - xform/yazc/【字母方黑(字母帶圓角方框)】/
+    - xform/yadc/【字母框黑(字母帶圓角方框)】/
+    - xform/yacd/【字母黑框(字母帶圓角方框)】/
+    - xform/rwer/【交通工具(交通)】/
+    - xform/cy1f/【猴子表情】/
+    - xform/gyfc/【數字圈黑】/
+    - xform/gycf/【數字黑圈】/
+    - xform/yaf2/【字母圈大】/
+    - xform/yae2/【字母括大】/
+    - xform/xagy/【羅馬數字】/
+    - xform/rww/【交通圖(交通)】/
+    - xform/xn2/【螺絲釘】/
+    - xform/gyr/【十字架(宗教)】/
+    - xform/xa2/【羅馬大】/
+    - xform/2jw/【動物圖(動物)】/
+    - xform/gvw/【生肖圖(生肖)】/
+    - xform/gur/【攝影機】/
+    - xform/2gr/【電視機】/
+    - xform/gur/【收音機】/
+    - xform/xu2/【錄影帶】/
+    - xform/g2w/【手電筒】/
+    - xform/vjr/【顯微鏡】/
+    - xform/jmr/【望遠鏡】/
+    - xform/grf/【水晶球】/
+    - xform/gbz/【輸入法】/
+    - xform/1gw/【扳手圖(扳手)】/
+    - xform/rcw/【幾何圖(幾何)】/
+    - xform/zgg/【富士山】/
+    - xform/cyd/【漢字框(漢字)】/
+    - xform/xyv/【咧嘴笑】/
+    - xform/cyw/【猴子頭(猴子表情)】/
+    - xform/rct/【救護車】/
+    - xform/vzt/【消防車】/
+    - xform/5vr/【照相機(相機)】/
+    - xform/gy1/【數字標(數字)】/
+    - xform/yaz/【字母方(字母帶方框)】/
+    - xform/yad/【字母框(字母帶方框)】/
+    - xform/vuf/【西洋棋】/
+    - xform/qdq/【撲克牌(撲克)】/
+    - xform/wvr/【太玄經】/
+    - xform/vya/【星座名】/
+    - xform/g-e/【十二宮】/
+    - xform/gyf/【數字圈】/
+    - xform/gye/【數字括】/
+    - xform/gy2/【數字點】/
+    - xform/yaf/【字母圈】/
+    - xform/yae/【字母括】/
+    - xform/n5a/【蘇州碼】/
+    - xform/vx2/【希臘大】/
+    - xform/km2/【俄語大】/
+    - xform/125/【標點直】/
+    - xform/cyf/【漢字圈】/
+    - xform/cye/【漢字括】/
+    - xform/iro/【いろは順(IRO)】/
+    - xform/kra/【k假名】/
+    - xform/gra/【g假名】/
+    - xform/sra/【s假名】/
+    - xform/zra/【z假名】/
+    - xform/tra/【t假名】/
+    - xform/dra/【d假名】/
+    - xform/nra/【n假名】/
+    - xform/hra/【h假名】/
+    - xform/bra/【b假名】/
+    - xform/pra/【p假名】/
+    - xform/mra/【m假名】/
+    - xform/yra/【y假名】/
+    - xform/rra/【r假名】/
+    - xform/wra/【w假名】/
+    - xform/ara/【a假名】/
+    - xform/ira/【i假名】/
+    - xform/ura/【u假名】/
+    - xform/era/【e假名】/
+    - xform/ora/【o假名】/
+    - xform/raf/【假名圈】/
+    - xform/ra1/【假名半(形)】/
+    - xform/qra/【片假名】/
+    - xform/cjf/【韓文圈】/
+    - xform/cje/【韓文括】/
+    - xform/ra/【(平)假名】/
+    - xform/cj/【韓文】/
+    - xform/1f/【表情】/
+    - xform/yb/【自然】/
+    - xform/ug/【飲食】/
+    - xform/c2/【活動】/
+    - xform/xu/【旅遊】/
+    - xform/jq/【物品】/
+    - xform/ef/【國旗】/
+    - xform/zc/【符號】/
+    - xform/rn/【景色】/
+    - xform/2f/【地球】/
+    - xform/ww/【天體】/
+    - xform/5j/【植物】/
+    - xform/ge/【水果】/
+    - xform/gj/【食物】/
+    - xform/ux/【飲料】/
+    - xform/rb/【節日】/
+    - xform/mx/【娛樂】/
+    - xform/uv/【遊戲】/
+    - xform/m2/【運動】/
+    - xform/r5/【建築】/
+    - xform/ga/【獸面】/
+    - xform/je/【五官】/
+    - xform/gg/【手勢】/
+    - xform/uj/【衣物】/
+    - xform/2w/【大頭(頭像)】/
+    - xform/bj/【人物】/
+    - xform/c5/【化妝】/
+    - xform/9f/【愛情】/
+    - xform/9v/【愛心】/
+    - xform/ve/【效果】/
+    - xform/wv/【通訊】/
+    - xform/5w/【針筒】/
+    - xform/fh/【錢財(金錢)】/
+    - xform/wg/【圖示(符號)】/
+    - xform/uq/【藥品(藥丸)】/
+    - xform/vr/【相機】/
+    - xform/gu/【攝影】/
+    - xform/2g/【電視】/
+    - xform/2t/【刀叉】/
+    - xform/w1/【圖標(介面)】/
+    - xform/r1/【箭標(箭頭)】/
+    - xform/5g/【指示(箭頭)】/
+    - xform/bc/【燃火(火焰)】/
+    - xform/bg/【燃燒(火焰)】/
+    - xform/ty/【槌子】/
+    - xform/xn/【螺絲】/
+    - xform/2y/【刀子】/
+    - xform/yr/【宗教】/
+    - xform/g5/【時鐘】/
+    - xform/1x/【巴黎(巴黎鐵塔)】/
+    - xform/b1/【日本】/
+    - xform/a9/【摩艾】/
+    - xform/ae/【美國】/
+    - xform/ze/【法國】/
+    - xform/jv/【微笑】/
+    - xform/2v/【大笑】/
+    - xform/wu/【討厭(厭惡)】/
+    - xform/js/【無奈(嘆氣)】/
+    - xform/df/【哭泣】/
+    - xform/x2/【冷淡】/
+    - xform/v9/【喜愛(喜歡)】/
+    - xform/ru/【驚訝】/
+    - xform/gf/【生氣】/
+    - xform/cu/【懷疑】/
+    - xform/ac/【冒汗(懷疑)】/
+    - xform/rt/【警車】/
+    - xform/15/【標誌】/
+    - xform/cy/【漢字】/
+    - xform/za/【符碼】/
+    - xform/2s/【電腦】/
+    - xform/vf/【象棋】/
+    - xform/ar/【麻將】/
+    - xform/gy/【骰子】/
+    - xform/qd/【撲克】/
+    - xform/wf/【天氣】/
+    - xform/um/【音樂】/
+    - xform/xv/【兩性】/
+    - xform/1e/【八卦】/
+    - xform/ea/【卦名】/
+    - xform/vc/【星號】/
+    - xform/zd/【方塊】/
+    - xform/rc/【幾何】/
+    - xform/rw/【箭頭】/
+    - xform/gv/【數學】/
+    - xform/5v/【占星(天體)】/
+    - xform/vy/【星座】/
+    - xform/zg/【分數】/
+    - xform/xa/【羅馬】/
+    - xform/g1/【上標】/
+    - xform/v1/【下標】/
+    - xform/vx/【希臘】/
+    - xform/mz/【月份】/
+    - xform/bf/【日期】/
+    - xform/ub/【曜日】/
+    - xform/gr/【時間】/
+    - xform/we/【天干】/
+    - xform/25/【地支】/
+    - xform/e5/【干支】/
+    - xform/rf/【節氣】/
+    - xform/2j/【單位】/
+    - xform/c1/【貨幣】/
+    - xform/re/【結構】/
+    - xform/hr/【倉頡(結構)】/
+    - xform/qq/【偏旁】/
+    - xform/1g/【部首(康熙)】/
+    - xform/1c/【筆畫】/
+    - xform/12/【標點】/
+    - xform/km/【俄語】/
+    - xform/qu/【拼音】/
+    - xform/5u/【注音】/
+    - xform/g2/【聲調】/
+    - xform/ur/【易經(六十四卦)】/
+    - xform/jc/【文化】/
+    - xform/v2/【線段】/
+    - xform/mv/【圓形】/
+    - xform/nr/【三角】/
+    - xform/2e/【打勾】/
+    - xform/31/〘顏文字・開心〙/
+    - xform/32/〘顏文字·喜歡〙/
+    - xform/33/〘顏文字·傷心〙/
+    - xform/34/〘顏文字·生氣〙/
+    - xform/35/〘顏文字·驚訝〙/
+    - xform/36/〘顏文字·無奈〙/
+    - xform/37/〘顏文字·喜〙/
+    - xform/38/〘顏文字·樂〙/
+    - xform/39/〘顏文字·怒〙/
+    - xform/30/〘顏文字·指示和圖示〙/
+    - xform/3-/〘顏文字·回話〙/
+    - xform/10/【10】/
+    - xform/^([0-9])$/【$1】/
+    - xform/^3ab$/【 AB 】/
+    - xform/^3([a-z])$/〘 \U$1 〙/
+    - xform/^([a-z])$/【 \U$1 變化】/
+
+punctuator:
+  half_shape:
+    "@" : [ "＠", "@", "﹫", "？", "?", "﹖", "¿", "⁇", "⁈", "‽", "⸘" ]
+    "#" : [ "＃", "#", "﹟", "§", "¶", "⁋", "❡" ]
+    "$" : [ "＄", "$", "﹩", "¥", "￥", "€", "£", "￡", "₤", "¢", "￠", "₵", "₡", "¤", "৳", "฿", "₠", "₢", "₣", "₥", "₦", "₧", "₩", "₪", "₫", "₭", "₮", "₯", "₰", "₱", "₲", "₳", "₴", "₶", "₷", "₸", "₹", "₺", "₨", "﷼" ]
+    "%" : [ "％", "%", "﹪", "‰", "‱", ⅟, ½, ↉, ⅓, ⅔, ¼, ⅕, ⅖, ⅗, ⅘, ⅙, ⅚, ⅐, ⅛, ⅜, ⅝, ⅞, ⅑, ⅒ ]
+    "^" : [ "＾", "^", "‸", "＝", "=", "﹦", "＋", "+", "﹢", "－", "-", "−", "×", "÷", "∕", "√", "±", "≠", ≒, ≡, ≈, ≌, ∽, "∞", "∝", "π", "＜", "＞", "≮", "≯", ≤, ≥, ≦, ≧, "∑", ∫, ∮, "∏", "∇", ㏑, ㏒, "∅", "∈", "∉", "⊂", "⊃", "⊆", "⊇", ∩, ∪, "¬", "˜", "∃", "∀", "∂", ∴, ∵, ∷, ⊥, ∟, ∠, ∥, ∧, ∨, "⊻", ⊕, ⊙, ⊿ ]
+    "&" : [ "＆", "&", "﹠", "°", "℃", "℉", "Å", "㏃", "㏆", "㎈", "㏄", "㏅", "㎝", "㎠", "㎤", "㏈", "㎗", "㎙", "㎓", "㎬", "㏉", "㏊", "㏋", "㎐", "㏌", "㎄", "㎅", "㎉", "㎏", "㎑", "㏍", "㎘", "㎞", "㏎", "㎢", "㎦", "㎪", "㏏", "㎸", "㎾", "㏀", "㏐", "㏓", "㎧", "㎨", "㎡", "㎥", "㎃", "㏔", "㎆", "㎎", "㎒", "㏕", "㎖", "㎜", "㎟", "㎣", "㏖", "㎫", "㎳", "㎷", "㎹", "㎽", "㎿", "㏁", "㎁", "㎋", "㎚", "㎱", "㎵", "㎻", "㏘", "㎩", "㎀", "㎊", "㏗", "㏙", "㏚", "㎰", "㎴", "㎺", "㎭", "㎮", "㎯", "㏛", "㏜", "㎔", "㏝", "㎂", "㎌", "㎍", "㎕", "㎛", "㎲", "㎶", "㎼" ]
+    "*" : [ "＊", "*", "﹡", ※, ❂, ★, ☆, ✡, ❋, ❊, ❉, ❈, ❇, ❆, ❅, ❄, ❃, ❁, ❀, ✿, ✾, ✽, ✼, ✻, ✺, ✹, ✸, ✷, ✶, ✵, ✴, ✳, ✲, ✱, ✰, ✯, ✮, ✭, ✬, ✫, ✪, ✩, ✧, ✦, ✥, ✤, ✣, ✢, ⛤, ⛥, ⛦, ⛧ ]
+    "(" : [ "（", "(", "﹙", "｟", "⦅", ︵ ]
+    ")" : [ "）", ")", "﹚", "｠", "⦆", ︶ ]
+    "[" : [ 〔, ［, "[", 【, 〖, 〘, ﹝, ︹, ︻ ]
+    "]" : [ 〕, ］, "]", 】, 〗, 〙, ﹞, ︺, ︼ ]
+    "`" : [ "｀", "`", "！", "!", "﹗", "¡", "‼", "⁉" ]
+    "_" : [ "＿", "_", "－", "-", "﹘", "—", "–", "──", "——", "⸺", "―", "ー" ]
+    "+" : { commit: "+" }
+    "=" : { commit: "=" }
+    "|" : [ "‧", "·", "●", "•", "･", "・", "｜", "|", "¦", "‖" ]
+    "\\" : [  "／","/", "÷", "＼", "\\" ]
+    '"' : [ "＂", '"', "“", "”", "〝", "〞", "〟", "…", "……" ]
+    "'" : [ "＇", "'", "‘", "’", "．", ".", "﹒" ]
+    "{" : [ "｛", "{", "﹛", 「, 『, ｢, ﹁, ﹃ ]
+    "}" : [ "｝", "}", "﹜", 」, 』, ｣, ﹂, ﹄ ]
+    "<" : [ 〈, 《, "＜", "<", "﹤", "‹", «, ︿, ︽, ˆ ]
+    ">" : [ 〉, 》, "＞", ">", "﹥", "›", », ﹀, ︾, ˇ ]
+    ":" : { commit: ： }
+    "3" : [ "", "表情", "自然", "飲食", "活動", "旅遊", "物品", "符號", "國旗", "微笑", "大笑", "討厭(厭惡)", "無奈(嘆氣)", "哭泣", "冷淡", "驚訝", "生氣", "懷疑", "景色", "地球", "天體", "植物", "水果", "食物", "飲料", "節日", "娛樂", "遊戲", "運動", "建築", "獸面", "五官", "手勢", "衣物", "人物", "化妝", "愛情", "愛心", "效果", "通訊", "針筒", "相機", "攝影", "電視", "刀叉", "槌子", "螺絲", "刀子", "宗教", "時鐘", "日本", "摩艾", "美國", "法國", "警車", "標誌", "電腦", "象棋", "麻將", "骰子", "撲克", "西洋棋", "天氣", "音樂", "兩性", "辦公室", "巴黎鐵塔", "自由女神", "復活節島", "猴子表情", "螺絲釘", "攝影機", "電視機", "收音機", "錄影帶", "手電筒", "顯微鏡", "望遠鏡", "水晶球", "輸入法", "富士山", "咧嘴笑", "救護車", "消防車", "動物圖(動物)", "十二生肖(生肖)", "交通工具(交通)", "交通圖(交通)", "十字架(宗教)", "生肖圖(生肖)", "扳手圖(扳手)", "幾何圖(幾何)", "猴子頭(猴子表情)", "照相機(相機)", "數字標(數字)", "撲克牌(撲克)", "易經(六十四卦)", "易經卦名(六十四卦名)", "大頭(頭像)", "錢財(金錢)", "圖示(符號)", "藥品(藥丸)", "圖標(介面)", "箭標(箭頭)", "指示(箭頭)", "燃火(火焰)", "燃燒(火焰)", "巴黎(巴黎鐵塔)", "占星(天體)", "部首(康熙)", "冒汗(懷疑)", "喜愛(喜歡)", "倉頡(結構)", "單位", "貨幣", "數學", "分數", "星號", "方塊", "幾何", "箭頭", "線段", "圓形", "三角", "打勾", "星座", "星座名", "十二宮", "文化", "八卦", "六十四卦", "六十四卦名", "卦名", "太玄經", "天干", "地支", "干支", "節氣", "月份", "日期", "曜日", "時間", "日本星期", "符碼", "結構", "偏旁", "筆畫", "拼音", "注音", "聲調", "標點直", "標點", "羅馬", "羅馬大", "羅馬數字", "羅馬數字大", "蘇州碼", "希臘", "希臘大", "俄語", "俄語大", "上標", "下標", "數字圈黑", "數字黑圈", "數字圈", "數字括", "數字點", "漢字", "漢字圈", "漢字框(漢字)", "漢字括", "いろは順(IRO)", "k假名", "g假名", "s假名", "z假名", "t假名", "d假名", "n假名", "h假名", "b假名", "p假名", "m假名", "y假名", "r假名", "w假名", "a假名", "i假名", "u假名", "e假名", "o假名", "假名圈", "假名半(形)", "片假名", "韓文圈", "韓文括", "(平)假名", "韓文", "字母圈", "字母括", "字母圈大", "字母括大", "字母黑圈(字母帶圓圈)", "字母圈黑(字母帶圓圈)", "字母黑方(字母帶圓角方框)", "字母方黑(字母帶圓角方框)", "字母框黑(字母帶圓角方框)", "字母黑框(字母帶圓角方框)", "字母方(字母帶方框)", "字母框(字母帶方框)", "(`1)顏文字・開心", "(`2)顏文字·喜歡", "(`3)顏文字·傷心", "(`4)顏文字·生氣", "(`5)顏文字·驚訝", "(`6)顏文字·無奈", "(`7)顏文字·喜", "(`8)顏文字·樂", "(`9)顏文字·怒", "(`0)顏文字·指示和圖示", "(`-)顏文字·回話" ]
+    "~" : [ "～", "~", "〜", "﹏", "〰" ]
+    "?" : { commit: "？" }
+    "!" : { commit: "！" }
+    "4" : [ "www.", "https://", "http://", "ftp://", "mailto://", "file://" ]
+    "6" : [ ".com", ".org", ".net", ".co", ".gov", ".edu", ".info" ]
+    "7" : [ ".tw", ".jp", ".kr", ".hk", ".cn", ".uk", ".us", ".de", ".fr", ".cc" ]
+
+key_binder:
+  import_preset: default
+  bindings:
+    - {accept: comma, send: comma, when: has_menu}
+    - {accept: period, send: period, when: has_menu}
+    - {accept: minus, send: minus, when: has_menu}
+    - {accept: equal, send: equal, when: has_menu}
+    - {accept: space, send: Return, when: paging}
+
+editor:
+  bindings:
+    Return: confirm
+
+recognizer:
+  patterns:
+    emoji_sy: "^[3][-/0123456789a-z]* ?$"

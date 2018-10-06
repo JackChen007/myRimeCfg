@@ -1,0 +1,58 @@
+﻿# Rime schema
+# vim: set sw=2 sts=2 et:
+# encoding: utf-8
+
+schema:
+  schema_id: easy_en
+  name: 英語
+  version: "0.2"
+  author:
+    - Patrick <ipatrickmac@gmail.com>
+    - Polaris <jackie007atchan@gmail.com> 
+  description:
+    Easy English
+    合併了 Merriam-Webster 和 English Dictionary 的 詞條
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ On, Off ]
+
+engine:
+  processors:
+    - ascii_composer
+    - key_binder
+    - speller
+    - recognizer
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - matcher
+    - ascii_segmentor
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - table_translator
+    - punct_translator
+  filters:
+    - uniquifier
+
+speller:
+  alphabet: 'zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-_ '
+  delimiter: " '"
+
+translator:
+  dictionary: easy_en
+  spelling_hints: 9
+
+key_binder:
+  import_preset: default
+
+punctuator:
+  import_preset: default
+
+recognizer:
+  import_preset: default

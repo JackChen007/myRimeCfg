@@ -1,0 +1,167 @@
+# Rime schema settings
+# encoding: utf-8
+# 《日語設定頁》
+schema:
+  schema_id: jpnin1 # 注意此ID與文件名裏 .schema.yaml 之前的部分相同
+  name: ❃日語 in 1❃
+  version: "201803"
+  author:
+    - 『洋蔥』
+  description: |
+    日語
+  dependencies:
+    - cangjie5
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ "日文", "英文" ] 
+  - name: full_shape
+    states: [ "半形", "全形" ]
+
+engine: 
+  processors: 
+    - ascii_composer
+    - key_binder
+    - speller
+    - selector
+    - navigator
+    - punctuator
+    - recognizer
+    - express_editor
+#    - fluency_editor
+  segmentors:
+    - ascii_segmentor
+    - abc_segmentor
+    - punct_segmentor
+    - matcher
+    - fallback_segmentor
+  translators:
+    - script_translator 
+    - punct_translator
+    - table_translator@jpnin1_phrase
+    - reverse_lookup_translator
+
+menu:
+  alternative_select_keys: "12345"
+
+speller:
+  alphabet: "abcdefghijklmnopqrstuvwxyz,-.;"
+  delimiter: " "
+  algebra:
+    - "xlit|;|A|"
+    - xform/([aueio])tA$/$1A/
+    - "xlit|A|;|"
+    - derive/^cchi/tti/
+    - derive/^sshi/ssi/
+    - derive/^ffu/hhu/
+    - derive/^ttsu/ttu/
+    - derive/^jji/zzi/
+    - derive/^ssh([auo])/ssy$1/
+    - derive/^cch([auo])/ccy$1/
+    - derive/^cch([auo])/tty$1/
+    - derive/^ddy([auo])/zzy$1/
+    - derive/^ddy([auo])/jj$1/
+    - derive/^jj([auo])/zzy$1/
+    - derive/^jj([auo])/jjy$1/
+    - derive/^u/wu/
+    - derive/^shi/si/
+    - derive/^chi/ti/
+    - derive/^tsu/tu/
+    - derive/^fu/hu/
+    - derive/^ji/zi/
+    - derive/^n$/nn/
+    - derive/^sh([auo])/sy$1/
+    - derive/^ch([auo])/cy$1/
+    - derive/^ch([auo])/ty$1/
+    - derive/^dy([auo])/zy$1/
+    - derive/^dy([auo])/j$1/
+    - derive/^j([auo])/zy$1/
+    - derive/^j([auo])/jy$1/
+
+translator:
+  dictionary: jpnin1
+  prism: jpnin1
+  enable_user_dict: true
+  enable_sentence: false
+  enable_completion: false
+  preedit_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz;|ABCDEFGHIJKLMNOPQRSTUVWXYZ㉆|"
+  comment_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz;|ABCDEFGHIJKLMNOPQRSTUVWXYZ㉆|"
+  disable_user_dict_for_patterns:
+    - ^[a-z]{1}$
+    - ^[a-z]{2}$
+#    - ^[a-z]{3}$
+
+jpnin1_phrase:
+  dictionary: ""
+  user_dict: jpnin1_phrase
+  db_class: tabledb
+  enable_completion: false
+  enable_sentence: false
+
+reverse_lookup:
+  dictionary: cangjie5
+  enable_completion: false
+  prefix: "`"
+  tips: 〔漢字反查〕
+  preedit_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+
+punctuator:
+  half_shape:
+    "`" : [ "｀" ]
+    "~" : { commit: "〜" }
+    "!" : { commit: "！" }
+    "@" : { commit: "＠" }
+    "#" : { commit: "＃" }
+    "$" : { commit: "＄" }
+    "%" : { commit: "％" }
+    "^" : { commit: "＾" }
+    "&" : { commit: "＆" }
+    "*" : { commit: "＊" }
+    "(" : { commit: "（" }
+    ")" : { commit: "）" }
+#    "-" : { commit: "ー" } #使用日語方案打開，以掛載為主關閉
+    "_" : { commit: "＿" }
+    "=" : { commit: "＝" }
+    "+" : { commit: "＋" }
+    "[" : { commit: "「" }
+    "{" : { commit: "『" }
+    "]" : { commit: "」" }
+    "}" : { commit: "』" }
+    "'" : { pair: [ "‘", "’" ] }
+    "\"" : { pair: [ "“", "”" ] }
+    ";" : { commit: "；" }
+    ":" : { commit: "：" }
+#    "," : { commit: "、" } #使用日語方案打開，以掛載為主關閉
+    "<" : { commit: "＜" }
+#    "." : { commit: "。" } #使用日語方案打開，以掛載為主關閉
+    ">" : { commit: "＞" }
+    "/" : { commit: "・" }
+    "?" : { commit: "？" }
+    "\\" : { commit: "￥" }
+    "|" : { commit: "｜" }
+
+key_binder:
+  bindings:
+    - {accept: comma, send: comma, when: has_menu}
+    - {accept: period, send: period, when: has_menu}
+    - {accept: minus, send: minus, when: has_menu}
+    - {accept: equal, send: equal, when: has_menu}
+    - {accept: Left, send: Page_Up, when: paging}
+    - {accept: Right, send: Page_Down, when: paging}
+    - {accept: Tab, send: Shift+Right, when: composing}
+    - {accept: Return, send: space, when: has_menu}
+
+editor:
+  bindings:
+    Shift+Return: commit_raw_input
+
+recognizer:
+  patterns:
+    email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
+    uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
+    url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
+    reverse_lookup: "^`[a-z]*?$"

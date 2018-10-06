@@ -1,0 +1,125 @@
+# Rime schema settings
+# encoding: utf-8
+# 《西歐字母設定頁》
+schema:
+  schema_id: welin1 # 注意此ID與文件名裏 .schema.yaml 之前的部分相同
+  name: ❃西歐 in 1❃
+  version: "201804"
+  author:
+    - 『洋蔥』
+  description: |
+    西歐字母全
+  dependencies:
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ "西文", "英文" ] 
+  - name: full_shape
+    states: [ "半形", "全形" ]
+
+engine: 
+  processors: 
+    - ascii_composer
+    - key_binder
+    - speller
+    - selector
+    - navigator
+    - punctuator
+    - recognizer
+    - express_editor
+#    - fluency_editor
+  segmentors:
+    - ascii_segmentor
+    - abc_segmentor
+    - punct_segmentor
+    - matcher
+    - fallback_segmentor
+  translators:
+    - script_translator 
+    - punct_translator
+
+menu:
+  alternative_select_keys: "12345"
+
+speller:
+  alphabet: "abcdefghijklmnopqrstuvwxyz;'[],./-"
+  delimiter: " "
+
+translator:
+  dictionary: welin1
+  prism: welin1
+  enable_user_dict: true
+  enable_sentence: false
+  enable_completion: false
+  preedit_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz[];'|ⒶⒷⒸⒹⒺⒻⒼⒽⒾⒿⓀⓁⓂⓃⓄⓟⓆⓇⓈⓉⓊⓋⓌⓍⓎⓏABCD|"
+    - xform/AA/《西文-希臘大寫》/
+    - xform/A/《西文-希臘》/
+    - xform/BB/《西文-西里爾大寫》/
+    - xform/B/《西文-西里爾》/
+    - xform/CC/《西文-組合變音標記》/
+    - xform/C/《西文-拉丁大寫》/
+    - xform/DD/《西文-全形大寫》/
+    - xform/D/《西文-全形》/
+  comment_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz|ABCDEFGHIJKLMNOPQRSTUVWXYZ|"
+  disable_user_dict_for_patterns:
+    - ^[a-z]{1}$
+#    - ^[a-z]{2}$
+#    - ^[a-z]{3}$
+
+punctuator:
+  half_shape:
+    ',' : { commit: "," }
+    '.' : { commit: "." }
+    '<' : { commit: "<" }
+    '>' : { commit: ">" }
+    '?' : { commit: "?" }
+    '/' : { commit: "/" }
+    ':' : { commit: ":" }
+    ';' : [ ';' ]
+    '''' : [ '''' ]
+    '"' : { commit: "\"" }
+    '\\' : { commit: "\\" }
+    '|' : { commit: "|" }
+    '`' : { commit: "`" }
+    '~' : { commit: '~' }
+    '!' : { commit: '!' }
+    '@' : { commit: '@' }
+    '#' : { commit: '#' }
+    '%' : { commit: '%' }
+    '$' : { commit: '$' }
+    '^' : { commit: '^' }
+    '&' : { commit: '&' }
+    '*' : { commit: '*' }
+    '(' : { commit: '(' }
+    ')' : { commit: ')' }
+    '-' : { commit: '-' }
+    '+' : { commit: '+' }
+    '=' : { commit: '=' }
+    '[' : [ '[' ]
+    ']' : [ ']' ]
+    '{' : { commit: '{' }
+    '}' : { commit: '}' }
+
+key_binder:
+  bindings:
+    - {accept: comma, send: comma, when: has_menu}
+    - {accept: period, send: period, when: has_menu}
+    - {accept: minus, send: minus, when: has_menu}
+    - {accept: equal, send: equal, when: has_menu}
+    - {accept: Left, send: Page_Up, when: paging}
+    - {accept: Right, send: Page_Down, when: paging}
+    - {accept: Tab, send: Shift+Right, when: composing}
+    - {accept: Return, send: space, when: has_menu}
+
+editor:
+  bindings:
+    Shift+Return: commit_raw_input
+
+recognizer:
+  patterns:
+    email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
+    uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
+    url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"

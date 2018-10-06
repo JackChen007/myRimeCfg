@@ -1,0 +1,18 @@
+# luna_pinyin.custom.yaml
+#
+# 補靪功能：增補五筆擴充詞庫
+#
+# 作者：瑾昀 <cokunhui@gmail.com>
+#
+# 部署位置：
+# ~/.config/ibus/rime  (Linux)
+# ~/Library/Rime  (Mac OS)
+# %APPDATA%\Rime  (Windows)
+#
+# 於重新部署後生效
+#
+#
+
+patch:
+  # 載入擴充詞庫
+  "translator/dictionary": wubi86.extended

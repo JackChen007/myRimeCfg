@@ -1,0 +1,7314 @@
+# Rime dictionary
+# encoding: utf-8
+#『洋蔥』
+---
+name: welin1
+version: "201804"
+sort: original
+use_preset_vocabulary: false
+...
+#############『詞庫』開始############
+#漢拼語音起始
+a	
+ā	
+á	
+ǎ	
+à	
+ai	
+āi	
+ái	
+ǎi	
+ài	
+an	
+ān	
+án	
+ǎn	
+àn	
+ang	
+āng	
+áng	
+ǎng	
+àng	
+ao	
+āo	
+áo	
+ǎo	
+ào	
+ba	
+bā	
+bá	
+bǎ	
+bà	
+bai	
+bāi	
+bái	
+bǎi	
+bài	
+ban	
+bān	
+bǎn	
+bàn	
+bang	
+bāng	
+bǎng	
+bàng	
+bao	
+bāo	
+báo	
+bǎo	
+bào	
+bei	
+bēi	
+běi	
+bèi	
+ben	
+bēn	
+běn	
+bèn	
+beng	
+bēng	
+béng	
+běng	
+bèng	
+bi	
+bī	
+bí	
+bǐ	
+bì	
+bian	
+biān	
+biǎn	
+biàn	
+biao	
+biāo	
+biáo	
+biǎo	
+biào	
+bie	
+biē	
+bié	
+biě	
+biè	
+bin	
+bīn	
+bǐn	
+bìn	
+bing	
+bīng	
+bǐng	
+bìng	
+bo	
+bō	
+bó	
+bǒ	
+bò	
+bu	
+bū	
+bú	
+bǔ	
+bù	
+ca	
+cā	
+cǎ	
+cà	
+cai	
+cāi	
+cái	
+cǎi	
+cài	
+can	
+cān	
+cán	
+cǎn	
+càn	
+cang	
+cāng	
+cáng	
+càng	
+cao	
+cāo	
+cáo	
+cǎo	
+cào	
+ce	
+cè	
+cen	
+cēn	
+cén	
+ceng	
+cēng	
+céng	
+cèng	
+cha	
+chā	
+chá	
+chǎ	
+chà	
+chai	
+chāi	
+chái	
+chǎi	
+chài	
+chan	
+chān	
+chán	
+chǎn	
+chàn	
+chang	
+chāng	
+cháng	
+chǎng	
+chàng	
+chao	
+chāo	
+cháo	
+chǎo	
+chào	
+che	
+chē	
+chě	
+chè	
+chen	
+chēn	
+chén	
+chěn	
+chèn	
+cheng	
+chēng	
+chéng	
+chěng	
+chèng	
+chi	
+chī	
+chí	
+chǐ	
+chì	
+chong	
+chōng	
+chóng	
+chǒng	
+chòng	
+chou	
+chōu	
+chóu	
+chǒu	
+chòu	
+chu	
+chū	
+chú	
+chǔ	
+chù	
+chua	
+chuā	
+chuà	
+chuai	
+chuāi	
+chuái	
+chuǎi	
+chuài	
+chuan	
+chuān	
+chuán	
+chuǎn	
+chuàn	
+chuang	
+chuāng	
+chuáng	
+chuǎng	
+chuàng	
+chui	
+chuī	
+chuí	
+chuǐ	
+chuì	
+chun	
+chūn	
+chún	
+chǔn	
+chuo	
+chuō	
+chuò	
+ci	
+cī	
+cí	
+cǐ	
+cì	
+cong	
+cōng	
+cóng	
+còng	
+cou	
+cǒu	
+còu	
+cu	
+cū	
+cú	
+cǔ	
+cù	
+cuan	
+cuān	
+cuán	
+cuàn	
+cui	
+cuī	
+cuǐ	
+cuì	
+cun	
+cūn	
+cún	
+cǔn	
+cùn	
+cuo	
+cuō	
+cuó	
+cuǒ	
+cuò	
+da	
+dā	
+dá	
+dǎ	
+dà	
+dai	
+dāi	
+dǎi	
+dài	
+dan	
+dān	
+dǎn	
+dàn	
+dang	
+dāng	
+dǎng	
+dàng	
+dao	
+dāo	
+dáo	
+dǎo	
+dào	
+de	
+dē	
+dé	
+dei	
+dēi	
+děi	
+den	
+dèn	
+deng	
+dēng	
+děng	
+dèng	
+di	
+dī	
+dí	
+dǐ	
+dì	
+dia	
+diǎ	
+dian	
+diān	
+dián	
+diǎn	
+diàn	
+diao	
+diāo	
+diǎo	
+diào	
+die	
+diē	
+dié	
+diè	
+ding	
+dīng	
+dǐng	
+dìng	
+diu	
+diū	
+dong	
+dōng	
+dǒng	
+dòng	
+dou	
+dōu	
+dóu	
+dǒu	
+dòu	
+du	
+dū	
+dú	
+dǔ	
+dù	
+duan	
+duān	
+duǎn	
+duàn	
+dui	
+duī	
+duǐ	
+duì	
+dun	
+dūn	
+dǔn	
+dùn	
+duo	
+duō	
+duó	
+duǒ	
+duò	
+e	
+ē	
+é	
+ě	
+è	
+ei	
+ēi	
+éi	
+ěi	
+èi	
+en	
+ēn	
+ěn	
+èn	
+eng	
+ēng	
+er	
+ér	
+ěr	
+èr	
+fa	
+fā	
+fá	
+fǎ	
+fà	
+fan	
+fān	
+fán	
+fǎn	
+fàn	
+fang	
+fāng	
+fáng	
+fǎng	
+fàng	
+fei	
+fēi	
+féi	
+fěi	
+fèi	
+fen	
+fēn	
+fén	
+fěn	
+fèn	
+feng	
+fēng	
+féng	
+fěng	
+fèng	
+fo	
+fó	
+fou	
+fóu	
+fǒu	
+fu	
+fū	
+fú	
+fǔ	
+fù	
+ga	
+gā	
+gá	
+gǎ	
+gà	
+gai	
+gāi	
+gǎi	
+gài	
+gan	
+gān	
+gǎn	
+gàn	
+gang	
+gāng	
+gǎng	
+gàng	
+gao	
+gāo	
+gǎo	
+gào	
+ge	
+gē	
+gé	
+gě	
+gè	
+gei	
+gěi	
+gen	
+gēn	
+gén	
+gěn	
+gèn	
+geng	
+gēng	
+gěng	
+gèng	
+gong	
+gōng	
+gǒng	
+gòng	
+gou	
+gōu	
+gǒu	
+gòu	
+gu	
+gū	
+gú	
+gǔ	
+gù	
+gua	
+guā	
+guǎ	
+guà	
+guai	
+guāi	
+guái	
+guǎi	
+guài	
+guan	
+guān	
+guǎn	
+guàn	
+guang	
+guāng	
+guǎng	
+guàng	
+gui	
+guī	
+guǐ	
+guì	
+gun	
+gǔn	
+gùn	
+guo	
+guō	
+guó	
+guǒ	
+guò	
+ha	
+hā	
+há	
+hǎ	
+hà	
+hai	
+hāi	
+hái	
+hǎi	
+hài	
+han	
+hān	
+hán	
+hǎn	
+hàn	
+hang	
+hāng	
+háng	
+hàng	
+hao	
+hāo	
+háo	
+hǎo	
+hào	
+he	
+hē	
+hé	
+hě	
+hè	
+hei	
+hēi	
+hen	
+hén	
+hěn	
+hèn	
+heng	
+hēng	
+héng	
+hèng	
+hong	
+hōng	
+hóng	
+hǒng	
+hòng	
+hou	
+hōu	
+hóu	
+hǒu	
+hòu	
+hu	
+hū	
+hú	
+hǔ	
+hù	
+hua	
+huā	
+huá	
+huà	
+huai	
+huái	
+huài	
+huan	
+huān	
+huán	
+huǎn	
+huàn	
+huang	
+huāng	
+huáng	
+huǎng	
+huàng	
+hui	
+huī	
+huí	
+huǐ	
+huì	
+hun	
+hūn	
+hún	
+hǔn	
+hùn	
+huo	
+huō	
+huó	
+huǒ	
+huò	
+ji	
+jī	
+jí	
+jǐ	
+jì	
+jia	
+jiā	
+jiá	
+jiǎ	
+jià	
+jian	
+jiān	
+jiǎn	
+jiàn	
+jiang	
+jiāng	
+jiǎng	
+jiàng	
+jiao	
+jiāo	
+jiáo	
+jiǎo	
+jiào	
+jie	
+jiē	
+jié	
+jiě	
+jiè	
+jin	
+jīn	
+jǐn	
+jìn	
+jing	
+jīng	
+jǐng	
+jìng	
+jiong	
+jiōng	
+jiǒng	
+jiòng	
+jiu	
+jiū	
+jiú	
+jiǔ	
+jiù	
+ju	
+jū	
+jú	
+jǔ	
+jù	
+juan	
+juān	
+juǎn	
+juàn	
+jue	
+juē	
+jué	
+juě	
+juè	
+jun	
+jūn	
+jùn	
+ka	
+kā	
+kǎ	
+kai	
+kāi	
+kǎi	
+kài	
+kan	
+kān	
+kǎn	
+kàn	
+kang	
+kāng	
+káng	
+kǎng	
+kàng	
+kao	
+kāo	
+kǎo	
+kào	
+ke	
+kē	
+ké	
+kě	
+kè	
+kei	
+kēi	
+ken	
+kěn	
+kèn	
+keng	
+kēng	
+kěng	
+kong	
+kōng	
+kǒng	
+kòng	
+kou	
+kōu	
+kǒu	
+kòu	
+ku	
+kū	
+kú	
+kǔ	
+kù	
+kua	
+kuā	
+kuǎ	
+kuà	
+kuai	
+kuǎi	
+kuài	
+kuan	
+kuān	
+kuǎn	
+kuàn	
+kuang	
+kuāng	
+kuáng	
+kuǎng	
+kuàng	
+kui	
+kuī	
+kuí	
+kuǐ	
+kuì	
+kun	
+kūn	
+kǔn	
+kùn	
+kuo	
+kuō	
+kuò	
+la	
+lā	
+lá	
+lǎ	
+là	
+lai	
+lái	
+lǎi	
+lài	
+lan	
+lán	
+lǎn	
+làn	
+lang	
+lāng	
+láng	
+lǎng	
+làng	
+lao	
+lāo	
+láo	
+lǎo	
+lào	
+le	
+lē	
+lè	
+lei	
+lēi	
+léi	
+lěi	
+lèi	
+leng	
+lēng	
+léng	
+lěng	
+lèng	
+li	
+lī	
+lí	
+lǐ	
+lì	
+lia	
+liǎ	
+lian	
+lián	
+liǎn	
+liàn	
+liang	
+liāng	
+liáng	
+liǎng	
+liàng	
+liao	
+liāo	
+liáo	
+liǎo	
+liào	
+lie	
+liē	
+lié	
+liě	
+liè	
+lin	
+līn	
+lín	
+lǐn	
+lìn	
+ling	
+líng	
+lǐng	
+lìng	
+liu	
+liū	
+liú	
+liǔ	
+liù	
+lo	
+long	
+lóng	
+lǒng	
+lòng	
+lou	
+lōu	
+lóu	
+lǒu	
+lòu	
+lu	
+lū	
+lú	
+lǔ	
+lù	
+lü	
+lǘ	
+lǚ	
+lǜ	
+luan	
+luán	
+luǎn	
+luàn	
+lue	
+lüe	
+lüè	
+lun	
+lūn	
+lún	
+lǔn	
+lùn	
+luo	
+luō	
+luó	
+luǒ	
+luò	
+ma	
+mā	
+má	
+mǎ	
+mà	
+mai	
+mái	
+mǎi	
+mài	
+man	
+mān	
+mán	
+mǎn	
+màn	
+mang	
+māng	
+máng	
+mǎng	
+màng	
+mao	
+māo	
+máo	
+mǎo	
+mào	
+me	
+mē	
+mè	
+mei	
+méi	
+měi	
+mèi	
+men	
+mēn	
+mén	
+mèn	
+meng	
+mēng	
+méng	
+měng	
+mèng	
+mi	
+mī	
+mí	
+mǐ	
+mì	
+mian	
+mián	
+miǎn	
+miàn	
+miao	
+miāo	
+miáo	
+miǎo	
+miào	
+mie	
+miē	
+miè	
+min	
+mín	
+mǐn	
+ming	
+míng	
+mǐng	
+mìng	
+miu	
+miù	
+mo	
+mō	
+mó	
+mǒ	
+mò	
+mou	
+mōu	
+móu	
+mǒu	
+mòu	
+mu	
+mú	
+mǔ	
+mù	
+n	
+ń	
+ň	
+ǹ	
+na	
+nā	
+ná	
+nǎ	
+nà	
+nai	
+nái	
+nǎi	
+nài	
+nan	
+nān	
+nán	
+nǎn	
+nàn	
+nang	
+nāng	
+náng	
+nǎng	
+nàng	
+nao	
+nāo	
+náo	
+nǎo	
+nào	
+ne	
+né	
+nè	
+nei	
+néi	
+něi	
+nèi	
+nen	
+nèn	
+neng	
+néng	
+něng	
+nèng	
+ng	
+ňg	
+ni	
+nī	
+ní	
+nǐ	
+nì	
+nian	
+niān	
+nián	
+niǎn	
+niàn	
+niang	
+niáng	
+niàng	
+niao	
+niǎo	
+niào	
+nie	
+niē	
+nié	
+niè	
+nin	
+nín	
+nǐn	
+ning	
+níng	
+nǐng	
+nìng	
+niu	
+niū	
+niú	
+niǔ	
+niù	
+nong	
+nóng	
+nǒng	
+nòng	
+nou	
+nóu	
+nǒu	
+nòu	
+nu	
+nú	
+nǔ	
+nù	
+nü	
+nǚ	
+nǜ	
+nuan	
+nuán	
+nuǎn	
+nuàn	
+nue	
+nüe	
+nüè	
+nuo	
+nuó	
+nuǒ	
+nuò	
+o	
+ō	
+ó	
+ǒ	
+ò	
+ou	
+ōu	
+ǒu	
+òu	
+pa	
+pā	
+pá	
+pà	
+pai	
+pāi	
+pái	
+pǎi	
+pài	
+pan	
+pān	
+pán	
+pǎn	
+pàn	
+pang	
+pāng	
+páng	
+pǎng	
+pàng	
+pao	
+pāo	
+páo	
+pǎo	
+pào	
+pei	
+pēi	
+péi	
+pěi	
+pèi	
+pen	
+pēn	
+pén	
+pěn	
+pèn	
+peng	
+pēng	
+péng	
+pěng	
+pèng	
+pi	
+pī	
+pí	
+pǐ	
+pì	
+pian	
+piān	
+pián	
+piǎn	
+piàn	
+piao	
+piāo	
+piáo	
+piǎo	
+piào	
+pie	
+piē	
+piě	
+piè	
+pin	
+pīn	
+pín	
+pǐn	
+pìn	
+ping	
+pīng	
+píng	
+pǐng	
+pìng	
+po	
+pō	
+pó	
+pǒ	
+pò	
+pou	
+pōu	
+póu	
+pǒu	
+pu	
+pū	
+pú	
+pǔ	
+pù	
+qi	
+qī	
+qí	
+qǐ	
+qì	
+qia	
+qiā	
+qiá	
+qiǎ	
+qià	
+qian	
+qiān	
+qián	
+qiǎn	
+qiàn	
+qiang	
+qiāng	
+qiáng	
+qiǎng	
+qiàng	
+qiao	
+qiāo	
+qiáo	
+qiǎo	
+qiào	
+qie	
+qiē	
+qié	
+qiě	
+qiè	
+qin	
+qīn	
+qín	
+qǐn	
+qìn	
+qing	
+qīng	
+qíng	
+qǐng	
+qìng	
+qiong	
+qiōng	
+qióng	
+qiu	
+qiū	
+qiú	
+qiǔ	
+qiù	
+qu	
+qū	
+qú	
+qǔ	
+qù	
+quan	
+quān	
+quán	
+quǎn	
+quàn	
+que	
+quē	
+qué	
+què	
+qun	
+qūn	
+qún	
+ran	
+rán	
+rǎn	
+rang	
+rāng	
+ráng	
+rǎng	
+ràng	
+rao	
+ráo	
+rǎo	
+rào	
+re	
+ré	
+rě	
+rè	
+ren	
+rén	
+rěn	
+rèn	
+reng	
+rēng	
+réng	
+ri	
+rì	
+rong	
+róng	
+rǒng	
+ròng	
+rou	
+róu	
+rǒu	
+ròu	
+ru	
+rū	
+rú	
+rǔ	
+rù	
+ruan	
+ruán	
+ruǎn	
+ruàn	
+rui	
+ruí	
+ruǐ	
+ruì	
+run	
+rún	
+rǔn	
+rùn	
+ruo	
+ruó	
+ruò	
+sa	
+sā	
+sǎ	
+sà	
+sai	
+sāi	
+sǎi	
+sài	
+san	
+sān	
+sǎn	
+sàn	
+sang	
+sāng	
+sǎng	
+sàng	
+sao	
+sāo	
+sǎo	
+sào	
+se	
+sē	
+sè	
+sen	
+sēn	
+seng	
+sēng	
+sha	
+shā	
+shá	
+shǎ	
+shà	
+shai	
+shāi	
+shǎi	
+shài	
+shan	
+shān	
+shǎn	
+shàn	
+shang	
+shāng	
+shǎng	
+shàng	
+shao	
+shāo	
+sháo	
+shǎo	
+shào	
+she	
+shē	
+shé	
+shě	
+shè	
+shei	
+shéi	
+shen	
+shēn	
+shén	
+shěn	
+shèn	
+sheng	
+shēng	
+shéng	
+shěng	
+shèng	
+shi	
+shī	
+shí	
+shǐ	
+shì	
+shou	
+shōu	
+shǒu	
+shòu	
+shu	
+shū	
+shú	
+shǔ	
+shù	
+shua	
+shuā	
+shuǎ	
+shuà	
+shuai	
+shuāi	
+shuǎi	
+shuài	
+shuan	
+shuān	
+shuàn	
+shuang	
+shuāng	
+shuǎng	
+shuàng	
+shui	
+shuí	
+shuǐ	
+shuì	
+shun	
+shǔn	
+shùn	
+shuo	
+shuō	
+shuò	
+si	
+sī	
+sǐ	
+sì	
+song	
+sōng	
+sǒng	
+sòng	
+sou	
+sōu	
+sǒu	
+sòu	
+su	
+sū	
+sú	
+sù	
+suan	
+suān	
+suǎn	
+suàn	
+sui	
+suī	
+suí	
+suǐ	
+suì	
+sun	
+sūn	
+sǔn	
+sùn	
+suo	
+suō	
+suǒ	
+suò	
+ta	
+tā	
+tǎ	
+tà	
+tai	
+tāi	
+tái	
+tǎi	
+tài	
+tan	
+tān	
+tán	
+tǎn	
+tàn	
+tang	
+tāng	
+táng	
+tǎng	
+tàng	
+tao	
+tāo	
+táo	
+tǎo	
+tào	
+te	
+tè	
+teng	
+tēng	
+téng	
+tèng	
+ti	
+tī	
+tí	
+tǐ	
+tì	
+tian	
+tiān	
+tián	
+tiǎn	
+tiàn	
+tiao	
+tiāo	
+tiáo	
+tiǎo	
+tiào	
+tie	
+tiē	
+tié	
+tiě	
+tiè	
+ting	
+tīng	
+tíng	
+tǐng	
+tìng	
+tong	
+tōng	
+tóng	
+tǒng	
+tòng	
+tou	
+tōu	
+tóu	
+tǒu	
+tòu	
+tu	
+tū	
+tú	
+tǔ	
+tù	
+tuan	
+tuān	
+tuán	
+tuǎn	
+tuàn	
+tui	
+tuī	
+tuí	
+tuǐ	
+tuì	
+tun	
+tūn	
+tún	
+tǔn	
+tùn	
+tuo	
+tuō	
+tuó	
+tuǒ	
+tuò	
+wa	
+wā	
+wá	
+wǎ	
+wà	
+wai	
+wāi	
+wǎi	
+wài	
+wan	
+wān	
+wán	
+wǎn	
+wàn	
+wang	
+wāng	
+wáng	
+wǎng	
+wàng	
+wei	
+wēi	
+wéi	
+wěi	
+wèi	
+wen	
+wēn	
+wén	
+wěn	
+wèn	
+weng	
+wēng	
+wěng	
+wèng	
+wo	
+wō	
+wǒ	
+wò	
+wu	
+wū	
+wú	
+wǔ	
+wù	
+xi	
+xī	
+xí	
+xǐ	
+xì	
+xia	
+xiā	
+xiá	
+xiǎ	
+xià	
+xian	
+xiān	
+xián	
+xiǎn	
+xiàn	
+xiang	
+xiāng	
+xiáng	
+xiǎng	
+xiàng	
+xiao	
+xiāo	
+xiáo	
+xiǎo	
+xiào	
+xie	
+xiē	
+xié	
+xiě	
+xiè	
+xin	
+xīn	
+xín	
+xǐn	
+xìn	
+xing	
+xīng	
+xíng	
+xǐng	
+xìng	
+xiong	
+xiōng	
+xióng	
+xiǒng	
+xiòng	
+xiu	
+xiū	
+xiú	
+xiǔ	
+xiù	
+xu	
+xū	
+xú	
+xǔ	
+xù	
+xuan	
+xuān	
+xuán	
+xuǎn	
+xuàn	
+xue	
+xuē	
+xué	
+xuě	
+xuè	
+xun	
+xūn	
+xún	
+xùn	
+ya	
+yā	
+yá	
+yǎ	
+yà	
+yan	
+yān	
+yán	
+yǎn	
+yàn	
+yang	
+yāng	
+yáng	
+yǎng	
+yàng	
+yao	
+yāo	
+yáo	
+yǎo	
+yào	
+ye	
+yē	
+yé	
+yě	
+yè	
+yi	
+yī	
+yí	
+yǐ	
+yì	
+yin	
+yīn	
+yín	
+yǐn	
+yìn	
+ying	
+yīng	
+yíng	
+yǐng	
+yìng	
+yo	
+yō	
+yong	
+yōng	
+yóng	
+yǒng	
+yòng	
+you	
+yōu	
+yóu	
+yǒu	
+yòu	
+yu	
+yū	
+yú	
+yǔ	
+yù	
+yuan	
+yuān	
+yuán	
+yuǎn	
+yuàn	
+yue	
+yuē	
+yuě	
+yuè	
+yun	
+yūn	
+yún	
+yǔn	
+yùn	
+za	
+zā	
+zá	
+zǎ	
+zai	
+zāi	
+zǎi	
+zài	
+zan	
+zān	
+zán	
+zǎn	
+zàn	
+zang	
+zāng	
+zǎng	
+zàng	
+zao	
+zāo	
+záo	
+zǎo	
+zào	
+ze	
+zé	
+zè	
+zei	
+zéi	
+zen	
+zēn	
+zěn	
+zèn	
+zeng	
+zēng	
+zěng	
+zèng	
+zha	
+zhā	
+zhá	
+zhǎ	
+zhà	
+zhai	
+zhāi	
+zhái	
+zhǎi	
+zhài	
+zhan	
+zhān	
+zhán	
+zhǎn	
+zhàn	
+zhang	
+zhāng	
+zhǎng	
+zhàng	
+zhao	
+zhāo	
+zháo	
+zhǎo	
+zhào	
+zhe	
+zhē	
+zhé	
+zhě	
+zhè	
+zhei	
+zhèi	
+zhen	
+zhēn	
+zhěn	
+zhèn	
+zheng	
+zhēng	
+zhěng	
+zhèng	
+zhi	
+zhī	
+zhí	
+zhǐ	
+zhì	
+zhong	
+zhōng	
+zhǒng	
+zhòng	
+zhou	
+zhōu	
+zhóu	
+zhǒu	
+zhòu	
+zhu	
+zhū	
+zhú	
+zhǔ	
+zhù	
+zhua	
+zhuā	
+zhuǎ	
+zhuai	
+zhuāi	
+zhuǎi	
+zhuài	
+zhuan	
+zhuān	
+zhuǎn	
+zhuàn	
+zhuang	
+zhuāng	
+zhuǎng	
+zhuàng	
+zhui	
+zhuī	
+zhuǐ	
+zhuì	
+zhun	
+zhūn	
+zhǔn	
+zhùn	
+zhuo	
+zhuō	
+zhuó	
+zhuò	
+zi	
+zī	
+zí	
+zǐ	
+zì	
+zong	
+zōng	
+zǒng	
+zòng	
+zou	
+zōu	
+zǒu	
+zòu	
+zu	
+zū	
+zú	
+zǔ	
+zù	
+zuan	
+zuān	
+zuǎn	
+zuàn	
+zui	
+zuī	
+zuǐ	
+zuì	
+zun	
+zūn	
+zǔn	
+zùn	
+zuo	
+zuō	
+zuó	
+zuǒ	
+zuò	
+#漢拼語音結束
+#############『詞庫』結束############
+#（基礎拉丁字母小寫）
+a	a
+b	b
+c	c
+d	d
+e	e
+f	f
+g	g
+h	h
+i	i
+j	j
+k	k
+l	l
+m	m
+n	n
+o	o
+p	p
+q	q
+r	r
+s	s
+t	t
+u	u
+v	v
+w	w
+x	x
+y	y
+z	z
+.	.
+,	,
+/	/
+?	/
+!	/.
+;	.,
+;	;
+:	;
+:	..
+-	-
+#（基礎拉丁字母大寫）
+A	a
+B	b
+C	c
+D	d
+E	e
+F	f
+G	g
+H	h
+I	i
+J	j
+K	k
+L	l
+M	m
+N	n
+O	o
+P	p
+Q	q
+R	r
+S	s
+T	t
+U	u
+V	v
+W	w
+X	x
+Y	y
+Z	z
+##########一般的英語字開始########
+#加強英打快速
+#’	
+####校正排序####
+#đĐ##u0110
+#ðÐ##u00d0
+#ɖƉ##u0189
+đ	dt
+ð	dt
+##
+ð	dfx
+##
+ð	dx
+ɖ	dt
+##
+ɖ	dc
+##上兩個字母為ipa的
+###################
+Đ	;dt
+Ð	;dt
+#
+Ð	;dx
+Ð	;dfx
+Ɖ	;dt
+#
+Ɖ	;dc
+###################
+Đ	dt
+Ð	dt
+#
+Ð	dx
+Ð	dfx
+Ɖ	dt
+#
+Ɖ	dc
+########################################
+########################################
+ʒ	zfg
+##
+ʒ	zg
+##上兩個字母為ipa的
+Ʒ	zfg
+##
+Ʒ	zg
+##################
+Ʒ	;zfg
+##
+Ʒ	;zg
+########################################
+########################################
+ʀ	ihr
+##
+ʀ	ri
+##上字母為ipa的
+Ʀ	ihr
+##
+Ʀ	ri
+Ʀ	;ihr
+##
+Ʀ	;ri
+########################################
+#加快大寫補碼
+#基礎拉丁字母大寫
+A	;a
+B	;b
+C	;c
+D	;d
+E	;e
+F	;f
+G	;g
+H	;h
+I	;i
+J	;j
+K	;k
+L	;l
+M	;m
+N	;n
+O	;o
+P	;p
+Q	;q
+R	;r
+S	;s
+T	;t
+U	;u
+V	;v
+W	;w
+X	;x
+Y	;y
+Z	;z
+#Latin-1 Supplement大寫
+À	;an
+Á	;ap
+Â	;al
+Ã	;as
+Ä	;ab
+Å	;ao
+Æ	;ahe
+##
+#Æ###ae
+Ç	;cj
+È	;en
+É	;ep
+Ê	;el
+Ë	;eb
+Ì	;in
+Í	;ip
+Î	;il
+Ï	;ib
+#Ð	;dt
+Ñ	;ns
+Ò	;on
+Ó	;op
+Ô	;ol
+Õ	;os
+Ö	;ob
+Ø	;ox
+Ù	;un
+Ú	;up
+Û	;ul
+Ü	;ub
+Ý	;yp
+Þ	;lf
+##
+Þ	;lho
+##
+Þ	;iho
+##
+Þ	;bhp
+#Latin Extended-A大寫
+Ā	;ae
+Ă	;au
+Ą	;ac
+Ć	;cp
+Ĉ	;cl
+Ċ	;ca
+Č	;cv
+Ď	;dv
+#Đ	;dt
+Ē	;ee
+Ĕ	;eu
+Ė	;ea
+Ę	;ec
+Ě	;ev
+Ĝ	;gl
+Ğ	;gu
+Ġ	;ga
+Ģ	;gdd
+##
+Ģ	;gj
+Ĥ	;hl
+Ħ	;ht
+Ĩ	;is
+Ī	;ie
+Ĭ	;iu
+Į	;ic
+İ	;ia
+Ĳ	;ihj
+Ĵ	;jl
+Ķ	;kdd
+##
+Ķ	;kj
+Ĺ	;lp
+Ļ	;ldd
+##
+Ļ	;lj
+Ľ	;ld
+Ŀ	;lma
+Ł	;lx
+Ń	;np
+Ņ	;ndd
+##
+Ņ	;nj
+Ň	;nv
+Ŋ	;nj
+Ō	;oe
+Ŏ	;ou
+Ő	;opp
+Œ	;ohe
+Ŕ	;rp
+Ŗ	;rdd
+##
+Ŗ	;rj
+Ř	;rv
+Ś	;sp
+Ŝ	;sl
+Ş	;sj
+Š	;sv
+Ţ	;tj
+Ť	;tv
+Ŧ	;tt
+Ũ	;us
+Ū	;ue
+Ŭ	;uu
+Ů	;uo
+Ű	;upp
+Ų	;uc
+Ŵ	;wl
+Ŷ	;yl
+Ÿ	;yb
+Ź	;zp
+Ż	;za
+Ž	;zv
+#Latin Extended-B大寫
+Ɓ	;br
+Ƃ	;si
+Ƅ	;bi
+##
+Ƅ	;br
+Ƈ	;cr
+##以下Ɔ為大寫
+Ɔ	;ck
+##
+Ɔ	;jf
+#Ɖ	;dt
+Ɗ	;dr
+Ƌ	;sk
+Ǝ	;ek
+##以下Ɛ為大寫
+Ɛ	;ei
+Ƒ	;fj
+Ɠ	;gr
+##以下Ɣ為大寫
+Ɣ	;vo
+##
+Ɣ	;go
+##
+Ɣ	;no
+Ɨ	;it
+##
+Ɨ	;tf
+Ƙ	;kr
+##以下Ɯ為大寫
+Ɯ	;mq
+##
+Ɯ	;mk
+Ɲ	;nj
+##以下Ɵ為大寫
+Ɵ	;qi
+Ơ	;od
+Ƣ	;olf
+##
+Ƣ	;ohl
+##
+Ƣ	;ohi
+Ƥ	;pr
+##以下Ʀ為大寫
+#Ʀ	;ihr
+Ƨ	;sk
+##以下Ʃ為大寫
+Ʃ	;si
+Ƭ	;ti
+##
+Ƭ	;tr
+Ʈ	;tc
+##
+Ʈ	;ti
+Ư	;ud
+##以下Ʊ為大寫
+Ʊ	;wk
+##以下Ʋ為大寫
+Ʋ	;vf
+##
+Ʋ	;yi
+Ƴ	;yr
+Ƶ	;zt
+##以下Ʒ為大寫
+#Ʒ	;zg
+##
+#Ʒ	;zfg
+Ƹ	;zgk
+##
+Ƹ	;zfgk
+Ƽ	;zf
+Ǎ	;av
+Ǐ	;iv
+Ǒ	;ov
+Ǔ	;uv
+Ǖ	;ueb
+Ǘ	;upb
+Ǚ	;uvb
+Ǜ	;unb
+Ǟ	;aeb
+Ǡ	;aea
+Ǣ	;ahee
+##
+Ǣ	;aee
+#Ǣ###aee
+Ǥ	;gt
+Ǧ	;gv
+Ǩ	;kv
+Ǫ	;oc
+Ǭ	;oce
+Ǯ	;zgv
+##
+Ǯ	;zfgv
+Ǵ	;gp
+Ƕ	;hu
+##
+Ƕ	;hhu
+Ƿ	;pf
+Ǹ	;nn
+Ǻ	;apo
+Ǽ	;ahep
+##
+Ǽ	;aep
+#Ǽ###aep
+Ǿ	;oxp
+Ȁ	;ann
+Ȃ	;am
+Ȅ	;enn
+Ȇ	;em
+Ȉ	;inn
+Ȋ	;im
+Ȍ	;onn
+Ȏ	;om
+Ȑ	;rnn
+Ȓ	;rm
+Ȕ	;unn
+Ȗ	;um
+Ș	;sdd
+##
+Ș	;sj
+Ț	;tdd
+##
+Ț	;tj
+Ȝ	;zi
+##
+Ȝ	;zfg
+Ȟ	;hv
+##以下Ƞ為大寫
+Ƞ	;ny
+##
+Ƞ	;hi
+Ȣ	;uho
+Ȥ	;zy
+##
+Ȥ	;zj
+Ȧ	;aa
+Ȩ	;ej
+Ȫ	;oeb
+Ȭ	;oes
+Ȯ	;oa
+Ȱ	;oea
+Ȳ	;ye
+Ⱥ	;ax
+Ȼ	;cx
+Ƚ	;lt
+Ⱦ	;tx
+Ɂ	;jfy
+##
+Ɂ	;jy
+##
+Ɂ	;jfk
+##
+#Ɂ	;cfq
+##
+##Ɂ	;cfyk
+##
+##Ɂ	;cyk
+Ƀ	;bt
+Ʉ	;ut
+##以下Ʌ為大寫
+Ʌ	;li
+Ɇ	;ex
+Ɉ	;jt
+Ɋ	;ac
+##
+Ɋ	;qc
+Ɍ	;rt
+##
+Ɍ	;ri
+Ɏ	;yt
+#Latin Extended Additional大寫
+Ḁ	;ado
+Ḃ	;ba
+Ḅ	;bda
+Ḇ	;bde
+Ḉ	;cjp
+Ḋ	;da
+Ḍ	;dda
+Ḏ	;dde
+Ḑ	;ddd
+##以下容錯碼不確定
+Ḑ	;dj
+Ḓ	;ddl
+Ḕ	;ene
+Ḗ	;epe
+Ḙ	;edl
+Ḛ	;eds
+Ḝ	;eju
+Ḟ	;fa
+Ḡ	;ge
+Ḣ	;ha
+Ḥ	;hda
+Ḧ	;hb
+Ḩ	;hj
+Ḫ	;hdu
+Ḭ	;ids
+Ḯ	;ipb
+Ḱ	;kp
+Ḳ	;kda
+Ḵ	;kde
+Ḷ	;lda
+Ḹ	;leda
+Ḻ	;lde
+Ḽ	;ldl
+Ḿ	;mp
+Ṁ	;ma
+Ṃ	;mda
+Ṅ	;na
+Ṇ	;nda
+Ṉ	;nde
+Ṋ	;ndl
+Ṍ	;ops
+Ṏ	;obs
+Ṑ	;one
+Ṓ	;ope
+Ṕ	;pp
+Ṗ	;pa
+Ṙ	;ra
+Ṛ	;rda
+Ṝ	;reda
+Ṟ	;rde
+Ṡ	;sa
+Ṣ	;sda
+Ṥ	;sap
+Ṧ	;sav
+Ṩ	;sada
+Ṫ	;ta
+Ṭ	;tda
+Ṯ	;tde
+Ṱ	;tdl
+Ṳ	;udb
+Ṵ	;uds
+Ṷ	;udl
+Ṹ	;ups
+Ṻ	;ube
+Ṽ	;vs
+Ṿ	;vda
+Ẁ	;wn
+Ẃ	;wp
+Ẅ	;wb
+Ẇ	;wa
+Ẉ	;wda
+Ẋ	;xa
+Ẍ	;xb
+Ẏ	;ya
+Ẑ	;zl
+Ẓ	;zda
+Ẕ	;zde
+Ạ	;ada
+Ả	;aj
+Ấ	;apl
+##
+Ấ	;alp
+Ầ	;anl
+Ẩ	;alj
+##
+Ẩ	;ajl
+Ẫ	;asl
+Ậ	;alda
+Ắ	;apu
+Ằ	;anu
+Ẳ	;aju
+Ẵ	;asu
+Ặ	;auda
+Ẹ	;eda
+Ẻ	;ej
+Ẽ	;es
+Ế	;epl
+##
+Ế	;elp
+Ề	;enl
+Ể	;elj
+##
+Ể	;ejl
+Ễ	;esl
+Ệ	;elda
+Ỉ	;ij
+Ị	;ida
+Ọ	;oda
+Ỏ	;oj
+Ố	;opl
+##
+Ố	;olp
+Ồ	;onl
+Ổ	;olj
+##
+Ổ	;ojl
+Ỗ	;osl
+Ộ	;olda
+Ớ	;opd
+Ờ	;ond
+Ở	;ojd
+Ỡ	;osd
+Ợ	;odda
+Ụ	;uda
+Ủ	;uj
+Ứ	;upd
+Ừ	;und
+Ử	;ujd
+Ữ	;usd
+Ự	;udda
+Ỳ	;yn
+Ỵ	;yda
+Ỷ	;yj
+Ỹ	;ys
+Ỽ	;qf
+Ỿ	;yo
+##
+Ỿ	;yg
+#Latin Extended-C大寫
+Ⱡ	;ltt
+Ɫ	;lz
+Ᵽ	;pt
+Ɽ	;rc
+Ⱨ	;hy
+Ⱪ	;ky
+Ⱬ	;zy
+Ɑ	;ai
+Ɱ	;mj
+Ɐ	;ak
+Ɒ	;aq
+##
+Ɒ	;ak
+Ⱳ	;wr
+Ⱶ	;ih
+Ȿ	;sc
+Ɀ	;zfc
+##
+Ɀ	;zc
+#Latin Extended-D大寫
+Ꜣ	;jfjf
+Ꜥ	;cf
+##
+Ꜥ	;ci
+Ꜥ	;ch
+Ꜧ	;hj
+Ꜫ	;ef
+Ꜭ	;dfj
+Ꜯ	;dfjdd
+Ꜳ	;aha
+##
+#Ꜳ	;aa
+Ꜵ	;aho
+Ꜷ	;au
+##
+Ꜷ	;ahu
+Ꜹ	;ahv
+Ꜻ	;ahvt
+##
+Ꜻ	;avt
+Ꜽ	;ahy
+Ꜿ	;jfma
+##
+Ꜿ	;ckma
+Ꝁ	;kt
+Ꝃ	;kx
+Ꝅ	;ktx
+Ꝇ	;li
+Ꝉ	;lt
+Ꝋ	;ot
+Ꝍ	;or
+##
+Ꝍ	;oo
+Ꝏ	;oho
+Ꝑ	;pt
+Ꝓ	;pk
+Ꝕ	;pk
+Ꝗ	;qx
+Ꝙ	;qx
+Ꝛ	;rf
+Ꝝ	;rfx
+Ꝟ	;vx
+Ꝡ	;wj
+##
+Ꝡ	;why
+Ꝣ	;zgr
+##
+Ꝣ	;zfgr
+##
+Ꝣ	;czg
+##
+Ꝣ	;czfg
+##
+Ꝣ	;chzg
+##
+Ꝣ	;chzfg
+Ꝥ	;lft
+##
+Ꝥ	;bhpt
+##
+Ꝥ	;bpt
+##
+Ꝥ	;ihot
+##
+Ꝥ	;iot
+##
+Ꝥ	;lhot
+##
+Ꝥ	;lot
+Ꝧ	;lft
+##
+Ꝧ	;bhpt
+##
+Ꝧ	;bpt
+##
+Ꝧ	;ihot
+##
+Ꝧ	;iot
+##
+Ꝧ	;lhot
+##
+Ꝧ	;lot
+Ꝩ	;yf
+Ꝫ	;zi
+Ꝭ	;kf
+##
+Ꝭ	;sfg
+Ꝯ	;gf
+Ꝼ	;rh
+Ꝿ	;dfq
+##
+##Ꝿ	##'dq
+Ꞁ	;lq
+##
+Ꞁ	;gk
+Ꞃ	;hf
+##
+Ꞃ	;nyc
+Ꞅ	;ri
+Ꞇ	;tf
+##
+##Ꞇ##ti
+Ꞑ	;ny
+Ꞓ	;ct
+Ꞗ	;bk
+Ꞛ	;bk
+Ꞝ	;bfk
+Ꞟ	;rfq
+Ꞡ	;gx
+Ꞣ	;kx
+Ꞥ	;nx
+Ꞧ	;rx
+Ꞩ	;sx
+Ɦ	;hr
+Ɬ	;lk
+Ꞵ	;by
+##
+Ꞵ	;bi
+##
+Ꞵ	;ihb
+Ꞷ	;wi
+##
+Ꞷ	;chck
+##
+Ꞷ	;cck
+##
+Ꞷ	;chjf
+##
+Ꞷ	;cjf
+#基礎拉丁字母
+#基礎拉丁字母其他
+$	si
+%	owpwow
+##
+%	owxwow
+######\&	;bfk
+##
+######\&	;and
+##
+######\&	;et
+`	nw
+^	lw
+#Latin-1 Supplement
+#Latin-1 Supplement小寫
+##以下ß為小寫字母
+ß	bi
+à	an
+á	ap
+â	al
+ã	as
+ä	ab
+å	ao
+æ	ahe
+##
+#æ###ae
+ç	cj
+è	en
+é	ep
+ê	el
+ë	eb
+ì	in
+í	ip
+î	il
+ï	ib
+#ð	dfx
+##
+#ð	dx
+ñ	ns
+ò	on
+ó	op
+ô	ol
+õ	os
+ö	ob
+ø	ox
+ù	un
+ú	up
+û	ul
+ü	ub
+ý	yp
+þ	lf
+##
+þ	lho
+##
+þ	iho
+##
+þ	bhp
+ÿ	yb
+µ	mi
+#Latin-1 Supplement大寫
+À	an
+Á	ap
+Â	al
+Ã	as
+Ä	ab
+Å	ao
+Æ	ahe
+##
+#Æ###ae
+Ç	cj
+È	en
+É	ep
+Ê	el
+Ë	eb
+Ì	in
+Í	ip
+Î	il
+Ï	ib
+#Ð	dt
+Ñ	ns
+Ò	on
+Ó	op
+Ô	ol
+Õ	os
+Ö	ob
+Ø	ox
+Ù	un
+Ú	up
+Û	ul
+Ü	ub
+Ý	yp
+Þ	lf
+##
+Þ	lho
+##
+Þ	iho
+##
+Þ	bhp
+#Latin-1 Supplement其他
+÷	awewaw
+#
+÷	aea
+×	xw
+¯	ew
+´	pw
+°	ow
+#以下一個為容錯碼
+°	oh
+¨	bw
+¸	jw
+¶	qf
+º	oh
+##
+º	ow
+ª	ah
+¿	cfa
+##
+¿	cyka
+##
+¿	cfyka
+¡	if
+##
+¡	ia
+¢	cf
+##
+¢	ci
+##
+¢	cx
+£	lft
+¥	ytt
+¤	of
+##
+¤	ox
+§	shs
+##
+§	ss
+©	co
+®	ro
+¦	iwiw
+##
+#¦	lwlw
+##
+#¦	iwhiw
+##
+#¦	lwhlw
+¬	gwk
+##
+#¬	lq
+#Latin Extended-A
+#Latin Extended-A小寫
+ā	ae
+ă	au
+ą	ac
+ć	cp
+ĉ	cl
+ċ	ca
+č	cv
+ď	dd
+#đ	dt
+ē	ee
+ĕ	eu
+ė	ea
+ę	ec
+ě	ev
+ĝ	gl
+ğ	gu
+ġ	ga
+ģ	gw
+ĥ	hl
+ħ	ht
+ĩ	is
+ī	ie
+ĭ	iu
+į	ic
+ı	ii
+ĳ	ihj
+ĵ	jl
+ķ	kdd
+##
+ķ	kj
+##以下ĸ為小寫字母
+ĸ	ki
+ĺ	lp
+ļ	ldd
+##
+ļ	lj
+ľ	ld
+ŀ	lma
+ł	lx
+ń	np
+ņ	ndd
+##
+ņ	nj
+ň	nv
+ŉ	nd
+ŋ	nj
+ō	oe
+ŏ	ou
+ő	opp
+œ	ohe
+ŕ	rp
+ŗ	rdd
+##
+ŗ	rj
+ř	rv
+ś	sp
+ŝ	sl
+ş	sj
+š	sv
+ţ	tj
+ť	td
+ŧ	tt
+ũ	us
+ū	ue
+ŭ	uu
+ů	uo
+ű	upp
+ų	uc
+ŵ	wl
+ŷ	yl
+ź	zp
+ż	za
+ž	zv
+ſ	ff
+#Latin Extended-A大寫
+Ā	ae
+Ă	au
+Ą	ac
+Ć	cp
+Ĉ	cl
+Ċ	ca
+Č	cv
+Ď	dv
+#Đ	dt
+Ē	ee
+Ĕ	eu
+Ė	ea
+Ę	ec
+Ě	ev
+Ĝ	gl
+Ğ	gu
+Ġ	ga
+Ģ	gdd
+##
+Ģ	gj
+Ĥ	hl
+Ħ	ht
+Ĩ	is
+Ī	ie
+Ĭ	iu
+Į	ic
+İ	ia
+Ĳ	ihj
+Ĵ	jl
+Ķ	kdd
+##
+Ķ	kj
+Ĺ	lp
+Ļ	ldd
+##
+Ļ	lj
+Ľ	ld
+Ŀ	lma
+Ł	lx
+Ń	np
+Ņ	ndd
+##
+Ņ	nj
+Ň	nv
+Ŋ	nj
+Ō	oe
+Ŏ	ou
+Ő	opp
+Œ	ohe
+Ŕ	rp
+Ŗ	rdd
+##
+Ŗ	rj
+Ř	rv
+Ś	sp
+Ŝ	sl
+Ş	sj
+Š	sv
+Ţ	tj
+Ť	tv
+Ŧ	tt
+Ũ	us
+Ū	ue
+Ŭ	uu
+Ů	uo
+Ű	upp
+Ų	uc
+Ŵ	wl
+Ŷ	yl
+Ÿ	yb
+Ź	zp
+Ż	za
+Ž	zv
+#Latin Extended-B
+#Latin Extended-B小寫
+ƀ	bt
+ƃ	si
+ƅ	bi
+##
+ƅ	br
+ƈ	cr
+ƌ	sk
+Ə	eq
+ƒ	fj
+##
+ƒ	fi
+ƕ	hu
+##
+ƕ	hhu
+Ɩ	ic
+##
+Ɩ	ii
+ƙ	kr
+ƚ	lt
+##以下ƞ為小寫
+ƞ	ny
+##
+ƞ	hi
+ơ	od
+ƣ	olf
+##
+ƣ	ohl
+##
+ƣ	ohi
+ƥ	pr
+##
+ƥ	jqho
+ƨ	sk
+ƫ	tj
+ƭ	tr
+##
+ƭ	fc
+ư	ud
+ƴ	yr
+ƶ	zt
+ƹ	zgk
+##
+ƹ	zfgk
+ƽ	zf
+ƿ	pf
+ǎ	av
+ǐ	iv
+ǒ	ov
+ǔ	uv
+ǖ	ueb
+ǘ	upb
+ǚ	uvb
+ǜ	unb
+ǝ	eq
+ǟ	aeb
+ǡ	aea
+ǣ	ahee
+##
+ǣ	aee
+#ǣ###aee
+ǥ	gt
+ǧ	gv
+ǩ	kv
+ǫ	oc
+ǭ	oce
+ǯ	zgv
+##
+ǯ	zfgv
+##以下ǰ為小寫
+ǰ	jv
+ǵ	gp
+ǹ	nn
+ǻ	apo
+ǽ	ahep
+##
+ǽ	aep
+#ǽ###aep
+ǿ	oxp
+ȁ	ann
+ȃ	am
+ȅ	enn
+ȇ	em
+ȉ	inn
+ȋ	im
+ȍ	onn
+ȏ	om
+ȑ	rnn
+ȓ	rm
+ȕ	unn
+ȗ	um
+ș	sdd
+##
+ș	sj
+ț	tdd
+##
+ț	tj
+ȝ	zi
+##
+ȝ	zfg
+ȟ	hv
+ȣ	uho
+ȥ	zy
+##
+ȥ	zj
+ȧ	aa
+ȩ	ej
+ȫ	oeb
+ȭ	oes
+ȯ	oa
+ȱ	oea
+ȳ	ye
+##以下ȷ為小寫
+ȷ	ji
+ȼ	cx
+##以下ȿ為小寫
+ȿ	sc
+##以下ɀ為小寫
+ɀ	zfc
+##
+ɀ	zc
+ɂ	jy
+##
+ɂ	jfy
+##
+ɂ	jfk
+##
+#ɂ	cfq
+##
+##ɂ	cfyk
+##
+##ɂ	cyk
+ɇ	ex
+ɉ	jt
+ɋ	ac
+##
+ɋ	qc
+ɍ	rt
+ɏ	yt
+#Latin Extended-B大寫
+Ɓ	br
+Ƃ	si
+Ƅ	bi
+##
+Ƅ	br
+Ƈ	cr
+##以下Ɔ為大寫
+Ɔ	ck
+##
+Ɔ	jf
+#Ɖ	dt
+Ɗ	dr
+Ƌ	sk
+Ǝ	ek
+##以下Ɛ為大寫
+Ɛ	ei
+Ƒ	fj
+Ɠ	gr
+##以下Ɣ為大寫
+Ɣ	vo
+##
+Ɣ	go
+##
+Ɣ	no
+Ɨ	it
+##
+Ɨ	tf
+Ƙ	kr
+##以下Ɯ為大寫
+Ɯ	mq
+##
+Ɯ	mk
+Ɲ	nj
+##以下Ɵ為大寫
+Ɵ	qi
+Ơ	od
+Ƣ	olf
+##
+Ƣ	ohl
+##
+Ƣ	ohi
+Ƥ	pr
+##以下Ʀ為大寫
+#Ʀ	ihr
+Ƨ	sk
+##以下Ʃ為大寫
+Ʃ	si
+Ƭ	ti
+##
+Ƭ	tr
+Ʈ	tc
+##
+Ʈ	ti
+Ư	ud
+##以下Ʊ為大寫
+Ʊ	wk
+##以下Ʋ為大寫
+Ʋ	vf
+##
+Ʋ	yi
+Ƴ	yr
+Ƶ	zt
+##以下Ʒ為大寫
+#Ʒ	zg
+##
+#Ʒ	zfg
+Ƹ	zgk
+##
+Ƹ	zfgk
+Ƽ	zf
+Ǎ	av
+Ǐ	iv
+Ǒ	ov
+Ǔ	uv
+Ǖ	ueb
+Ǘ	upb
+Ǚ	uvb
+Ǜ	unb
+Ǟ	aeb
+Ǡ	aea
+Ǣ	ahee
+##
+Ǣ	aee
+#Ǣ###aee
+Ǥ	gt
+Ǧ	gv
+Ǩ	kv
+Ǫ	oc
+Ǭ	oce
+Ǯ	zgv
+##
+Ǯ	zfgv
+Ǵ	gp
+Ƕ	hu
+##
+Ƕ	hhu
+Ƿ	pf
+Ǹ	nn
+Ǻ	apo
+Ǽ	ahep
+##
+Ǽ	aep
+#Ǽ###aep
+Ǿ	oxp
+Ȁ	ann
+Ȃ	am
+Ȅ	enn
+Ȇ	em
+Ȉ	inn
+Ȋ	im
+Ȍ	onn
+Ȏ	om
+Ȑ	rnn
+Ȓ	rm
+Ȕ	unn
+Ȗ	um
+Ș	sdd
+##
+Ș	sj
+Ț	tdd
+##
+Ț	tj
+Ȝ	zi
+##
+Ȝ	zfg
+Ȟ	hv
+##以下Ƞ為大寫
+Ƞ	ny
+##
+Ƞ	hi
+Ȣ	uho
+Ȥ	zy
+##
+Ȥ	zj
+Ȧ	aa
+Ȩ	ej
+Ȫ	oeb
+Ȭ	oes
+Ȯ	oa
+Ȱ	oea
+Ȳ	ye
+Ⱥ	ax
+Ȼ	cx
+Ƚ	lt
+Ⱦ	tx
+Ɂ	jfy
+##
+Ɂ	jy
+##
+Ɂ	jfk
+##
+#Ɂ	cfq
+##
+##Ɂ	cfyk
+##
+##Ɂ	cyk
+Ƀ	bt
+Ʉ	ut
+##以下Ʌ為大寫
+Ʌ	li
+Ɇ	ex
+Ɉ	jt
+Ɋ	ac
+##
+Ɋ	qc
+Ɍ	rt
+##
+Ɍ	ri
+Ɏ	yt
+#Latin Extended-B其他_連音音標（沒有大小寫的分別）
+ƍ	dq
+##
+ƍ	dfk
+ƛ	lx
+ƪ	if
+##
+ƪ	sfko
+##
+ƪ	ico
+##
+ƪ	ioc
+ƺ	zs
+##
+ƺ	zfs
+ƻ	rft
+ƾ	jfykt
+##
+ƾ	jykt
+##
+ƾ	jft
+##
+#ƾ	cfkt
+##
+ƾ	tfg
+##
+##ƾ	cfyqt
+##
+##ƾ	cyqt
+ǀ	iwiw
+##
+#ǀ	li
+ǁ	iwiw
+##
+#ǁ	lwlw
+ǂ	itt
+##
+ǂ	ltt
+##
+ǂ	nfq
+##
+ǂ	iwtt
+ǃ	ifk
+Ǆ	dzv
+##
+Ǆ	dhzv
+ǅ	dzv
+##
+ǅ	dhzv
+ǆ	dzv
+##
+ǆ	dhzv
+Ǉ	lhj
+ǈ	lhj
+ǉ	lhj
+Ǌ	nhj
+ǋ	nhj
+ǌ	nhj
+Ǳ	dhz
+ǲ	dhz
+ǳ	dhz
+ȡ	dg
+ȴ	lg
+ȵ	ng
+##
+ȵ	hg
+ȶ	tg
+ȸ	dhb
+ȹ	qhp
+#Latin Extended Additional
+#Latin Extended Additional小寫
+ḁ	ado
+ḃ	ba
+ḅ	bda
+ḇ	bde
+ḉ	cjp
+ḋ	da
+ḍ	dda
+ḏ	dde
+ḑ	ddd
+##
+ḑ	dj
+ḓ	ddl
+ḕ	ene
+ḗ	epe
+ḙ	edl
+ḛ	eds
+ḝ	eju
+ḟ	fa
+ḡ	ge
+ḣ	ha
+ḥ	hda
+ḧ	hb
+ḩ	hj
+ḫ	hdu
+ḭ	ids
+ḯ	ipb
+ḱ	kp
+ḳ	kda
+ḵ	kde
+ḷ	lda
+ḹ	leda
+ḻ	lde
+ḽ	ldl
+ḿ	mp
+ṁ	ma
+ṃ	mda
+ṅ	na
+ṇ	nda
+ṉ	nde
+ṋ	ndl
+ṍ	ops
+ṏ	obs
+ṑ	one
+ṓ	ope
+ṕ	pp
+ṗ	pa
+ṙ	ra
+ṛ	rda
+ṝ	reda
+ṟ	rde
+ṡ	sa
+ṣ	sda
+ṥ	sap
+ṧ	sav
+ṩ	sada
+ṫ	ta
+ṭ	tda
+ṯ	tde
+ṱ	tdl
+ṳ	udb
+ṵ	uds
+ṷ	udl
+ṹ	ups
+ṻ	ube
+ṽ	vs
+ṿ	vda
+ẁ	wn
+ẃ	wp
+ẅ	wb
+ẇ	wa
+ẉ	wda
+ẋ	xa
+ẍ	xb
+ẏ	ya
+ẑ	zl
+ẓ	zda
+ẕ	zde
+ẖ	hde
+ẗ	tb
+ẘ	wo
+ẙ	yo
+ẚ	aj
+##
+ẚ	ad
+ẛ	ffa
+ẜ	ffx
+ẝ	fft
+ẞ	bi
+ẟ	di
+ạ	ada
+ả	aj
+ấ	apl
+##
+ấ	alp
+ầ	anl
+ẩ	alj
+##
+ẩ	ajl
+ẫ	asl
+ậ	alda
+ắ	apu
+ằ	anu
+ẳ	aju
+ẵ	asu
+ặ	auda
+ẹ	eda
+ẻ	ej
+ẽ	es
+ế	epl
+##
+ế	elp
+ề	enl
+ể	elj
+##
+ể	ejl
+ễ	esl
+ệ	elda
+ỉ	ij
+ị	ida
+ọ	oda
+ỏ	oj
+ố	opl
+##
+ố	olp
+ồ	onl
+ổ	olj
+##
+ổ	ojl
+ỗ	osl
+ộ	olda
+ớ	opd
+ờ	ond
+ở	ojd
+ỡ	osd
+ợ	odda
+ụ	uda
+ủ	uj
+ứ	upd
+ừ	und
+ử	ujd
+ữ	usd
+ự	udda
+ỳ	yn
+ỵ	yda
+ỷ	yj
+ỹ	ys
+ỽ	qf
+ỿ	yo
+##
+ỿ	yg
+#Latin Extended Additional大寫
+Ḁ	ado
+Ḃ	ba
+Ḅ	bda
+Ḇ	bde
+Ḉ	cjp
+Ḋ	da
+Ḍ	dda
+Ḏ	dde
+Ḑ	ddd
+##以下容錯碼不確定
+Ḑ	dj
+Ḓ	ddl
+Ḕ	ene
+Ḗ	epe
+Ḙ	edl
+Ḛ	eds
+Ḝ	eju
+Ḟ	fa
+Ḡ	ge
+Ḣ	ha
+Ḥ	hda
+Ḧ	hb
+Ḩ	hj
+Ḫ	hdu
+Ḭ	ids
+Ḯ	ipb
+Ḱ	kp
+Ḳ	kda
+Ḵ	kde
+Ḷ	lda
+Ḹ	leda
+Ḻ	lde
+Ḽ	ldl
+Ḿ	mp
+Ṁ	ma
+Ṃ	mda
+Ṅ	na
+Ṇ	nda
+Ṉ	nde
+Ṋ	ndl
+Ṍ	ops
+Ṏ	obs
+Ṑ	one
+Ṓ	ope
+Ṕ	pp
+Ṗ	pa
+Ṙ	ra
+Ṛ	rda
+Ṝ	reda
+Ṟ	rde
+Ṡ	sa
+Ṣ	sda
+Ṥ	sap
+Ṧ	sav
+Ṩ	sada
+Ṫ	ta
+Ṭ	tda
+Ṯ	tde
+Ṱ	tdl
+Ṳ	udb
+Ṵ	uds
+Ṷ	udl
+Ṹ	ups
+Ṻ	ube
+Ṽ	vs
+Ṿ	vda
+Ẁ	wn
+Ẃ	wp
+Ẅ	wb
+Ẇ	wa
+Ẉ	wda
+Ẋ	xa
+Ẍ	xb
+Ẏ	ya
+Ẑ	zl
+Ẓ	zda
+Ẕ	zde
+Ạ	ada
+Ả	aj
+Ấ	apl
+##
+Ấ	alp
+Ầ	anl
+Ẩ	alj
+##
+Ẩ	ajl
+Ẫ	asl
+Ậ	alda
+Ắ	apu
+Ằ	anu
+Ẳ	aju
+Ẵ	asu
+Ặ	auda
+Ẹ	eda
+Ẻ	ej
+Ẽ	es
+Ế	epl
+##
+Ế	elp
+Ề	enl
+Ể	elj
+##
+Ể	ejl
+Ễ	esl
+Ệ	elda
+Ỉ	ij
+Ị	ida
+Ọ	oda
+Ỏ	oj
+Ố	opl
+##
+Ố	olp
+Ồ	onl
+Ổ	olj
+##
+Ổ	ojl
+Ỗ	osl
+Ộ	olda
+Ớ	opd
+Ờ	ond
+Ở	ojd
+Ỡ	osd
+Ợ	odda
+Ụ	uda
+Ủ	uj
+Ứ	upd
+Ừ	und
+Ử	ujd
+Ữ	usd
+Ự	udda
+Ỳ	yn
+Ỵ	yda
+Ỷ	yj
+Ỹ	ys
+Ỽ	qf
+Ỿ	yo
+##
+Ỿ	yg
+#Latin Extended Additional其他
+#Ỻ	il
+##
+Ỻ	ihl
+ỻ	ilt
+##
+ỻ	ihlt
+##
+ỻ	llt
+##
+ỻ	lhlt
+##
+ỻ	iit
+##
+ỻ	ihit
+##
+ỻ	tftf
+#Latin Extended-C
+#Latin Extended-C小寫
+ⱡ	ltt
+##
+ⱡ	nfq
+ⱥ	ax
+ⱦ	tx
+ⱨ	hy
+ⱪ	ky
+ⱬ	zy
+ⱳ	wr
+ⱶ	ih
+ⱷ	eq
+##
+##ⱷ##fi
+ⱸ	ec
+ⱹ	rqr
+##
+ⱹ	rcq
+#Latin Extended-C大寫
+Ⱡ	ltt
+Ɫ	lz
+Ᵽ	pt
+Ɽ	rc
+Ⱨ	hy
+Ⱪ	ky
+Ⱬ	zy
+Ɑ	ai
+Ɱ	mj
+Ɐ	ak
+Ɒ	aq
+##
+Ɒ	ak
+Ⱳ	wr
+Ⱶ	ih
+Ȿ	sc
+Ɀ	zfc
+##
+Ɀ	zc
+#Latin Extended-C其他
+ⱱ	vr	
+ⱴ	vg
+ⱺ	omo
+##
+ⱺ	oo
+ⱻ	ek
+ⱼ	jh
+ⱽ	vh
+#Latin Extended-D
+#Latin Extended-D小寫
+ꜣ	jfjf
+ꜥ	cf
+##
+ꜥ	ci
+ꜥ	ch
+ꜧ	hj
+ꜫ	ei
+ꜭ	dfj
+ꜯ	dfjdd
+ꜰ	fi
+ꜱ	si
+ꜳ	aha
+##
+#ꜳ	aa
+ꜵ	aho
+ꜷ	au
+##
+ꜷ	ahu
+ꜹ	ahv
+ꜻ	ahvt
+##
+ꜻ	avt
+ꜽ	ahy
+ꜿ	jfma
+##
+ꜿ	ckma
+ꝁ	kt
+ꝃ	kx
+ꝅ	ktx
+ꝇ	li
+ꝉ	lt
+##
+ꝉ	tf
+ꝋ	ot
+ꝍ	or
+##
+ꝍ	oo
+ꝏ	oho
+ꝑ	pt
+ꝓ	pk
+ꝕ	pk
+ꝗ	qt
+ꝙ	qx
+ꝛ	rf
+ꝝ	rfx
+ꝟ	vx
+ꝡ	wj
+##
+ꝡ	why
+ꝣ	zgr
+##
+ꝣ	zfgr
+##
+ꝣ	czg
+##
+ꝣ	czfg
+##
+ꝣ	chzg
+##
+ꝣ	chzfg
+ꝥ	lft
+##
+ꝥ	bhpt
+##
+ꝥ	bpt
+##
+ꝥ	ihot
+##
+ꝥ	iot
+##
+ꝥ	lhot
+##
+ꝥ	lot
+ꝧ	lft
+##
+ꝧ	bhpt
+##
+ꝧ	bpt
+##
+ꝧ	ihot
+##
+ꝧ	iot
+##
+ꝧ	lhot
+##
+ꝧ	lot
+ꝩ	yf
+ꝫ	zi
+ꝭ	kf
+##
+ꝭ	sfg
+ꝯ	gf
+ꝱ	dhlx
+ꝲ	lx
+ꝳ	mhlx
+ꝴ	nhlx
+ꝵ	rrx
+##
+ꝵ	rx
+ꝶ	rx
+ꝷ	tx
+ꝸ	bf
+Ꝺ	or
+##
+Ꝺ	sk
+ꝺ	or
+##
+ꝺ	df
+ꝼ	rh
+Ᵹ	df
+##
+Ᵹ	dk
+ꝿ	dfq
+##
+##ꝿ	##dq
+ꞁ	lq
+##
+ꞁ	lk
+ꞃ	hf
+##
+ꞃ	nyc
+ꞅ	ri
+ꞇ	tf
+##
+##ꞇ##ti
+ꞎ	lck
+##
+ꞎ	lkc
+##
+ꞎ	ick
+##
+ꞎ	ikc
+ꞑ	ny
+ꞓ	ct
+ꞕ	hj
+ꞗ	bk
+ꞛ	bk
+ꞝ	bfk
+ꞟ	rfq
+ꞡ	gx
+ꞣ	kx
+ꞥ	nx
+ꞧ	rx
+ꞩ	sx
+Ꭓ	xi
+ꞵ	by
+##
+ꞵ	bi
+##
+ꞵ	ihb
+ꞷ	wi
+##
+ꞷ	chck
+##
+ꞷ	cck
+##
+ꞷ	chjf
+##
+ꞷ	cjf
+ꟼ	qi
+ꟽ	mk
+#Latin Extended-D大寫
+Ꜣ	jfjf
+Ꜥ	cf
+##
+Ꜥ	ci
+Ꜥ	ch
+Ꜧ	hj
+Ꜫ	ef
+Ꜭ	dfj
+Ꜯ	dfjdd
+Ꜳ	aha
+##
+#Ꜳ	aa
+Ꜵ	aho
+Ꜷ	au
+##
+Ꜷ	ahu
+Ꜹ	ahv
+Ꜻ	ahvt
+##
+Ꜻ	avt
+Ꜽ	ahy
+Ꜿ	jfma
+##
+Ꜿ	ckma
+Ꝁ	kt
+Ꝃ	kx
+Ꝅ	ktx
+Ꝇ	li
+Ꝉ	lt
+Ꝋ	ot
+Ꝍ	or
+##
+Ꝍ	oo
+Ꝏ	oho
+Ꝑ	pt
+Ꝓ	pk
+Ꝕ	pk
+Ꝗ	qx
+Ꝙ	qx
+Ꝛ	rf
+Ꝝ	rfx
+Ꝟ	vx
+Ꝡ	wj
+##
+Ꝡ	why
+Ꝣ	zgr
+##
+Ꝣ	zfgr
+##
+Ꝣ	czg
+##
+Ꝣ	czfg
+##
+Ꝣ	chzg
+##
+Ꝣ	chzfg
+Ꝥ	lft
+##
+Ꝥ	bhpt
+##
+Ꝥ	bpt
+##
+Ꝥ	ihot
+##
+Ꝥ	iot
+##
+Ꝥ	lhot
+##
+Ꝥ	lot
+Ꝧ	lft
+##
+Ꝧ	bhpt
+##
+Ꝧ	bpt
+##
+Ꝧ	ihot
+##
+Ꝧ	iot
+##
+Ꝧ	lhot
+##
+Ꝧ	lot
+Ꝩ	yf
+Ꝫ	zi
+Ꝭ	kf
+##
+Ꝭ	sfg
+Ꝯ	gf
+Ꝼ	rh
+Ꝿ	dfq
+##
+##Ꝿ	##dq
+Ꞁ	lq
+##
+Ꞁ	gk
+Ꞃ	hf
+##
+Ꞃ	nyc
+Ꞅ	ri
+Ꞇ	tf
+##
+##Ꞇ##ti
+Ꞑ	ny
+Ꞓ	ct
+Ꞗ	bk
+Ꞛ	bk
+Ꞝ	bfk
+Ꞟ	rfq
+Ꞡ	gx
+Ꞣ	kx
+Ꞥ	nx
+Ꞧ	rx
+Ꞩ	sx
+Ɦ	hr
+Ɬ	lk
+Ꞵ	by
+##
+Ꞵ	bi
+##
+Ꞵ	ihb
+Ꞷ	wi
+##
+Ꞷ	chck
+##
+Ꞷ	cck
+##
+Ꞷ	chjf
+##
+Ꞷ	cjf
+#Latin Extended-D其他
+꜠	fq
+꜡	fq
+Ꜩ	tzg
+##
+Ꜩ	tzfg
+##
+Ꜩ	thzg
+##
+Ꜩ	thzfg
+ꜩ	tzg
+##
+ꜩ	tzfg
+##
+ꜩ	thzg
+##
+ꜩ	thzfg
+ꝰ	gf
+ꞈ	dlw
+꞉	awaw
+##
+#꞉	awhaw
+##
+꞉	bwq
+꞊	ewew
+#
+#꞊	ewhew
+#以下不明暫時分為符號類
+Ꞌ	pw
+##
+##Ꞌ	ih
+#以下不明暫時分為符號類
+ꞌ	pw
+#
+#ꞌ	ih
+Ɥ	ui
+##
+Ɥ	hq
+ꞏ	aw
+ꞔ	cj
+Ꞙ	gjt
+##
+Ꞙ	gtj
+ꞙ	ft
+Ɜ	zi
+Ɡ	gi
+Ʞ	kq
+##
+Ʞ	kk
+Ʇ	tk
+Ʝ	jg
+##
+Ʝ	ig
+ꟷ	iq
+ꟸ	ht
+ꟹ	ohe
+ꟺ	wi
+ꟻ	fk
+ꟾ	ii
+ꟿ	xf
+##
+ꟿ	mhv
+##
+ꟿ	lhw
+##
+ꟿ	lhlhv
+##
+ꟿ	nhn
+#Latin Extended-E
+#(暫時不分大小寫)
+ꬰ	at
+ꬱ	ahek
+##
+ꬱ	aek
+ꬲ	ef
+ꬳ	et
+ꬴ	ek
+ꬵ	fi
+ꬶ	gg
+ꬷ	lz
+ꬸ	lzz
+ꬹ	lma
+##
+ꬹ	lmo
+ꬺ	mg
+ꬻ	ng
+ꬼ	ng
+ꬽ	of
+ꬾ	ofx
+ꬿ	jfx
+##
+ꬿ	ckx
+ꭀ	ohek
+##
+ꭀ	oek
+ꭁ	eqhox
+##
+ꭁ	eqox
+ꭂ	eqhq
+##
+ꭂ	eqq
+ꭃ	cho
+##
+#ꭃ	co
+ꭄ	chox
+##
+ꭄ	cox
+ꭅ	nf
+##
+ꭅ	yk
+ꭆ	rc
+ꭇ	ri
+ꭈ	rr
+ꭉ	rg
+ꭊ	rrg
+##
+ꭊ	rgr
+ꭋ	mf
+##
+ꭋ	my
+ꭌ	mfo
+##
+ꭌ	myo
+##
+ꭌ	mfhb
+ꭍ	sf
+ꭎ	uf
+ꭏ	uft
+ꭐ	mfqa
+##
+ꭐ	mfqma
+##
+ꭐ	mfdaq
+##
+ꭐ	mfmaq
+ꭑ	mfda
+##
+ꭑ	mfma
+ꭒ	ui
+##
+ꭒ	ur
+ꭓ	xi
+ꭔ	xo
+ꭕ	xi
+ꭖ	xo
+ꭗ	xi
+ꭘ	xo
+ꭙ	xi
+ꭚ	yf
+##
+ꭚ	ufj
+꭛	ufmf
+##
+꭛	uwmw
+ꭜ	lg
+##
+ꭜ	hj
+ꭝ	lz
+ꭞ	lz
+ꭟ	uh
+##
+ꭟ	ur
+#ꭠ	ib
+##
+ꭠ	rhb
+##
+ꭠ	ihb
+ꭡ	ihe
+ꭢ	jfhe
+##
+ꭢ	jfe
+##
+ꭢ	ckhe
+##
+ꭢ	cke
+ꭣ	uho
+##
+ꭣ	yfho
+##
+ꭣ	yfo
+ꭤ	ai
+ꭥ	wi
+####前面單元結束，後面201707新增######
+##########英文全形字庫######
+##########新增英文字母全形開始############
+###大寫快速調出開始（一）#######
+Ａ	''a
+Ｂ	''b
+Ｃ	''c
+Ｄ	''d
+Ｅ	''e
+Ｆ	''f
+Ｇ	''g
+Ｈ	''h
+Ｉ	''i
+Ｊ	''j
+Ｋ	''k
+Ｌ	''l
+Ｍ	''m
+Ｎ	''n
+Ｏ	''o
+Ｐ	''p
+Ｑ	''q
+Ｒ	''r
+Ｓ	''s
+Ｔ	''t
+Ｕ	''u
+Ｖ	''v
+Ｗ	''w
+Ｘ	''x
+Ｙ	''y
+Ｚ	''z
+###大寫快速調出結束（一）####
+###一般調出開始#####
+ａ	'a
+ｂ	'b
+ｃ	'c
+ｄ	'd
+ｅ	'e
+ｆ	'f
+ｇ	'g
+ｈ	'h
+ｉ	'i
+ｊ	'j
+ｋ	'k
+ｌ	'l
+ｍ	'm
+ｎ	'n
+ｏ	'o
+ｐ	'p
+ｑ	'q
+ｒ	'r
+ｓ	's
+ｔ	't
+ｕ	'u
+ｖ	'v
+ｗ	'w
+ｘ	'x
+ｙ	'y
+ｚ	'z
+#######
+Ａ	'a
+Ｂ	'b
+Ｃ	'c
+Ｄ	'd
+Ｅ	'e
+Ｆ	'f
+Ｇ	'g
+Ｈ	'h
+Ｉ	'i
+Ｊ	'j
+Ｋ	'k
+Ｌ	'l
+Ｍ	'm
+Ｎ	'n
+Ｏ	'o
+Ｐ	'p
+Ｑ	'q
+Ｒ	'r
+Ｓ	's
+Ｔ	't
+Ｕ	'u
+Ｖ	'v
+Ｗ	'w
+Ｘ	'x
+Ｙ	'y
+Ｚ	'z
+#########一般調出結束#####
+##############類英文字母全形符號調出開始#########
+￠	'cx
+##
+￠	'ci
+##
+￠	'cf
+￡	'lft
+￢	'gwk
+#以下一個容錯碼
+#￢	'lq
+￣	'ewf
+￤	'iwiw
+##
+#￤	'll
+#￤	'ihi
+##
+#￤	'lhl
+￥	'ytt
+￦	'wt
+＠	'at
+#以下一個容錯碼
+＠	'ao
+＾	'lw
+#
+#＾	'lh
+｀	'nw
+＿	'dew
+＇	'pw
+#以下兩個容錯碼
+#＇	'ih
+#＇	'if
+！	'ida
+#以下一個容錯碼
+！	'ik
+＂	'pwpw
+#以下一個容錯碼
+#＂	'ii
+###＃	''
+＄	'si
+％	'owpwow
+#以下一個容錯碼
+％	'oxo
+＆	'bfk
+#以下三個容錯碼
+＆	'bf
+＆	'et
+＆	'and
+：	'awaw
+#
+#：	'awhaw
+#
+：	'bwq
+；	'awdw
+#以下一個容錯碼
+#；	'add
+#？	''jfda
+#以下一個容錯碼
+？	'jyda
+##
+？	'jfyda
+##
+？	'jfkda
+＊	'jw
+##############類英文字母全形符號結束#########
+##########新增英文字母全形結束############
+##########拉丁字母結束##########
+######IPA Extensions開始#####
+ɐ	aq
+ɑ	ai
+ɒ	aq
+ɓ	br
+##
+ɓ	gq
+ɔ	jf
+##
+ɔ	ck
+ɕ	cg
+##
+ɕ	gq
+ɖ	dc
+ɗ	dr
+ɘ	ek
+ə	eq
+ɚ	eqk
+ɛ	ei
+ɜ	zi
+ɝ	zk
+#下面一個是容錯碼
+ɝ	zr
+ɞ	bf
+ɟ	jt
+ɠ	gr
+ɡ	gi
+ɢ	gi
+ɣ	vo
+##
+ɣ	no
+##
+ɣ	go
+ɤ	vo
+##
+ɤ	oy
+##
+ɤ	yo
+ɥ	hq
+##
+ɥ	ui
+ɦ	hr
+ɧ	hrj
+##
+ɧ	hjr
+##
+ɧ	jqg
+ɨ	it
+ɩ	ii
+ɪ	ii
+ɫ	iz
+##
+ɫ	lz
+ɬ	lk
+##
+ɬ	ik
+ɭ	lc
+ɮ	izfg
+##
+ɮ	lzfg
+##
+ɮ	izg
+##
+ɮ	lzg
+ɯ	mq
+ɰ	wf
+##
+ɰ	mqy
+ɱ	mj
+ɲ	nj
+ɳ	nc
+ɴ	ni
+ɵ	qi
+ɶ	ohe
+ɷ	bfq
+ɸ	fi
+ɹ	rq
+ɺ	rq
+ɻ	rrq
+##
+ɻ	rqc
+ɼ	ri
+ɽ	rc
+ɾ	jq
+##
+ɾ	lfk
+ɿ	jk
+##
+ɿ	lf
+ʀ	ri
+ʁ	rk
+ʂ	sc
+ʃ	sf
+ʄ	sft
+##
+ʄ	sftt
+ʅ	sfk
+ʆ	sfg
+##
+ʆ	ifq
+ʇ	tq
+ʈ	ti
+ʉ	ut
+ʊ	wk
+ʋ	vf
+##
+ʋ	yi
+ʌ	li
+ʍ	wk
+ʎ	yq
+ʏ	yi
+ʐ	zc
+ʑ	zg
+ʒ	zfg
+##
+ʒ	zg
+ʓ	zfgg
+##
+ʓ	zgg
+ʔ	jfy
+##
+ʔ	jy
+##
+ʔ	jfk
+##
+#ʔ	cfq
+##
+##ʔ	cfyk
+##
+##ʔ	cyk
+ʕ	cfy
+##
+ʕ	cy
+##
+ʕ	cfk
+ʖ	jfyk
+##
+ʖ	jyk
+##
+ʖ	jf
+##
+##ʖ	cfk
+##
+##ʖ	cfyq
+##
+##ʖ	cyq
+ʗ	ci
+ʘ	oma
+ʙ	bi
+ʚ	bfk
+ʛ	gr
+ʜ	hi
+ʝ	jg
+##
+ʝ	ig
+ʞ	kq
+ʟ	li
+ʠ	qr
+ʡ	jfyt
+##
+ʡ	jyt
+##
+ʡ	jfkt
+##
+ʡ	jftf
+##
+#ʡ	cfqt
+##
+##ʡ	cfykt
+##
+##ʡ	cykt
+ʢ	cfyt
+##
+ʢ	cyt
+##
+ʢ	cfkt
+##
+ʢ	cftf
+ʣ	dhz
+ʤ	dzfg
+##
+ʤ	dzg
+##
+ʤ	dhzfg
+##
+ʤ	dhzg
+ʥ	dzg
+##
+ʥ	dhzg
+ʦ	ths
+ʧ	tsf
+#
+ʧ	thsf
+ʨ	tcg
+##
+ʨ	tgq
+##
+ʨ	thcg
+##
+ʨ	thgq
+ʩ	fnj
+#
+ʩ	fhnj
+ʪ	lhs
+ʫ	lhz
+ʬ	ww
+##
+ʬ	whw
+ʭ	rr
+##
+ʭ	rhr
+ʮ	ur
+##
+ʮ	ury
+##
+ʮ	uyr
+ʯ	urc
+#Phonetic Extensions
+ᴀ	ai
+ᴁ	ahe
+ᴂ	eqhe
+##
+ᴂ	eqe
+ᴃ	bt
+ᴄ	ci
+ᴅ	di
+ᴆ	dt
+ᴇ	ei
+ᴈ	zi
+ᴉ	ik
+##
+ᴉ	iq
+ᴊ	ji
+ᴋ	ki
+ᴌ	lx
+ᴍ	mi
+ᴎ	ni
+##
+ᴎ	nk
+ᴏ	oi
+ᴐ	jf
+##
+ᴐ	ck
+ᴑ	oq
+ᴒ	cq
+ᴓ	oxq
+##
+ᴓ	oqx
+ᴔ	eqho
+##
+ᴔ	eqo
+ᴕ	uho
+ᴖ	mf
+##
+ᴖ	mw
+ᴗ	uf
+##
+ᴗ	uw
+##
+ᴗ	duw
+##
+ᴗ	duf
+ᴘ	pi
+ᴙ	rk
+ᴚ	rq
+ᴛ	ti
+ᴜ	ui
+ᴝ	uq
+ᴞ	ubq
+ᴟ	mq
+ᴠ	vi
+ᴡ	wi
+ᴢ	zi
+ᴣ	zfg
+##
+ᴣ	zg
+ᴤ	sk
+ᴥ	af
+ᴦ	gi
+ᴧ	li
+ᴨ	ri
+ᴩ	pi
+ᴪ	ui
+ᴫ	li
+##
+ᴫ	jhi
+ᴬ	ah
+ᴭ	ahe
+ᴮ	bh
+ᴯ	bt
+ᴰ	dh
+ᴱ	eh
+ᴲ	ek
+ᴳ	gh
+ᴴ	hh
+ᴵ	ih
+ᴶ	jh
+ᴷ	kh
+ᴸ	lh
+ᴹ	mh
+ᴺ	nh
+ᴻ	nh
+##
+ᴻ	nk
+ᴼ	oh
+ᴽ	uho
+ᴾ	ph
+ᴿ	rh
+ᵀ	th
+ᵁ	uh
+ᵂ	wh
+ᵃ	ah
+ᵄ	aq
+ᵅ	ah
+ᵆ	aheq
+##
+ᵆ	eqhaq
+##
+ᵆ	aeq
+##
+ᵆ	eqaq
+##
+ᵆ	eqhe
+##
+ᵆ	eqe
+##
+ᵆ	ahe
+ᵇ	bh
+ᵈ	dh
+ᵉ	eh
+ᵊ	eq
+ᵋ	eh
+ᵌ	zh
+ᵍ	gh
+ᵎ	ik
+ᵏ	kh
+ᵐ	mh
+ᵑ	nj
+ᵒ	oh
+ᵓ	jf
+##
+ᵓ	ck
+ᵔ	mf
+#
+ᵔ	mw
+ᵕ	uf
+#
+ᵕ	uw
+ᵖ	ph
+ᵗ	th
+ᵘ	uh
+ᵙ	uq
+ᵚ	mq
+ᵛ	vh
+ᵜ	af
+ᵝ	bh
+ᵞ	gh
+ᵟ	dh
+ᵠ	fh
+ᵡ	xh
+ᵢ	ih
+ᵣ	rh
+ᵤ	uh
+ᵥ	vh
+ᵦ	bh
+ᵧ	gh
+ᵨ	ph
+#以下兩個為容錯碼
+ᵨ	eh
+ᵨ	pf
+ᵩ	fh
+ᵪ	xh
+ᵫ	uhe
+ᵬ	bz
+ᵭ	dz
+ᵮ	fz
+ᵯ	mz
+ᵰ	nz
+ᵱ	pz
+ᵲ	rz
+ᵳ	jqz
+ᵴ	sz
+ᵵ	tz
+ᵶ	zz
+ᵷ	gq
+ᵸ	hh
+ᵹ	df
+##
+ᵹ	dk
+ᵺ	thx
+ᵻ	it
+##
+ᵻ	tf
+ᵼ	it
+ᵽ	pt
+ᵾ	ut
+ᵿ	wkt
+#Phonetic Extensions Supplement
+ᶀ	bj
+ᶁ	dj
+ᶂ	fj
+ᶃ	gk
+ᶄ	kj
+ᶅ	lj
+ᶆ	mj
+ᶇ	nj
+ᶈ	pj
+##
+ᶈ	pk
+ᶉ	rj
+ᶊ	sj
+ᶋ	sfk
+ᶌ	vj
+ᶍ	xj
+ᶎ	zj
+ᶏ	ac
+ᶐ	ac
+ᶑ	drc
+##
+ᶑ	dcr
+ᶒ	ec
+ᶓ	ec
+ᶔ	zc
+ᶕ	eqk
+ᶖ	ic
+ᶗ	jfc
+##
+ᶗ	ckc
+ᶘ	sfc
+ᶙ	uc
+ᶚ	zfgc
+##
+ᶚ	zgc
+ᶛ	aq
+ᶜ	ch
+ᶝ	cg
+##
+ᶝ	gfq
+ᶞ	dfx
+##
+ᶞ	dx
+ᶟ	zh
+ᶠ	fh
+ᶡ	jt
+ᶢ	gh
+ᶣ	hq
+##
+ᶣ	uh
+ᶤ	it
+ᶥ	ih
+ᶦ	ih
+ᶧ	it
+##
+ᶧ	tf
+ᶨ	jg
+##
+ᶨ	ig
+ᶩ	lc
+ᶪ	lj
+ᶫ	lh
+ᶬ	mj
+ᶭ	wf
+##
+ᶭ	mq
+ᶮ	nj
+ᶯ	nc
+ᶰ	nh
+ᶱ	qh
+ᶲ	fh
+ᶳ	sc
+ᶴ	sf
+ᶵ	tj
+ᶶ	ut
+ᶷ	wk
+ᶸ	uh
+ᶹ	vf
+##
+ᶹ	yh
+ᶹ	vh
+ᶺ	lh
+ᶻ	zh
+ᶼ	zc
+ᶽ	zg
+ᶾ	zfg
+##
+ᶾ	zg
+ᶿ	qh
+#####IPA Extensions結束#####
+###Spacing Modifier Letters開始###
+##02b0~02bf
+ʰ	hh
+ʱ	hr
+ʲ	jh
+ʳ	rh
+ʴ	rq
+ʵ	rrq
+##
+ʵ	rqc
+ʶ	rk
+ʷ	wh
+ʸ	yh
+ʹ	pw
+ʺ	pwpw
+ʻ	ww
+ʼ	dw
+ʽ	qw
+ʾ	jw
+ʿ	cw
+##
+ʿ	ch
+##02c0~02cf
+ˀ	jy
+##
+#ˀ	;cfq
+ˀ	jfy
+##
+ˀ	jfk
+ˁ	cfy
+##
+ˁ	cfk
+##
+ˁ	cy
+˂	vwq
+˃	vwq
+##
+˄	lw
+##
+#˄	lh
+˅	vw
+##
+˅	vh
+ˆ	lw
+##
+#ˆ	lh
+ˇ	vw
+##
+ˇ	vh
+ˈ	pw
+##
+#ˈ	ih
+ˉ	ew
+ˊ	pw
+ˋ	nw
+ˌ	dpw
+##ˌ	ih
+ˍ	dew
+ˎ	dnw
+ˏ	dpw
+##02d0~02df
+ː	dfkdf
+#上面為新字根
+##
+ː	dkd
+##
+ː	dfdf
+##
+ː	dfhdf
+ˑ	dfk
+#上面為新字根
+##
+ˑ	dk
+ˑ	df
+˒	jw
+##
+˒	djw
+˓	cw
+##
+˓	ch
+##
+˓	dcw
+˔	dtwk
+##
+˔	twk
+˕	twh
+##
+˕	dtw
+##
+˕	tw
+˖	tf
+##
+˖	dt
+##
+˖	tw
+##
+˖	dtw
+˗	ew
+##
+˗	iq
+##
+˗	dew
+˘	uf
+##
+˘	uh
+#
+˘	uw
+˙	awf
+˚	ow
+##
+˚	oh
+˛	cw
+##
+˛	dcw
+#˛	ch
+˜	sw
+˝	pwpw
+˞	kw
+˟	xh
+##
+˟	xf
+#
+˟	xw
+##02e0~02ef
+ˠ	vo
+##
+ˠ	go
+##
+ˠ	no
+ˡ	lh
+ˢ	sh
+ˣ	xh
+##
+ˣ	xf
+##
+ˣ	xw
+ˤ	cfy
+##
+ˤ	cfk
+ˤ	cy
+˥	gwk
+##
+#˥	lq
+˦	twq
+˧	twq
+˨	twq
+˩	gwq
+##
+#˩	lk
+˪	gwk
+##
+#˪	lf
+˫	twq
+ˬ	vw
+##
+ˬ	dvw
+ˬ	dv
+˭	ewew
+ˮ	dwdw
+˯	dvw
+##
+#˯	vh
+##
+˯	vw
+##02f0~02ff
+˰	dlw
+##
+˰	lw
+##
+#˰	lh
+˱	dvwq
+##
+˱	vwq
+˲	dvwq
+##
+˲	vwq
+˳	dow
+##
+˳	oh
+##
+˳	ow
+˴	nw
+˵	nwnw
+˶	pwpw
+˷	dsw
+##
+˷	sw
+˸	awaw
+###
+˸	bwq
+##
+#˸	awhaw
+˹	gw
+##
+#˹	lk
+˺	gwk
+##
+#˺	lq
+˻	gwk
+##
+#˻	lf
+˼	gwq
+##
+#˼	lk
+˽	rk
+˾	gwk
+##
+#˾	lf
+˿	lwq
+###Spacing Modifier Letters結束###
+######Combining Diacritical開始######
+##0300~030f
+̀	;;n
+́	;;p
+̂	;;l
+̃	;;s
+̄	;;e
+̆	;;u
+#以下一個容錯碼
+̆	;;uh
+̇	;;a
+̈	;;b
+̉	;;j
+̊	;;o
+#以下一個容錯碼
+̊	;;oh
+̋	;;pp
+̌	;;v
+#以下一個容錯碼
+̌	;;vh
+̍	;;i
+#以下兩個容錯碼
+̍	;;p
+##  ̍	;;ih
+#  ̎	;;ii
+#以下一個容錯碼
+̎	;;pp
+̏	;;nn
+##0310~031f
+̐	;;au
+̑	;;m
+̒	;;w
+̓	;;d
+̔	;;q
+̕	;;d
+̖	;;dn
+̗	;;dp
+̘	;;dtq
+̙	;;dtq
+̚	;;gq
+##
+#  ̚	;;lk
+̛	;;d
+̜	;;dc
+#下一個為容錯碼
+̜	;;ch
+̝	;;dtk
+̞	;;dt
+#下一個為容錯碼
+̞	;;th
+̟	;;dt
+##0320~032f
+̠	;;de
+#以下一個容錯碼
+̠	;;diq
+̡	;;j
+#以下二個容錯碼
+̡	;;g
+̢	;;c
+̣	;;da
+̤	;;db
+̥	;;do
+#以下一個為容錯碼
+̥	;;oh
+̦	;;dd
+̧	;;j
+̨	;;c
+̩	;;y
+#以下三個容錯碼
+#  ̩	;;di
+̩	;;dp
+#  ̩	;;ih
+̪	;;dr
+#以下一個容錯碼
+̪	;;rh
+̫	;;dw
+#以下兩個容錯碼
+̫	;;duu
+̫	;;wh
+̬	;;dv
+#以下一個容錯碼
+̬	;;vh
+̭	;;dl
+̮	;;du
+#以下一個容錯碼
+̮	;;uh
+̯	;;dm
+##0330~033f
+̰	;;ds
+̱	;;de
+̲	;;de
+̳	;;dee
+̴	;;z
+̵	;;t
+̶	;;t
+̷	;;x
+̸	;;x
+̹	;;dj
+̺	;;drk
+̻	;;do
+#上面為新字根
+̼	;;dy
+#上面為新字根
+#以下三個容錯碼
+̼	;;dm
+̼	;;dmm
+̼	;;mh
+̽	;;xh
+̾	;;sh
+#以下二個容錯碼
+̾	;;sf
+#̾	;;si
+̿	;;ee
+##0340~034f(034f沒有符號)
+̀	;;n
+́	;;p
+͂	;;s
+̓	;;d
+̈́	;;pb
+ͅ	;;c
+͆	;;rh
+͇	;;dee
+͈	;;yy
+#以下二個容錯碼
+#  ͈	;;dii
+͈	;;dpp
+͉	;;dgq
+##
+#  ͉	;;dlk
+͊	;;sx
+͋	;;asa
+͌	;;ss
+͍	;;dh
+#上面為新字根
+͎	;;dl
+#上面為新字根
+##0350~035f
+͐	;;vq
+͑	;;c
+#以下四個容錯碼
+# ͑	;;jk
+# ͑	;;uq
+# ͑	;;mq
+͑	;;ch
+͒	;;ma
+͓	;;dx
+#以下一個容錯碼
+͓	;;xh
+͔	;;dvq
+͕	;;dvq
+͖	;;dvql
+#以下一個容錯碼
+͖	;;dvqvk
+͗	;;j
+͘	;;a
+͙	;;dj
+#上面為新字根
+͚	;;doo
+͛	;;nh
+͜	;;du
+#以下一個容錯碼
+͜	;;uh
+͝	;;u
+#以下一個容錯碼
+͝	;;uh
+͞	;;e
+͟	;;de
+##0360~036f
+͠	;;s
+͡	;;m
+͢	;;dlq
+#上面為新字根，前面已經有過的新字根
+ͣ	;;ah
+ͤ	;;eh
+ͥ	;;ih
+ͦ	;;o
+#以下一個為容錯碼
+ͦ	;;oh
+ͧ	;;uh
+ͨ	;;c
+#以下一個為容錯碼
+ͨ	;;ch
+ͩ	;;dh
+ͪ	;;hh
+ͫ	;;mh
+ͬ	;;rh
+ͭ	;;th
+ͮ	;;v
+#以下一個為容錯碼
+ͮ	;;vh
+ͯ	;;xh
+######Combining Diacritical結束######
+########################
+#####Cyrillic總開始#####
+#大寫加速補碼
+#Cyrillic基本大寫
+Ѐ	]]en
+Ё	]]eb
+Ђ	]]tg
+Ѓ	]]gp
+Є	]]qk
+Ѕ	]]si
+І	]]ii
+Ї	]]ib
+Ј	]]ji
+Љ	]]lhb
+##
+#Љ	]]lb #201611太常撞碼，容錯碼去除
+##
+Љ	]]jhb
+Њ	]]hhb
+##
+#Њ	]]hb
+##
+Њ	]]ihb
+Ћ	]]thh
+##
+Ћ	]]thn
+##
+Ћ	]]ht
+Ќ	]]kp
+Ѝ	]]nn
+##
+Ѝ	]]nkn
+Ў	]]yu
+Џ	]]yf
+##
+Џ	]]rky
+А	]]a
+Б	]]s
+В	]]b
+Г	]]g
+Д	]]d
+Е	]]e
+Ж	]]j
+З	]]z
+И	]]n
+##
+И	]]nk
+Й	]]nu
+##
+Й	]]nku
+К	]]k
+Л	]]l
+##
+Л	]]jhi
+М	]]m
+Н	]]h
+О	]]o
+П	]]r
+Р	]]p
+С	]]c
+Т	]]t
+У	]]y
+Ф	]]f
+Х	]]x
+Ц	]]v
+Ч	]]u
+##
+Ч	]]hq
+Ш	]]w
+Щ	]]wy
+Ъ	]]br
+Ы	]]bi
+##
+Ы	]]bhi
+Ь	]]bf
+##
+##Ь#bi
+Э	]]q
+Ю	]]i
+##
+Ю	]]iho
+##
+#Ю	]]io
+Я	]]rk
+Ѡ	]]wi
+Ѣ	]]bt
+##
+Ѣ	]]bft
+Ѥ	]]ihqk
+##
+Ѥ	]]iqk
+Ѧ	]]af
+##
+#Ѧ#ai
+Ѩ	]]ihaf
+##
+Ѩ	]]iaf
+##
+#Ѩ#ihai
+##
+#Ѩ#iai
+Ѫ	]]vf
+Ѭ	]]ihvf
+##
+Ѭ	]]ivf
+Ѯ	]]zf
+##
+Ѯ	]]zsy
+##
+Ѯ	]]zys
+Ѱ	]]ui
+Ѳ	]]qi
+Ѵ	]]vr
+Ѷ	]]vrnn
+Ѹ	]]ohy
+Ѻ	]]of
+Ѽ	]]wmd
+Ѿ	]]wt
+Ҁ	]]cfy
+##
+Ҁ	]]cy
+##
+Ҁ	]]cfk
+Ҋ	]]nyu
+##
+Ҋ	]]nkyu
+Ҍ	]]bt
+##
+Ҍ	]]bft
+Ҏ	]]px
+Ґ	]]gr
+Ғ	]]gt
+Ҕ	]]gg
+Җ	]]jy
+Ҙ	]]zj
+Қ	]]ky
+Ҝ	]]ki
+Ҟ	]]kt
+Ҡ	]]kr
+Ң	]]hy
+Ҥ	]]hr
+Ҧ	]]rg
+Ҩ	]]ff
+Ҫ	]]cj
+Ҭ	]]ty
+Ү	]]yi
+Ұ	]]yt
+Ҳ	]]xy
+Ҵ	]]thv
+##
+Ҵ	]]vht
+Ҷ	]]uy
+##
+Ҷ	]]hqy
+Ҹ	]]ui
+##
+Ҹ	]]hqi
+Һ	]]hi
+Ҽ	]]ek
+Ҿ	]]eky
+##
+Ҿ	]]eyk
+Ӂ	]]ju
+Ӄ	]]kj
+Ӆ	]]ly
+##
+Ӆ	]]jiy
+##
+Ӆ	]]jhiy
+Ӈ	]]hj
+##
+Ӈ	]]ihj
+Ӊ	]]hy
+Ӌ	]]uy
+##
+Ӌ	]]hqy
+Ӎ	]]my
+Ӏ	]]ii
+Ӑ	]]au
+Ӓ	]]ab
+Ӕ	]]ahe
+##
+##Ӕ###ae
+Ӗ	]]eu
+Ә	]]eq
+Ӛ	]]eqb
+Ӝ	]]jb
+Ӟ	]]zb
+Ӡ	]]zg
+##
+Ӡ	]]zfg
+Ӣ	]]ne
+##
+Ӣ	]]nke
+Ӥ	]]nb
+##
+Ӥ	]]nkb
+Ӧ	]]ob
+Ө	]]qi
+Ӫ	]]qb
+Ӭ	]]qb
+Ӯ	]]ye
+Ӱ	]]yb
+Ӳ	]]ypp
+Ӵ	]]ub
+##
+Ӵ	]]hqb
+Ӷ	]]gy
+Ӹ	]]bib
+##
+Ӹ	]]bhib
+Ӻ	]]gtj
+##
+Ӻ	]]gjt
+Ӽ	]]xj
+Ӿ	]]xt
+#Cyrillic Supplement大寫
+Ԁ	]]di
+Ԃ	]]du
+Ԅ	]]rfu
+Ԇ	]]rfy
+Ԉ	]]lu
+##
+Ԉ	]]jiu
+Ԋ	]]hu
+Ԍ	]]gi
+Ԏ	]]tu
+Ԑ	]]ei
+Ԓ	]]lj
+##
+Ԓ	]]jhj
+Ԕ	]]jhx
+Ԗ	]]phx
+##
+Ԗ	]]phk
+Ԙ	]]rkhe
+##
+Ԙ	]]rke
+Ԛ	]]qi
+Ԝ	]]wi
+Ԟ	]]kx
+Ԡ	]]lg
+##
+Ԡ	]]jig
+##
+Ԡ	]]jhig
+Ԣ	]]hg
+Ԥ	]]ry
+Ԧ	]]hy
+Ԩ	]]hj
+Ԫ	]]dhk
+Ԭ	]]uhd
+##
+Ԭ	]]dhu
+##
+Ԭ	]]hqhd
+##
+Ԭ	]]dhhq
+##
+Ԭ	]]hqd
+##
+Ԭ	]]dhq
+Ԯ	]]ly
+##
+Ԯ	]]jiy
+##
+Ԯ	]]jhiy
+#Cyrillic Extended-B大寫
+Ꙁ	]]zj
+Ꙃ	]]ztj
+##
+Ꙃ	]]zjt
+Ꙅ	]]sk
+Ꙇ	]]ic
+##
+Ꙇ	]]ii
+Ꙉ	]]ykt
+##
+Ꙉ	]]yft
+Ꙍ	]]wi
+Ꙏ	]]br
+Ꙑ	]]bri
+##
+Ꙑ	]]brhi
+Ꙓ	]]rhbt
+##
+Ꙓ	]]ibt
+##
+Ꙓ	]]rbt
+##
+Ꙓ	]]ihbt
+Ꙕ	]]ohi
+Ꙗ	]]iha
+Ꙙ	]]ade
+Ꙛ	]]xf
+Ꙝ	]]ihade
+##
+Ꙝ	]]iade
+Ꙟ	]]lf
+##
+##Ꙟ##ly
+Ꙡ	]]vk
+Ꙣ	]]dr
+Ꙥ	]]lr
+##
+Ꙥ	]]jir
+##
+Ꙥ	]]jhir
+##
+Ꙥ	]]jht
+Ꙧ	]]mr
+Ꙩ	]]oma
+Ꙫ	]]omb
+Ꙭ	]]rf
+##
+Ꙭ	]]ohomb
+##
+Ꙭ	]]oomb
+Ꚁ	]]df
+Ꚃ	]]si
+Ꚅ	]]zhk
+Ꚇ	]]wf
+##
+Ꚇ	]]wy
+##
+Ꚇ	]]whi
+##
+Ꚇ	]]mqy
+##
+Ꚇ	]]mqhi
+##
+Ꚇ	]]mqi
+Ꚉ	]]dj
+Ꚋ	]]tg
+Ꚍ	]]ti
+##
+Ꚍ	]]tc
+Ꚏ	]]rkj
+Ꚑ	]]tc
+Ꚓ	]]uht
+##
+Ꚓ	]]thu
+##
+Ꚓ	]]hqht
+##
+Ꚓ	]]hqt
+##
+Ꚓ	]]thhq
+##
+Ꚓ	]]thq
+Ꚕ	]]hr
+Ꚗ	]]wj
+Ꚙ	]]oho
+Ꚛ	]]otf
+##
+Ꚛ	]]omt
+#Cyrillic基本
+#Cyrillic基本小寫
+а	]a
+б	]s
+в	]b
+г	]g
+д	]d
+е	]e
+ж	]j
+з	]z
+и	]n
+##
+и	]nk
+й	]nu
+##
+й	]nku
+к	]k
+л	]l
+##
+л	]jhi
+м	]m
+н	]h
+о	]o
+п	]r
+р	]p
+с	]c
+т	]t
+у	]y
+ф	]f
+х	]x
+ц	]v
+ч	]u
+##
+ч	]hq
+ш	]w
+щ	]wy
+ъ	]br
+ы	]bi
+##
+ы	]bhi
+ь	]bf
+##
+##ь#bi
+э	]q
+ю	]i
+##
+ю	]iho
+##
+#ю	]io
+я	]rk
+ѐ	]en
+ё	]eb
+ђ	]htj
+##
+ђ	]hjt
+##
+ђ	]tfg
+##
+ђ	]lgt
+##
+ђ	]ltg
+##
+ђ	]igt
+##
+ђ	]itg
+##
+ђ	]tg
+ѓ	]gp
+є	]qk
+ѕ	]si
+і	]ii
+ї	]ib
+ј	]ji
+љ	]lhb
+##
+љ	]jhb
+##
+#љ	]lb #201611太常撞碼，容錯碼去除
+њ	]hhb
+##
+њ	]ihb
+##
+њ	]hb
+ћ	]ht
+##
+ћ	]thh
+##
+ћ	]thn
+ќ	]kp
+ѝ	]nn
+##
+ѝ	]nkn
+ў	]yu
+џ	]yf
+##
+џ	]rky
+ѡ	]wi
+ѣ	]bt
+##
+ѣ	]bft
+ѥ	]ihqk
+##
+ѥ	]iqk
+ѧ	]af
+##
+#ѧ#ai
+ѩ	]ihaf
+##
+ѩ	]iaf
+##
+#ѩ#ihai
+##
+#ѩ#iai
+ѫ	]vf
+ѭ	]ihvf
+##
+ѭ	]ivf
+ѯ	]zf
+##
+ѯ	]zsy
+##
+ѯ	]zys
+ѱ	]ui
+ѳ	]qi
+ѵ	]vr
+ѷ	]vrnn
+ѹ	]ohy
+ѻ	]of
+ѽ	]wmd
+ѿ	]wt
+ҁ	]cfy
+##
+ҁ	]cy
+##
+ҁ	]cfk
+ҋ	]nyu
+##
+ҋ	]nkyu
+ҍ	]bt
+##
+ҍ	]bft
+ҏ	]px
+ґ	]gr
+ғ	]gt
+ҕ	]gg
+җ	]jy
+ҙ	]zj
+қ	]ky
+ҝ	]ki
+ҟ	]kt
+ҡ	]kr
+ң	]hy
+ҥ	]hr
+ҧ	]rg
+ҩ	]ff
+ҫ	]cj
+ҭ	]ty
+ү	]yi
+ұ	]yt
+ҳ	]xy
+ҵ	]thv
+##
+ҵ	]vht
+ҷ	]uy
+##
+ҷ	]hqy
+ҹ	]ui
+##
+ҹ	]hqi
+һ	]hi
+ҽ	]ek
+ҿ	]eky
+##
+ҿ	]eyk
+ӂ	]ju
+ӄ	]kj
+ӆ	]ly
+##
+ӆ	]jiy
+##
+ӆ	]jhiy
+ӈ	]hj
+##
+ӈ	]ihj
+ӊ	]hy
+ӌ	]uy
+##
+ӌ	]hqy
+ӎ	]my
+ӏ	]ii
+ӑ	]au
+ӓ	]ab
+ӕ	]ahe
+##
+##ӕ###ae
+ӗ	]eu
+ә	]eq
+ӛ	]eqb
+ӝ	]jb
+ӟ	]zb
+ӡ	]zg
+##
+ӡ	]zfg
+ӣ	]ne
+##
+ӣ	]nke
+ӥ	]nb
+##
+ӥ	]nkb
+ӧ	]ob
+ө	]qi
+ӫ	]qb
+ӭ	]qb
+ӯ	]ye
+ӱ	]yb
+ӳ	]ypp
+ӵ	]ub
+##
+ӵ	]hqb
+ӷ	]gy
+ӹ	]bib
+##
+ӹ	]bhib
+ӻ	]gtj
+##
+ӻ	]gjt
+ӽ	]xj
+ӿ	]xt
+#Cyrillic基本大寫
+Ѐ	]en
+Ё	]eb
+Ђ	]tg
+Ѓ	]gp
+Є	]qk
+Ѕ	]si
+І	]ii
+Ї	]ib
+Ј	]ji
+Љ	]lhb
+##
+#Љ	]lb #201611太常撞碼，容錯碼去除
+##
+Љ	]jhb
+Њ	]hhb
+##
+#Њ	]hb
+##
+Њ	]ihb
+Ћ	]thh
+##
+Ћ	]thn
+##
+Ћ	]ht
+Ќ	]kp
+Ѝ	]nn
+##
+Ѝ	]nkn
+Ў	]yu
+Џ	]yf
+##
+Џ	]rky
+А	]a
+Б	]s
+В	]b
+Г	]g
+Д	]d
+Е	]e
+Ж	]j
+З	]z
+И	]n
+##
+И	]nk
+Й	]nu
+##
+Й	]nku
+К	]k
+Л	]l
+##
+Л	]jhi
+М	]m
+Н	]h
+О	]o
+П	]r
+Р	]p
+С	]c
+Т	]t
+У	]y
+Ф	]f
+Х	]x
+Ц	]v
+Ч	]u
+##
+Ч	]hq
+Ш	]w
+Щ	]wy
+Ъ	]br
+Ы	]bi
+##
+Ы	]bhi
+Ь	]bf
+##
+##Ь#bi
+Э	]q
+Ю	]i
+##
+Ю	]iho
+##
+#Ю	]io
+Я	]rk
+Ѡ	]wi
+Ѣ	]bt
+##
+Ѣ	]bft
+Ѥ	]ihqk
+##
+Ѥ	]iqk
+Ѧ	]af
+##
+#Ѧ#ai
+Ѩ	]ihaf
+##
+Ѩ	]iaf
+##
+#Ѩ#ihai
+##
+#Ѩ#iai
+Ѫ	]vf
+Ѭ	]ihvf
+##
+Ѭ	]ivf
+Ѯ	]zf
+##
+Ѯ	]zsy
+##
+Ѯ	]zys
+Ѱ	]ui
+Ѳ	]qi
+Ѵ	]vr
+Ѷ	]vrnn
+Ѹ	]ohy
+Ѻ	]of
+Ѽ	]wmd
+Ѿ	]wt
+Ҁ	]cfy
+##
+Ҁ	]cy
+##
+Ҁ	]cfk
+Ҋ	]nyu
+##
+Ҋ	]nkyu
+Ҍ	]bt
+##
+Ҍ	]bft
+Ҏ	]px
+Ґ	]gr
+Ғ	]gt
+Ҕ	]gg
+Җ	]jy
+Ҙ	]zj
+Қ	]ky
+Ҝ	]ki
+Ҟ	]kt
+Ҡ	]kr
+Ң	]hy
+Ҥ	]hr
+Ҧ	]rg
+Ҩ	]ff
+Ҫ	]cj
+Ҭ	]ty
+Ү	]yi
+Ұ	]yt
+Ҳ	]xy
+Ҵ	]thv
+##
+Ҵ	]vht
+Ҷ	]uy
+##
+Ҷ	]hqy
+Ҹ	]ui
+##
+Ҹ	]hqi
+Һ	]hi
+Ҽ	]ek
+Ҿ	]eky
+##
+Ҿ	]eyk
+Ӂ	]ju
+Ӄ	]kj
+Ӆ	]ly
+##
+Ӆ	]jiy
+##
+Ӆ	]jhiy
+Ӈ	]hj
+##
+Ӈ	]ihj
+Ӊ	]hy
+Ӌ	]uy
+##
+Ӌ	]hqy
+Ӎ	]my
+Ӏ	]ii
+Ӑ	]au
+Ӓ	]ab
+Ӕ	]ahe
+##
+##Ӕ###ae
+Ӗ	]eu
+Ә	]eq
+Ӛ	]eqb
+Ӝ	]jb
+Ӟ	]zb
+Ӡ	]zg
+##
+Ӡ	]zfg
+Ӣ	]ne
+##
+Ӣ	]nke
+Ӥ	]nb
+##
+Ӥ	]nkb
+Ӧ	]ob
+Ө	]qi
+Ӫ	]qb
+Ӭ	]qb
+Ӯ	]ye
+Ӱ	]yb
+Ӳ	]ypp
+Ӵ	]ub
+##
+Ӵ	]hqb
+Ӷ	]gy
+Ӹ	]bib
+##
+Ӹ	]bhib
+Ӻ	]gtj
+##
+Ӻ	]gjt
+Ӽ	]xj
+Ӿ	]xt
+#Cyrillic基本其他
+҂	]nf
+#u0483
+#u0484
+#u0485
+#u0486
+#u0487
+#u0488
+#u0489
+#Cyrillic Supplement
+#Cyrillic Supplement小寫
+ԁ	]di
+ԃ	]du
+ԅ	]rfu
+ԇ	]rfy
+ԉ	]lu
+##
+ԉ	]jiu
+ԋ	]hu
+ԍ	]gi
+ԏ	]tu
+ԑ	]ei
+ԓ	]lj
+##
+ԓ	]jhj
+ԕ	]jhx
+ԗ	]phx
+##
+ԗ	]phk
+ԙ	]rkhe
+##
+ԙ	]rke
+ԛ	]qi
+ԝ	]wi
+ԟ	]kx
+ԡ	]lg
+##
+ԡ	]jig
+##
+ԡ	]jhig
+ԣ	]hg
+ԥ	]ry
+ԧ	]hy
+ԩ	]hj
+ԫ	]dhk
+ԭ	]uhd
+##
+ԭ	]dhu
+##
+ԭ	]hqhd
+##
+ԭ	]dhhq
+##
+ԭ	]hqd
+##
+ԭ	]dhq
+ԯ	]ly
+##
+ԯ	]jiy
+##
+ԯ	]jhiy
+#Cyrillic Supplement大寫
+Ԁ	]di
+Ԃ	]du
+Ԅ	]rfu
+Ԇ	]rfy
+Ԉ	]lu
+##
+Ԉ	]jiu
+Ԋ	]hu
+Ԍ	]gi
+Ԏ	]tu
+Ԑ	]ei
+Ԓ	]lj
+##
+Ԓ	]jhj
+Ԕ	]jhx
+Ԗ	]phx
+##
+Ԗ	]phk
+Ԙ	]rkhe
+##
+Ԙ	]rke
+Ԛ	]qi
+Ԝ	]wi
+Ԟ	]kx
+Ԡ	]lg
+##
+Ԡ	]jig
+##
+Ԡ	]jhig
+Ԣ	]hg
+Ԥ	]ry
+Ԧ	]hy
+Ԩ	]hj
+Ԫ	]dhk
+Ԭ	]uhd
+##
+Ԭ	]dhu
+##
+Ԭ	]hqhd
+##
+Ԭ	]dhhq
+##
+Ԭ	]hqd
+##
+Ԭ	]dhq
+Ԯ	]ly
+##
+Ԯ	]jiy
+##
+Ԯ	]jhiy
+#Cyrillic Extended-A
+#Cyrillic Extended-A無法顯示
+#Cyrillic Extended-B
+#Cyrillic Extended-B小寫
+ꙁ	]zj
+ꙃ	]ztj
+##
+ꙃ	]zjt
+ꙅ	]sk
+ꙇ	]ic
+##
+ꙇ	]ii
+ꙉ	]ykt
+##
+ꙉ	]yft
+ꙍ	]wi
+ꙏ	]br
+ꙑ	]bri
+##
+ꙑ	]brhi
+ꙓ	]rhbt
+##
+ꙓ	]rbt
+##
+ꙓ	]ibt
+##
+ꙓ	]ihbt
+ꙕ	]ohi
+ꙗ	]iha
+ꙙ	]ade
+ꙛ	]xf
+ꙝ	]ihade
+##
+ꙝ	]iade
+ꙟ	]lf
+##
+##ꙟ##ly
+ꙡ	]vk
+ꙣ	]dr
+ꙥ	]lr
+##
+ꙥ	]jir
+##
+ꙥ	]jhir
+##
+ꙥ	]jht
+ꙧ	]mr
+ꙩ	]oma
+ꙫ	]omb
+ꙭ	]rf
+##
+ꙭ	]ohomb
+##
+ꙭ	]oomb
+ꚁ	]df
+ꚃ	]sf
+ꚅ	]zhk
+ꚇ	]wf
+##
+ꚇ	]wy
+##
+ꚇ	]whi
+##
+ꚇ	]mqy
+##
+ꚇ	]mqhi
+##
+ꚇ	]mqi
+ꚉ	]dj
+ꚋ	]tg
+ꚍ	]ti
+##
+ꚍ	]tc
+ꚏ	]rkj
+ꚑ	]tc
+ꚓ	]uht
+##
+ꚓ	]thu
+##
+ꚓ	]hqht
+##
+ꚓ	]hqt
+##
+ꚓ	]thhq
+##
+ꚓ	]thq
+ꚕ	]hr
+ꚗ	]wj
+ꚙ	]oho
+ꚛ	]otf
+##
+ꚛ	]omt
+#Cyrillic Extended-B大寫
+Ꙁ	]zj
+Ꙃ	]ztj
+##
+Ꙃ	]zjt
+Ꙅ	]sk
+Ꙇ	]ic
+##
+Ꙇ	]ii
+Ꙉ	]ykt
+##
+Ꙉ	]yft
+Ꙍ	]wi
+Ꙏ	]br
+Ꙑ	]bri
+##
+Ꙑ	]brhi
+Ꙓ	]rhbt
+##
+Ꙓ	]ibt
+##
+Ꙓ	]rbt
+##
+Ꙓ	]ihbt
+Ꙕ	]ohi
+Ꙗ	]iha
+Ꙙ	]ade
+Ꙛ	]xf
+Ꙝ	]ihade
+##
+Ꙝ	]iade
+Ꙟ	]lf
+##
+##Ꙟ##ly
+Ꙡ	]vk
+Ꙣ	]dr
+Ꙥ	]lr
+##
+Ꙥ	]jir
+##
+Ꙥ	]jhir
+##
+Ꙥ	]jht
+Ꙧ	]mr
+Ꙩ	]oma
+Ꙫ	]omb
+Ꙭ	]rf
+##
+Ꙭ	]ohomb
+##
+Ꙭ	]oomb
+Ꚁ	]df
+Ꚃ	]si
+Ꚅ	]zhk
+Ꚇ	]wf
+##
+Ꚇ	]wy
+##
+Ꚇ	]whi
+##
+Ꚇ	]mqy
+##
+Ꚇ	]mqhi
+##
+Ꚇ	]mqi
+Ꚉ	]dj
+Ꚋ	]tg
+Ꚍ	]ti
+##
+Ꚍ	]tc
+Ꚏ	]rkj
+Ꚑ	]tc
+Ꚓ	]uht
+##
+Ꚓ	]thu
+##
+Ꚓ	]hqht
+##
+Ꚓ	]hqt
+##
+Ꚓ	]thhq
+##
+Ꚓ	]thq
+Ꚕ	]hr
+Ꚗ	]wj
+Ꚙ	]oho
+Ꚛ	]otf
+##
+Ꚛ	]omt
+#Cyrillic Extended-B其他
+Ꙋ	]qf
+##
+Ꙋ	]voc
+##
+Ꙋ	]vco
+ꙋ	]uho
+ꙮ	]hf
+#ua66f
+#ua670
+#ua671
+#ua672
+꙳	]jf
+#ua674
+#ua675
+#ua676
+#ua677
+#ua678
+#ua679
+#ua67a
+#ua67b
+#ua67c
+#ua67d
+꙾	]uf
+ꙿ	]ui
+##
+ꙿ	]hq
+ꚜ	]br
+ꚝ	]bf
+##
+ꚝ	]bi
+#ua69e
+#ua69f
+#####Cyrillic總結束#####
+##########################
+#######希臘字母總開始#########
+#基礎希臘字母
+#Greek and Coptic
+#大寫加快補碼
+#Greek and Coptic大寫
+Ͱ	[[ih
+Ͳ	[[ti
+Ͷ	[[ni
+Ά	[[ap
+Ϳ	[[ji
+Έ	[[ep
+Ή	[[hp
+Ί	[[ip
+Ό	[[op
+Ύ	[[yp
+Ώ	[[wp
+Α	[[a
+Β	[[b
+Γ	[[g
+Δ	[[d
+Ε	[[e
+Ζ	[[z
+Η	[[h
+Θ	[[q
+Ι	[[i
+Κ	[[k
+Λ	[[l
+Μ	[[m
+Ν	[[n
+Ξ	[[j
+Ο	[[o
+Π	[[r
+Ρ	[[p
+Σ	[[s
+Τ	[[t
+Υ	[[y
+Φ	[[f
+Χ	[[x
+Ψ	[[u
+Ω	[[w
+Ϊ	[[ib
+Ϋ	[[yb
+Ϗ	[[ky
+##
+Ϗ	[[kj
+ϒ	[[yi
+ϓ	[[yp
+ϔ	[[yb
+ϕ	[[fi
+Ϙ	[[oy
+Ϛ	[[ci
+##
+Ϛ	[[cfy
+##
+Ϛ	[[cy
+##
+Ϛ	[[cfk
+Ϝ	[[fi
+Ϟ	[[nf
+Ϡ	[[zf
+Ϣ	[[wj
+Ϥ	[[qf
+Ϧ	[[bf
+##
+Ϧ	[[gf
+##
+Ϧ	[[igj
+##
+Ϧ	[[ig
+Ϩ	[[sk
+Ϫ	[[dy
+##
+##Ϫ##yd
+Ϭ	[[si
+Ϯ	[[tf
+##
+Ϯ	[[it
+Ͻ	[[jf
+##
+Ͻ	[[ck
+Ͼ	[[cma
+Ͽ	[[jfma
+##
+Ͽ	[[ckma
+Ϸ	[[lf
+##
+Ϸ	[[bhp
+##
+Ϸ	[[iho
+##
+Ϸ	[[lho
+Ϲ	[[ci
+Ϻ	[[mi
+##
+Ϻ	[[mf
+##
+Ϻ	[[myc
+##
+Ϻ	[[my
+#Greek Extended
+Ἀ	[[ad
+Ἁ	[[aq
+Ἂ	[[adn
+Ἃ	[[aqn
+Ἄ	[[adp
+Ἅ	[[aqp
+Ἆ	[[asd
+##
+Ἆ	[[amd
+Ἇ	[[asq
+##
+Ἇ	[[amq
+Ἐ	[[ed
+Ἑ	[[eq
+Ἒ	[[edn
+Ἓ	[[eqn
+Ἔ	[[edp
+Ἕ	[[eqp
+Ἠ	[[hd
+Ἡ	[[hq
+Ἢ	[[hdn
+Ἣ	[[hqn
+Ἤ	[[hdp
+Ἥ	[[hqp
+Ἦ	[[hsd
+##
+Ἦ	[[hmd
+Ἧ	[[hsq
+##
+Ἧ	[[hmq
+Ἰ	[[id
+Ἱ	[[iq
+Ἲ	[[idn
+Ἳ	[[iqn
+Ἴ	[[idp
+Ἵ	[[iqp
+Ἶ	[[isd
+##
+Ἶ	[[imd
+Ἷ	[[isq
+##
+Ἷ	[[imq
+Ὀ	[[od
+Ὁ	[[oq
+Ὂ	[[odn
+Ὃ	[[oqn
+Ὄ	[[odp
+Ὅ	[[oqp
+Ὑ	[[yq
+Ὓ	[[yqn
+Ὕ	[[yqp
+Ὗ	[[ysq
+##
+Ὗ	[[ymq
+Ὠ	[[wd
+Ὡ	[[wq
+Ὢ	[[wdn
+Ὣ	[[wqn
+Ὤ	[[wdp
+Ὥ	[[wqp
+Ὦ	[[wsd
+##
+Ὦ	[[wmd
+Ὧ	[[wsq
+##
+Ὧ	[[wmq
+ᾈ	[[acd
+##
+ᾈ	[[adc
+ᾉ	[[acq
+##
+ᾉ	[[aqc
+ᾊ	[[acdn
+##
+ᾊ	[[adnc
+ᾋ	[[acqn
+##
+ᾋ	[[aqnc
+ᾌ	[[acdp
+##
+ᾌ	[[adpc
+ᾍ	[[acqp
+##
+ᾍ	[[aqpc
+ᾎ	[[acsd
+##
+ᾎ	[[asdc
+##
+ᾎ	[[acmd
+##
+ᾎ	[[amdc
+ᾏ	[[acsq
+##
+ᾏ	[[asqc
+##
+ᾏ	[[acmq
+##
+ᾏ	[[amqc
+ᾘ	[[hcd
+##
+ᾘ	[[hdc
+ᾙ	[[hcq
+##
+ᾙ	[[hqc
+ᾚ	[[hcdn
+##
+ᾚ	[[hdnc
+ᾛ	[[hcqn
+##
+ᾛ	[[hqnc
+ᾜ	[[hcdp
+##
+ᾜ	[[hdpc
+ᾝ	[[hcqp
+##
+ᾝ	[[hqpc
+ᾞ	[[hcsd
+##
+ᾞ	[[hsdc
+##
+ᾞ	[[hcmd
+##
+ᾞ	[[hmdc
+ᾟ	[[hcsq
+##
+ᾟ	[[hsqc
+##
+ᾟ	[[hcmq
+##
+ᾟ	[[hmqc
+ᾨ	[[wcd
+##
+ᾨ	[[wdc
+ᾩ	[[wcq
+##
+ᾩ	[[wqc
+ᾪ	[[wcdn
+##
+ᾪ	[[wdnc
+ᾫ	[[wcqn
+##
+ᾫ	[[wqnc
+ᾬ	[[wcdp
+##
+ᾬ	[[wdpc
+ᾭ	[[wcqp
+##
+ᾭ	[[wqpc
+ᾮ	[[wcsd
+##
+ᾮ	[[wsdc
+##
+ᾮ	[[wcmd
+##
+ᾮ	[[wmdc
+ᾯ	[[wcsq
+##
+ᾯ	[[wsqc
+##
+ᾯ	[[wcmq
+##
+ᾯ	[[wmqc
+Ᾰ	[[au
+Ᾱ	[[ae
+Ὰ	[[an
+Ά	[[ap
+ᾼ	[[ac
+Ὲ	[[en
+#uu1fc9
+Έ	[[ep
+Ὴ	[[hn
+#u1fcb
+Ή	[[hp
+ῌ	[[hc
+Ῐ	[[iu
+Ῑ	[[ie
+Ὶ	[[in
+#u1fdb
+Ί	[[ip
+Ῠ	[[yu
+Ῡ	[[ye
+Ὺ	[[yn
+#u1feb
+Ύ	[[yp
+Ῥ	[[pq
+Ὸ	[[on
+#u1ff9
+Ό	[[op
+Ὼ	[[wn
+Ώ	[[wp
+ῼ	[[wc
+
+#Greek and Coptic小寫
+ͱ	[ih
+ͳ	[ti
+ͷ	[ni
+ΐ	[ipb
+ά	[ap
+έ	[ep
+ή	[hp
+#
+ή	[nyp
+ί	[ip
+ΰ	[ypb
+α	[a
+β	[b
+γ	[g
+δ	[d
+ε	[e
+ζ	[z
+η	[h
+#
+η	[ny
+θ	[q
+ι	[i
+κ	[k
+λ	[l
+μ	[m
+ν	[n
+#以下201611新增容錯碼
+ν	[v
+ν	[vi
+ξ	[j
+ο	[o
+π	[r
+ρ	[p
+ς	[c
+#
+#ς##si
+σ	[s
+τ	[t
+υ	[y
+φ	[f
+χ	[x
+ψ	[u
+ω	[w
+ϊ	[ib
+ϋ	[yb
+ό	[op
+ύ	[yp
+ώ	[wp
+ϖ	[ws
+ϗ	[kfj
+ϙ	[oy
+ϛ	[ci
+#
+#ϛ##si
+ϝ	[fi
+#
+ϝ	[fr
+ϟ	[nf
+##
+ϟ	[kf
+ϡ	[zf
+ϣ	[wj
+ϥ	[qf
+ϧ	[gf
+#
+ϧ	[bf
+#
+ϧ	[igj
+#
+ϧ	[ig
+ϩ	[sk
+ϫ	[dy
+#
+##ϫ#yd
+ϭ	[si
+ϯ	[tfj
+#
+ϯ	[tf
+#
+ϯ	[tfjr
+#
+ϯ	[tfrj
+ϰ	[kf
+ϱ	[pf
+#
+ϱ	[oc
+#
+ϱ	[sk
+ϲ	[ci
+ϳ	[ji
+ͻ	[jf
+#
+ͻ	[ck
+ͼ	[cma
+ͽ	[jfma
+#
+ͽ	[ckma
+ϸ	[lf
+#
+ϸ	[bhp
+#
+ϸ	[iho
+#
+ϸ	[lho
+ϻ	[mi
+#
+ϻ	[mf
+#
+ϻ	[myc
+#
+ϻ	[my
+#Greek and Coptic大寫
+Ͱ	[ih
+Ͳ	[ti
+Ͷ	[ni
+Ά	[ap
+Ϳ	[ji
+Έ	[ep
+Ή	[hp
+Ί	[ip
+Ό	[op
+Ύ	[yp
+Ώ	[wp
+Α	[a
+Β	[b
+Γ	[g
+Δ	[d
+Ε	[e
+Ζ	[z
+Η	[h
+Θ	[q
+Ι	[i
+Κ	[k
+Λ	[l
+Μ	[m
+Ν	[n
+Ξ	[j
+Ο	[o
+Π	[r
+Ρ	[p
+Σ	[s
+Τ	[t
+Υ	[y
+Φ	[f
+Χ	[x
+Ψ	[u
+Ω	[w
+Ϊ	[ib
+Ϋ	[yb
+Ϗ	[ky
+#
+Ϗ	[kj
+ϒ	[yi
+ϓ	[yp
+ϔ	[yb
+ϕ	[fi
+Ϙ	[oy
+Ϛ	[ci
+#
+Ϛ	[cfy
+#
+Ϛ	[cy
+#
+Ϛ	[cfk
+Ϝ	[fi
+Ϟ	[nf
+Ϡ	[zf
+Ϣ	[wj
+Ϥ	[qf
+Ϧ	[bf
+#
+Ϧ	[gf
+#
+Ϧ	[igj
+#
+Ϧ	[ig
+Ϩ	[sk
+Ϫ	[dy
+#
+##Ϫ#yd
+Ϭ	[si
+Ϯ	[tf
+#
+Ϯ	[it
+Ͻ	[jf
+#
+Ͻ	[ck
+Ͼ	[cma
+Ͽ	[jfma
+#
+Ͽ	[ckma
+Ϸ	[lf
+#
+Ϸ	[bhp
+#
+Ϸ	[iho
+#
+Ϸ	[lho
+Ϲ	[ci
+Ϻ	[mi
+#
+Ϻ	[mf
+#
+Ϻ	[myc
+#
+Ϻ	[my
+#Greek and Coptic其他
+#u0374
+ʹ	[pw
+͵	[dpw
+ͺ	[dcw
+##
+ͺ	[ch
+#u037e
+;	[awdw
+΄	[pw
+΅	[pwbw
+#u0387
+·	[aw
+ϐ	[bi
+ϑ	[gf
+ϴ	[qi
+ϵ	[qk
+϶	[qi
+ϼ	[pt
+#Greek Extended
+ἀ	[ad
+ἁ	[aq
+ἂ	[adn
+ἃ	[aqn
+ἄ	[adp
+ἅ	[aqp
+ἆ	[asd
+#
+ἆ	[amd
+ἇ	[asq
+#
+ἇ	[amq
+Ἀ	[ad
+Ἁ	[aq
+Ἂ	[adn
+Ἃ	[aqn
+Ἄ	[adp
+Ἅ	[aqp
+Ἆ	[asd
+#
+Ἆ	[amd
+Ἇ	[asq
+#
+Ἇ	[amq
+ἐ	[ed
+ἑ	[eq
+ἒ	[edn
+ἓ	[eqn
+ἔ	[edp
+ἕ	[eqp
+Ἐ	[ed
+Ἑ	[eq
+Ἒ	[edn
+Ἓ	[eqn
+Ἔ	[edp
+Ἕ	[eqp
+ἠ	[hd
+#
+ἠ	[nyd
+ἡ	[hq
+#
+ἡ	[nyq
+ἢ	[hdn
+#
+ἢ	[nydn
+ἣ	[hqn
+#
+ἣ	[nyqn
+ἤ	[hdp
+#
+ἤ	[nydp
+ἥ	[hqp
+#
+ἥ	[nyqp
+ἦ	[hsd
+#
+ἦ	[nysd
+#
+ἦ	[hmd
+#
+ἦ	[nymd
+ἧ	[hsq
+#
+ἧ	[nysq
+#
+ἧ	[hmq
+#
+ἧ	[nymq
+Ἠ	[hd
+Ἡ	[hq
+Ἢ	[hdn
+Ἣ	[hqn
+Ἤ	[hdp
+Ἥ	[hqp
+Ἦ	[hsd
+#
+Ἦ	[hmd
+Ἧ	[hsq
+#
+Ἧ	[hmq
+ἰ	[id
+ἱ	[iq
+ἲ	[idn
+ἳ	[iqn
+ἴ	[idp
+ἵ	[iqp
+ἶ	[isd
+#
+ἶ	[imd
+ἷ	[isq
+#
+ἷ	[imq
+Ἰ	[id
+Ἱ	[iq
+Ἲ	[idn
+Ἳ	[iqn
+Ἴ	[idp
+Ἵ	[iqp
+Ἶ	[isd
+#
+Ἶ	[imd
+Ἷ	[isq
+#
+Ἷ	[imq
+ὀ	[od
+ὁ	[oq
+ὂ	[odn
+ὃ	[oqn
+ὄ	[odp
+ὅ	[oqp
+Ὀ	[od
+Ὁ	[oq
+Ὂ	[odn
+Ὃ	[oqn
+Ὄ	[odp
+Ὅ	[oqp
+ὐ	[yd
+ὑ	[yq
+ὒ	[ydn
+ὓ	[yqn
+ὔ	[ydp
+ὕ	[yqp
+ὖ	[ysd
+#
+ὖ	[ymd
+ὗ	[ysq
+#
+ὗ	[ymq
+Ὑ	[yq
+Ὓ	[yqn
+Ὕ	[yqp
+Ὗ	[ysq
+#
+Ὗ	[ymq
+ὠ	[wd
+ὡ	[wq
+ὢ	[wdn
+ὣ	[wqn
+ὤ	[wdp
+ὥ	[wqp
+ὦ	[wsd
+#
+ὦ	[wmd
+ὧ	[wsq
+#
+ὧ	[wmq
+Ὠ	[wd
+Ὡ	[wq
+Ὢ	[wdn
+Ὣ	[wqn
+Ὤ	[wdp
+Ὥ	[wqp
+Ὦ	[wsd
+#
+Ὦ	[wmd
+Ὧ	[wsq
+#
+Ὧ	[wmq
+ὰ	[an
+#u1f71
+ά	[ap
+ὲ	[en
+#u1f73
+έ	[ep
+ὴ	[hn
+#
+ὴ	[nyn
+#u1f75
+ή	[hp
+#
+ή	[nyp
+ὶ	[in
+#u1f77
+ί	[ip
+ὸ	[on
+#u1f79
+ό	[op
+ὺ	[yn
+#u1f7b
+ύ	[yp
+ὼ	[wn
+#u1f7d
+ώ	[wp
+ᾀ	[acd
+#
+ᾀ	[adc
+ᾁ	[aqc
+#
+ᾁ	[acq
+ᾂ	[acdn
+#
+ᾂ	[adnc
+ᾃ	[acqn
+#
+ᾃ	[aqnc
+ᾄ	[acdp
+#
+ᾄ	[adpc
+ᾅ	[acqp
+#
+ᾅ	[aqpc
+ᾆ	[acsd
+#
+ᾆ	[asdc
+#
+ᾆ	[acmd
+#
+ᾆ	[amdc
+ᾇ	[acsq
+#
+ᾇ	[asqc
+#
+ᾇ	[acmq
+#
+ᾇ	[amqc
+ᾈ	[acd
+#
+ᾈ	[adc
+ᾉ	[acq
+#
+ᾉ	[aqc
+ᾊ	[acdn
+#
+ᾊ	[adnc
+ᾋ	[acqn
+#
+ᾋ	[aqnc
+ᾌ	[acdp
+#
+ᾌ	[adpc
+ᾍ	[acqp
+#
+ᾍ	[aqpc
+ᾎ	[acsd
+#
+ᾎ	[asdc
+#
+ᾎ	[acmd
+#
+ᾎ	[amdc
+ᾏ	[acsq
+#
+ᾏ	[asqc
+#
+ᾏ	[acmq
+#
+ᾏ	[amqc
+ᾐ	[hcd
+#
+ᾐ	[hdc
+#
+ᾐ	[nycd
+#
+ᾐ	[ncyd
+#
+ᾐ	[nydc
+ᾑ	[hcq
+#
+ᾑ	[hqc
+#
+ᾑ	[nycq
+#
+ᾑ	[ncyq
+#
+ᾑ	[nyqc
+ᾒ	[hcdn
+#
+ᾒ	[hdnc
+#
+ᾒ	[nycdn
+#
+ᾒ	[ncydn
+#
+ᾒ	[nydnc
+ᾓ	[hcqn
+#
+ᾓ	[hqnc
+#
+ᾓ	[nycqn
+#
+ᾓ	[ncyqn
+#
+ᾓ	[nyqnc
+ᾔ	[hcdp
+#
+ᾔ	[hdpc
+#
+ᾔ	[nycdp
+#
+ᾔ	[ncydp
+#
+ᾔ	[nydpc
+ᾕ	[hcqp
+#
+ᾕ	[hqpc
+#
+ᾕ	[nycqp
+#
+ᾕ	[ncyqp
+#
+ᾕ	[nyqpc
+ᾖ	[hcsd
+#
+ᾖ	[hsdc
+#
+ᾖ	[nycsd
+#
+ᾖ	[ncysd
+#
+ᾖ	[nysdc
+#
+ᾖ	[hcmd
+#
+ᾖ	[hmdc
+#
+ᾖ	[nycmd
+#
+ᾖ	[ncymd
+#
+ᾖ	[nymdc
+ᾗ	[hcsq
+#
+ᾗ	[hsqc
+#
+ᾗ	[nycsq
+#
+ᾗ	[ncysq
+#
+ᾗ	[nysqc
+#
+ᾗ	[hcmq
+#
+ᾗ	[hmqc
+#
+ᾗ	[nycmq
+#
+ᾗ	[ncymq
+#
+ᾗ	[nymqc
+ᾘ	[hcd
+#
+ᾘ	[hdc
+ᾙ	[hcq
+#
+ᾙ	[hqc
+ᾚ	[hcdn
+#
+ᾚ	[hdnc
+ᾛ	[hcqn
+#
+ᾛ	[hqnc
+ᾜ	[hcdp
+#
+ᾜ	[hdpc
+ᾝ	[hcqp
+#
+ᾝ	[hqpc
+ᾞ	[hcsd
+#
+ᾞ	[hsdc
+#
+ᾞ	[hcmd
+#
+ᾞ	[hmdc
+ᾟ	[hcsq
+#
+ᾟ	[hsqc
+#
+ᾟ	[hcmq
+#
+ᾟ	[hmqc
+ᾠ	[wcd
+#
+ᾠ	[wdc
+ᾡ	[wcq
+#
+ᾡ	[wqc
+ᾢ	[wcdn
+#
+ᾢ	[wdnc
+ᾣ	[wcqn
+#
+ᾣ	[wqnc
+ᾤ	[wcdp
+#
+ᾤ	[wdpc
+ᾥ	[wcqp
+#
+ᾥ	[wqpc
+ᾦ	[wcsd
+#
+ᾦ	[wsdc
+#
+ᾦ	[wcmd
+#
+ᾦ	[wmdc
+ᾧ	[wcsq
+#
+ᾧ	[wsqc
+#
+ᾧ	[wcmq
+#
+ᾧ	[wmqc
+ᾨ	[wcd
+#
+ᾨ	[wdc
+ᾩ	[wcq
+#
+ᾩ	[wqc
+ᾪ	[wcdn
+#
+ᾪ	[wdnc
+ᾫ	[wcqn
+#
+ᾫ	[wqnc
+ᾬ	[wcdp
+#
+ᾬ	[wdpc
+ᾭ	[wcqp
+#
+ᾭ	[wqpc
+ᾮ	[wcsd
+#
+ᾮ	[wsdc
+#
+ᾮ	[wcmd
+#
+ᾮ	[wmdc
+ᾯ	[wcsq
+#
+ᾯ	[wsqc
+#
+ᾯ	[wcmq
+#
+ᾯ	[wmqc
+ᾰ	[au
+ᾱ	[ae
+ᾲ	[acn
+#
+ᾲ	[anc
+ᾳ	[ac
+ᾴ	[acp
+#
+ᾴ	[apc
+ᾶ	[as
+#
+ᾶ	[am
+ᾷ	[acs
+#
+ᾷ	[asc
+#
+ᾷ	[acm
+#
+ᾷ	[amc
+Ᾰ	[au
+Ᾱ	[ae
+Ὰ	[an
+Ά	[ap
+ᾼ	[ac
+᾽	[dw
+#u1FBE
+#ι	[[c
+#
+#ι	[[i
+ι	[dcw
+#
+ι	[cw
+#
+ι	[ih
+#
+ι	[ii
+᾿	[dw
+῀	[sw
+#
+῀	[mw
+῁	[swbw
+#
+῁	[mwbw
+ῂ	[hcn
+#
+ῂ	[hnc
+#
+ῂ	[nycn
+#
+ῂ	[ncyn
+#
+ῂ	[nync
+ῃ	[hc
+#
+ῃ	[nyc
+#
+ῃ	[ncy
+ῄ	[hcp
+#
+ῄ	[hpc
+#
+ῄ	[nycp
+#
+ῄ	[ncyp
+#
+ῄ	[nypc
+ῆ	[hs
+#
+ῆ	[nys
+#
+ῆ	[hm
+#
+ῆ	[nym
+ῇ	[hcs
+#
+ῇ	[hsc
+#
+ῇ	[nycs
+#
+ῇ	[ncys
+#
+ῇ	[nysc
+#
+ῇ	[hcm
+#
+ῇ	[hmc
+#
+ῇ	[nycm
+#
+ῇ	[ncym
+#
+ῇ	[nymc
+Ὲ	[en
+#uu1fc9
+Έ	[ep
+Ὴ	[hn
+#u1fcb
+Ή	[hp
+ῌ	[hc
+῍	[dwnw
+῎	[dwpw
+῏	[swdw
+#
+῏	[mwdw
+ῐ	[iu
+ῑ	[ie
+ῒ	[inb
+#u1fd3
+ΐ	[ipb
+ῖ	[is
+#
+ῖ	[im
+ῗ	[isb
+#
+ῗ	[imb
+Ῐ	[iu
+Ῑ	[ie
+Ὶ	[in
+#u1fdb
+Ί	[ip
+῝	[qwnw
+῞	[qwpw
+῟	[swqw
+#
+῟	[mwqw
+ῠ	[yu
+ῡ	[ye
+ῢ	[ynb
+#u1fe3
+ΰ	[ypb
+ῤ	[pd
+ῥ	[pq
+ῦ	[ys
+#
+ῦ	[ym
+ῧ	[ysb
+#
+ῧ	[ymb
+Ῠ	[yu
+Ῡ	[ye
+Ὺ	[yn
+#u1feb
+Ύ	[yp
+Ῥ	[pq
+῭	[nwbw
+#u1fee
+΅	[pwbw
+`	[nw
+ῲ	[wcn
+#
+ῲ	[wnc
+ῳ	[wc
+ῴ	[wcp
+#
+ῴ	[wpc
+ῶ	[ws
+#
+ῶ	[wm
+ῷ	[wcs
+#
+ῷ	[wsc
+#
+ῷ	[wcm
+#
+ῷ	[wmc
+Ὸ	[on
+#u1ff9
+Ό	[op
+Ὼ	[wn
+Ώ	[wp
+ῼ	[wc
+#u1ffd
+´	[pw
+#######希臘字母總結束#########

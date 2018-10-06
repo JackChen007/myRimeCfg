@@ -1,0 +1,145 @@
+# Rime schema
+# vim: set sw=2 sts=2 et:
+# encoding: utf-8
+
+schema:
+  schema_id: nihongo-k
+  name: nihongo-k
+  version: "1.0"
+  author:
+    - TianHeng <2417647441@qq.com>
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ Chi, Eng ]
+  - name: full_shape
+    states: [ Half, Full ]
+  - name: simplification
+    states: [ Trad, Simp ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - fluency_editor
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - r10n_translator
+    - reverse_lookup_translator
+    - table_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+menu:
+  page_size: 6
+
+speller:
+  alphabet: 'ZYXWVUTSRQPONMLKJIHGFEDCBAzyxwvutsrqponmlkjihgfedcba'
+  delimiter: " '"
+
+translator:
+  dictionary: nihongo-k
+  comment_format:
+    - 'xform mq ぁ'
+    - 'xform mw ぃ'
+    - 'xform me ぅ'
+    - 'xform mr ぇ'
+    - 'xform mt ぉ'
+    - 'xform mh ゃ'
+    - 'xform mj ゅ'
+    - 'xform mk ょ'
+    - 'xform mH ゎ'
+    - 'xform mD っ'
+    - 'xform Qn が'
+    - 'xform Wn ぎ'
+    - 'xform En ぐ'
+    - 'xform Rn げ'
+    - 'xform Tn ご'
+    - 'xform an ざ'
+    - 'xform sn じ'
+    - 'xform dn ず'
+    - 'xform fn ぜ'
+    - 'xform gn ぞ'
+    - 'xform An だ'
+    - 'xform Sn ぢ'
+    - 'xform Dn づ'
+    - 'xform Fn で'
+    - 'xform Gn ど'
+    - 'xform Zn ば'
+    - 'xform Xn び'
+    - 'xform Cn ぶ'
+    - 'xform Vn べ'
+    - 'xform Bn ぼ'
+    - 'xform ZN ぱ'
+    - 'xform XN ぴ'
+    - 'xform CN ぷ'
+    - 'xform VN ぺ'
+    - 'xform BN ぽ'
+    - 'xlit|qwertQWERTasdfgASDFGzxcvbZXCVByuiopYUIOPhjklHJKLnNM|あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもらりるれろやゆよんわゐゑをﾞﾟー|'
+  preedit_format:
+    - 'xform mq ぁ'
+    - 'xform mw ぃ'
+    - 'xform me ぅ'
+    - 'xform mr ぇ'
+    - 'xform mt ぉ'
+    - 'xform mh ゃ'
+    - 'xform mj ゅ'
+    - 'xform mk ょ'
+    - 'xform mH ゎ'
+    - 'xform mD っ'
+    - 'xform Qn が'
+    - 'xform Wn ぎ'
+    - 'xform En ぐ'
+    - 'xform Rn げ'
+    - 'xform Tn ご'
+    - 'xform an ざ'
+    - 'xform sn じ'
+    - 'xform dn ず'
+    - 'xform fn ぜ'
+    - 'xform gn ぞ'
+    - 'xform An だ'
+    - 'xform Sn ぢ'
+    - 'xform Dn づ'
+    - 'xform Fn で'
+    - 'xform Gn ど'
+    - 'xform Zn ば'
+    - 'xform Xn び'
+    - 'xform Cn ぶ'
+    - 'xform Vn べ'
+    - 'xform Bn ぼ'
+    - 'xform ZN ぱ'
+    - 'xform XN ぴ'
+    - 'xform CN ぷ'
+    - 'xform VN ぺ'
+    - 'xform BN ぽ'
+    - 'xlit|qwertQWERTasdfgASDFGzxcvbZXCVByuiopYUIOPhjklHJKLnNM|あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもらりるれろやゆよんわゐゑをﾞﾟー|'
+
+reverse_lookup:
+  dictionary: liangfen
+  enable_completion: true
+  prefix: "`"
+  tips: 〔LiangFen〕
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  patterns:
+    reverse_lookup: "`[a-z]*$"

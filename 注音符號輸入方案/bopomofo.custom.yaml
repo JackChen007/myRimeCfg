@@ -1,0 +1,51 @@
+# bopomofo.custom.yaml
+#
+# 補靪功能：將 臺灣注音 的 詞庫 修改 爲 臺灣注音 擴充詞庫
+#
+# 作者：北極星 <jackie007atchan@gmail.com>
+#
+# 部署位置：
+# ~/.config/ibus/rime  (Linux)
+# ~/Library/Rime  (Mac OS)
+# %APPDATA%\Rime  (Windows)
+#
+# 於重新部署後生效
+#
+#
+# 注意：本補靪適用於所有地球拼音方案
+# 只須 將 本 custom.yaml 的 前面名字 改爲 對應的 輸入方案 名字，然後 放入 用戶文件夾 重新部署 即可。如 terra_pinyin.custom.yaml。
+#
+# 附地球拼音系列方案與其對應的 id 一覽表：
+# 輸入方案	id
+# 地球拼音	terra_pinyin
+# 地球拼音 - 漢語大詞典 terra_pinyin.hanyu
+# 地球拼音 - 中文維基百科 terra_pinyin.zh_wiki
+# 地球拼音 - EMOJI/表情 terra_pinyin.emoji
+
+
+# Rime schema
+# encoding: utf-8
+
+
+patch:
+ #  加載 easy_en 依賴
+ # "schema/dependencies/@next": easy_en
+  # 載入翻譯英文的碼表翻譯器，取名爲 english〔方案选单〕
+  # "engine/translators/@next": table_translator@english
+  # english 翻譯器的設定項
+  #english:
+  #  dictionary: easy_en
+  #  spelling_hints: 9
+  #  enable_completion: false
+  #  enable_sentence: false
+  #  initial_quality: -1
+
+  # 載入 地球拼音 の 擴充詞庫
+  "translator/dictionary": bopomofo.extended
+  # 本條 補靪 只在「小狼毫 0.9.30」、「鼠鬚管 0.9.25 」、「Rime-1.2」及更高的版本中起作用。
+
+  #"speller/algebra/@before 0":  xlit/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefjhijklmnopqrstuvwxyz/ # 爲了 支持 專有名詞 的 首字母 拼音 大寫
+
+  #"translator/spelling_hints": 8 # 可以 提示 的 漢字 個數
+
+  

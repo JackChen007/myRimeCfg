@@ -1,0 +1,14 @@
+var:
+  last_build_time: 1538659192
+  option:
+    full_shape: false
+    simplification: false
+  previously_selected_schema: td_pinyin
+  schema_access_time:
+    bopomofo: 1536386402
+    double_pinyin: 1538381859
+    luna_pinyin: 1538382547
+    td_pinyin: 1538385147
+    terra_pinyin: 1538382884
+    tibetan: 1536177734
+    wubi86: 1535665587

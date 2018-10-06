@@ -1,0 +1,38 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# Bopomofo Extended Dictionary(Basic)  - 注音 擴充詞庫（基本）
+#
+#   北極星 <jackieoo7atchan@gmail.com>
+#
+# Thanks to the following works:
+# CC-CEDICT on MDBG.net
+# 漢語大詞典
+# 中文維基百科
+# 搜狗詞庫
+# 
+#
+# 部署位置：
+# ~/.config/ibus/rime  (Linux)
+# ~/Library/Rime  (Mac OS)
+# %APPDATA%\Rime  (Windows)
+#
+# 於重新部署後生效
+#
+
+---
+name: bopomofo.extended
+version: "2018.08.17"
+sort: by_weight
+use_preset_vocabulary: true
+#此處爲明月拼音擴充詞庫（基本）默認鏈接載入的詞庫，有地球拼音官方詞庫、地球拼音擴充詞庫（漢語大詞典）、地球拼音擴充詞庫（中文維基百科）。如果不需要加載某个詞庫請將其用「#」註釋掉。沒有去除 《漢語大詞典》 與 RIME 官方重複的詞庫。
+import_tables:
+  - terra_pinyin.sogou # 搜狗 常用 詞庫
+#  - terra_pinyin.zh_wiki # 中文維基百科 
+#  - terra_pinyin.emoji # emoji 表情
+  - bopomofo.hanyu # 漢語大詞典
+#  - terra_pinyin
+#  - luna_pinyin.kaomoji  
+...
+
+

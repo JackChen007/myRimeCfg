@@ -1,0 +1,269 @@
+# Rime schema
+# encoding: utf-8
+schema:
+  schema_id: bopomo_onion
+  name: "☆注音(洋蔥版)☆"
+  version: "201806"
+  author:
+    - 洋蔥
+    # 以佛振注音支持聲韻亂序方案改編
+  description: |
+    注音符號輸入，採用「大千式」鍵盤排列。
+
+  dependencies:
+    - cangjie5
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: ["中文", "英文"]
+  - name: full_shape
+    reset: 0
+    states: ["半形", "全形"]
+  - name: simplification
+    reset: 0
+    states: ["繁體", "简体"]
+  - name: zh_tw
+    reset: 0
+    states: ["完整", "台標"]
+
+engine:
+  filters:
+    - simplifier
+    - simplifier@zh_tw
+    - reverse_lookup_filter@bpm_reverse_lookup
+    - uniquifier
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - fluency_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - affix_segmentor@reverse2_lookup
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - table_translator@bopomo_onion_phrase
+    - script_translator@reverse2_lookup
+    - script_translator
+
+menu:
+  alternative_select_keys: "QAZWSX"
+  page_size: 6
+
+simplifier:
+  tips: all
+
+zh_tw:
+  opencc_config: s2twp.json
+  option_name: zh_tw
+  tips: all
+
+speller:
+  alphabet: "1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/-3467 "
+  initials: "1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/-"
+  finals: " 6347"
+  delimiter: "|"
+  use_space: true
+  algebra:
+    - xform/iu/iou/
+    - xform/ui/uei/
+    - xform/ong/ung/
+    - xform/yi?/i/
+    - xform/wu?/u/
+    - xform/iu/v/
+    - xform/([jqx])u/$1v/
+    - xform/([iuv])n/$1en/
+    - xform/zhi?/Z/
+    - xform/chi?/C/
+    - xform/shi?/S/
+    - xform/([zcsr])i/$1/
+    - xform/ai/A/
+    - xform/ei/I/
+    - xform/ao/O/
+    - xform/ou/U/
+    - xform/ang/K/
+    - xform/eng/G/
+    - xform/an/M/
+    - xform/en/N/
+    - xform/er/R/
+    - xform/eh/E/
+    - xform/([iv])e/$1E/
+    - abbrev/^([bpmfdtnlgkhjqxZCSrzcsiuv]).+$/$1/
+    - abbrev/^([bpmfdtnlgkhjqxZCSrzcsiuvaoeEAIOUMNKGR]+)\d$/$1/
+    - abbrev/^([bpmfdtnlgkhjqxZCSrzcsiuv]).+(\d)$/$1$2/
+    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])/$2$1/
+    - derive/^([iuv])([aoeEAIOUMNKGR])/$2$1/
+    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([aoeEAIOUMNKGR])/$2$1/
+    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])([aoeEAIOUMNKGR])/$3$2$1/
+    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])([aoeEAIOUMNKGR])/$3$1$2/
+    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])([aoeEAIOUMNKGR])/$2$3$1/
+    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])([aoeEAIOUMNKGR])/$1$3$2/
+    - 'xlit|bpmfdtnlgkhjqxZCSrzcsiuvaoeEAIOUMNKGR12345|1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 6347|'
+###################################以下開始幾大段為各種翻譯器######################################
+translator:
+  dictionary: bopomo_onion.extended
+  prism: bopomo_onion
+  initial_quality: "0"
+  preedit_format:
+    - "xlit|1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 6347|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˉˊˇˋ˙|"
+###################################以下為短語####################################################
+bopomo_onion_phrase:
+  dictionary: ""
+  user_dict: bopomo_onion_phrase
+  db_class: tabledb
+  enable_completion: false
+  enable_sentence: false
+###################################以下為使用xxx反查注音######################################
+reverse2_lookup:
+  tag: reverse2_lookup
+  dictionary: cangjie5
+  enable_completion: false
+  enable_sentence: false
+  enable_user_dict: true
+  prefix: "="
+  suffix: " "
+  tips: "《倉頡反查》" 
+  preedit_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz|ABCDEFGHIJKLMNOPQRSTUVWXYZ|"
+
+bpm_reverse_lookup:
+  tags: [ reverse2_lookup ]
+  overwrite_comment: true
+  dictionary: bopomo_onion.extended
+  comment_format:
+    - xform/iu/iou/
+    - xform/ui/uei/
+    - xform/ong/ung/
+    - xform/yi?/i/
+    - xform/wu?/u/
+    - xform/iu/v/
+    - xform/([jqx])u/$1v/
+    - xform/([iuv])n/$1en/
+    - xform/zhi?/Z/
+    - xform/chi?/C/
+    - xform/shi?/S/
+    - xform/([zcsr])i/$1/
+    - xform/ai/A/
+    - xform/ei/I/
+    - xform/ao/O/
+    - xform/ou/U/
+    - xform/ang/K/
+    - xform/eng/G/
+    - xform/an/M/
+    - xform/en/N/
+    - xform/er/R/
+    - xform/eh/E/
+    - xform/([iv])e/$1E/
+    - xform/1//
+    - 'xlit|bpmfdtnlgkhjqxZCSrzcsiuvaoeEAIOUMNKGR2345|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˊˇˋ˙|'
+
+###################################以下為符號處理######################################
+punctuator:
+  full_shape:
+    " " : { commit: "　" }
+    "<" : { commit: "，" }
+    ">" : { commit: "。" }
+    "?" : [ ？, ／, ÷ ]
+    ":" : [ ：, ； ]
+    "'" : { pair: [ "‘", "’" ] }
+    "\"" : { pair: [ "“", "”" ] }
+    "\\" : [ 、, ＼ ]
+    "|" : [ ·, ｜, "§", "¦" ]
+    "`" : ｀
+    "~" : ～
+    "!" : { commit: ！ }
+    "@" : [ ＠, ☯ ]
+    "#" : [ ＃, ⌘ ]
+    "%" : [ ％, "°", "℃" ]
+    "$" : [ ￥, "$", "€", "£", "¥", "¢", "¤" ]
+    "^" : { commit: …… }
+    "&" : ＆
+    "*" : [ ＊, ·, ・, ×, ※, ❂ ]
+    "(" : （
+    ")" : ）
+    "_" : [ ——, － ]
+    "+" : ＋
+    "=" : ＝
+    "[" : [ 「, 【, 《, 〔, ［ ]
+    "]" : [ 」, 】, 》, 〕, ］ ]
+    "{" : [ 『, 〖, 〈, ｛ ]
+    "}" : [ 』, 〗, 〉, ｝ ]
+  half_shape:
+    "<" : { commit: "，" }
+    ">" : { commit: "。" }
+    "?" : { commit: "？" }
+    ":" : [ "：", "；" ]
+    "'" : [ "‧", "•", "●", "·", "・", "･" ]
+    "\"" : { commit: "、" }
+    "\\" : [ "\\", "＼", "﹨" ]
+    "|" : [ "|","｜", "¦", "‖", "§", "¶", "⁋", "❡" ]
+    "`" : [ "`" ]
+#    "`" : [ "`", "表情", "自然", "飲食", "活動", "旅遊", "物品", "符號", "國旗", "微笑", "大笑", "討厭(厭惡)", "無奈(嘆氣)", "哭泣", "冷淡", "驚訝", "生氣", "懷疑", "景色", "地球", "天體", "植物", "水果", "食物", "飲料", "節日", "娛樂", "遊戲", "運動", "建築", "獸面", "五官", "手勢", "衣物", "人物", "化妝", "愛情", "愛心", "效果", "通訊", "針筒", "相機", "攝影", "電視", "刀叉", "槌子", "螺絲", "刀子", "宗教", "時鐘", "日本", "摩艾", "美國", "法國", "警車", "標誌", "電腦", "象棋", "麻將", "骰子", "撲克", "西洋棋", "天氣", "音樂", "兩性", "辦公室", "巴黎鐵塔", "自由女神", "復活節島", "猴子表情", "螺絲釘", "攝影機", "電視機", "收音機", "錄影帶", "手電筒", "顯微鏡", "望遠鏡", "水晶球", "輸入法", "富士山", "咧嘴笑", "救護車", "消防車", "動物圖(動物)", "十二生肖(生肖)", "交通工具(交通)", "交通圖(交通)", "十字架(宗教)", "生肖圖(生肖)", "扳手圖(扳手)", "幾何圖(幾何)", "猴子頭(猴子表情)", "照相機(相機)", "數字標(數字)", "撲克牌(撲克)", "易經(六十四卦)", "易經卦名(六十四卦名)", "大頭(頭像)", "錢財(金錢)", "圖示(符號)", "藥品(藥丸)", "圖標(介面)", "箭標(箭頭)", "指示(箭頭)", "燃火(火焰)", "燃燒(火焰)", "巴黎(巴黎鐵塔)", "占星(天體)", "部首(康熙)", "冒汗(懷疑)", "喜愛(喜歡)", "倉頡(結構)", "單位", "貨幣", "數學", "分數", "星號", "方塊", "幾何", "箭頭", "線段", "圓形", "三角", "打勾", "星座", "星座名", "十二宮", "文化", "八卦", "六十四卦", "六十四卦名", "卦名", "太玄經", "天干", "地支", "干支", "節氣", "月份", "日期", "曜日", "時間", "日本星期", "符碼", "結構", "偏旁", "筆畫", "拼音", "注音", "聲調", "標點直", "標點", "羅馬", "羅馬大", "羅馬數字", "羅馬數字大", "蘇州碼", "希臘", "希臘大", "俄語", "俄語大", "上標", "下標", "數字圈黑", "數字黑圈", "數字圈", "數字括", "數字點", "漢字", "漢字圈", "漢字框(漢字)", "漢字括", "いろは順(IRO)", "k假名", "g假名", "s假名", "z假名", "t假名", "d假名", "n假名", "h假名", "b假名", "p假名", "m假名", "y假名", "r假名", "w假名", "a假名", "i假名", "u假名", "e假名", "o假名", "假名圈", "假名半(形)", "片假名", "韓文圈", "韓文括", "(平)假名", "韓文", "字母圈", "字母括", "字母圈大", "字母括大", "字母黑圈(字母帶圓圈)", "字母圈黑(字母帶圓圈)", "字母黑方(字母帶圓角方框)", "字母方黑(字母帶圓角方框)", "字母框黑(字母帶圓角方框)", "字母黑框(字母帶圓角方框)", "字母方(字母帶方框)", "字母框(字母帶方框)", "(`1)顏文字・開心", "(`2)顏文字·喜歡", "(`3)顏文字·傷心", "(`4)顏文字·生氣", "(`5)顏文字·驚訝", "(`6)顏文字·無奈", "(`7)顏文字·喜", "(`8)顏文字·樂", "(`9)顏文字·怒", "(`0)顏文字·指示和圖示", "(`-)顏文字·回話" ]
+    "~" : { commit: "～" }
+    "!" : { commit: "！" }
+    "@" : { commit: "@" }
+    "#" : { commit: "#" }
+    "%" : { commit: "%" }
+    "$" : { commit: "$" }
+    "^" : { commit: "^" }
+    "&" : { commit: "&" }
+    "*" : { commit: "*" }
+    "(" : { commit: （ }
+    ")" : { commit: ） }
+    "_" : { commit: "_" }
+    "+" : { commit: "+" }
+    "=" : [ "=" ]
+    "[" : [ 〔, 〈, "‘", ［, ｛, ＜, （, ﹝, ﹛, ﹤, ﹙, ‹, "｢", "[", "{", "<", "(" ]
+    "]" : [ 〕, 〉, "’", ］, ｝, ＞, ）, ﹞, ﹜, ﹥, ﹚, ›, "｣", "]", "}", ">", ")" ]
+    "{" : { commit: "「" }
+    "}" : { commit: "」" }
+    "4" : [ "www.", "https://", "http://", "ftp://", "mailto://", "file://" ]
+    "6" : [ ".com", ".org", ".net", ".co", ".gov", ".edu", ".info" ]
+    "7" : [ ".tw", ".jp", ".kr", ".hk", ".cn", ".uk", ".us", ".de", ".fr", ".cc" ]
+  import_preset: bopomo_onion_symbols
+
+###################################以下為按鍵處理######################################
+key_binder:
+  import_preset: default
+  bindings:
+    - {accept: comma, send: comma, when: has_menu}
+    - {accept: period, send: period, when: has_menu}
+    - {accept: minus, send: minus, when: has_menu}
+    - {accept: equal, send: equal, when: has_menu}
+    - {accept: Left, send: Page_Up, when: paging}
+    - {accept: Right, send: Page_Down, when: paging}
+    - {accept: Shift+BackSpace, send: BackSpace, when: has_menu}
+    - {accept: BackSpace, send: Control+BackSpace, when: has_menu}
+#    - {accept: Control+Shift+5, toggle: emoji_segestion, when: always}
+    - {accept: space, send: Return, when: paging}
+    - {accept: 3, send: Escape, when: composing}
+    - {accept: 3, send: 3, when: has_menu}
+    - {accept: 4, send: Escape, when: composing}
+    - {accept: 4, send: 4, when: has_menu}
+    - {accept: 6, send: Escape, when: composing}
+    - {accept: 6, send: 6, when: has_menu}
+    - {accept: 7, send: Escape, when: composing}
+    - {accept: 7, send: 7, when: has_menu}
+
+#以下editor功能舊版無法作用
+editor:
+  bindings:
+    space: commit_composition
+
+recognizer:
+  patterns:
+    uppercase: "^[A-Z][-_+.'0-9A-Za-z]*$"
+    url: "^(https?:|ftp:|mailto:|file:).*$"
+    email: "^[a-z][-_.0-9a-z]*@.*$"
+    punct: "^`[`]?[-,;/0-9a-z]*$|^[][]+[']?$|^['][']+$|[=][]['`=]+ ?$|[=][-,./;0-9]+ ?$"
+    reverse2_lookup: "=[a-z]* ?$"
+
