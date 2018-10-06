@@ -1502,7 +1502,7 @@ use_preset_vocabulary: false
 🍠	kao3 di4 gua1
 🍠	kao3 hong2 shu3
 🍠	shi2 wu4
-🍠	shu
+🍠	shu3
 🍠	zi3 shu3
 🍡	nuo mi tuan
 🍡	rou4 wan2
@@ -1510,12 +1510,14 @@ use_preset_vocabulary: false
 🍡	tuan2 zi1
 🍡	wan2 zi1
 🍡	xiao wan zi
-🍢	chuan chuan
-🍢	guan dong zhu
-🍢	shi wu
+🍢	chuan4 chuan4
+🍢	guan1 dong1 zhu3
+🍢	shi2 wu4
+🍢	oden
 🍣	san1 wen2 yu2
 🍣	shi2 wu4
 🍣	shou4 si1
+🍣	sushi
 🍤	chao xia
 🍤	da4 xia1
 🍤	shi2 wu4
@@ -1571,7 +1573,7 @@ use_preset_vocabulary: false
 🍮	shi2 wu4
 🍮	tian2 dian3
 🍮	tian2 pin3
-🍯	feng mi guan
+🍯	feng1 mi4 guan4
 🍯	mi4 guan4
 🍯	shi2 wu4
 🍰	cao3 mei2 dan4 gao1
@@ -1584,8 +1586,9 @@ use_preset_vocabulary: false
 🍱	bian4 dang1
 🍱	he2 fan4
 🍱	jian3 can1
-🍱	kuai can
-🍱	shi wu
+🍱	kuai4 can1
+🍱	shi2 wu4
+🍱	bento
 🍲	bao tang
 🍲	chi1 huo3 guo1
 🍲	dong tian chi huo guo
@@ -1622,6 +1625,7 @@ use_preset_vocabulary: false
 🍶	jiu3 ping2 he2 jiu3 bei1
 🍶	qing1 jiu3
 🍶	yin3 liao4
+🍶	sake
 🍷	gan1 hong2
 🍷	hong2 jiu3
 🍷	hong2 jiu3 bei1
@@ -2158,6 +2162,7 @@ use_preset_vocabulary: false
 🏳️‍🌈	tong2 xing4 lian4 zi4 hao2 qi2
 🏳️‍🌈	tong2 xing4 lian4 zi4 hao2 ri4
 🏳️‍🌈	tong2 xing4 lian4 zi4 hao2 you2 xing2
+🏳️‍🌈	rainbowflag
 🏴️	hei1 se4 qi2 zhi4
 🏴️	ju3 hei1 qi2
 🏴️	piao1 yang2 de hai3 dao4 qi2
@@ -2208,6 +2213,8 @@ use_preset_vocabulary: false
 🐆	hua1 bao4
 🐇	dong4 wu4
 🐇	tu4 zi4
+🐇	tu4
+🐇	rabbit
 🐈	dong4 wu4
 🐈	jia1 mao1
 🐈	mao1
@@ -2217,6 +2224,8 @@ use_preset_vocabulary: false
 🐉	qing1 long2
 🐊	dong4 wu4
 🐊	e4 yu2
+🐊	crocodile
+🐊	alligator
 🐋	dong4 wu4
 🐋	jing1 yu2
 🐋	mo xiang jing1
@@ -2251,9 +2260,10 @@ use_preset_vocabulary: false
 🐒	hou2 er
 🐒	hou2 wang2
 🐒	hou2 zi
-🐓	da ming
+🐓	da3 ming2
 🐓	dong4 wu4
 🐓	gong1 ji1
+🐓	rooster
 🐔	dong4 wu4
 🐔	ji1
 🐔	mu3 ji1
@@ -2422,6 +2432,7 @@ use_preset_vocabulary: false
 🐲	long2 tou2
 🐲	long2 wang2
 🐲	zhong1 guo2 long2
+🐲	dragonface
 🐳	dong4 wu4
 🐳	jing1
 🐳	jing1 yu2
@@ -2926,7 +2937,7 @@ use_preset_vocabulary: false
 👱‍♀️	xi1 fang1 nv3 ren2
 👱‍♀️	xi1 fang1 ren2
 👲	di4 zhu3
-👲	gua pi mao
+👲	gua1 pi2 mao4
 👲	lei2 feng1 shu shu
 👲	tou2 xiang4
 👲	tu hao
@@ -5011,6 +5022,8 @@ use_preset_vocabulary: false
 🉐️	huo4 de2
 🉐️	shou1 yi4
 🉐️	te4 jia4
+🉐️	bargain
+🉐️	japanesebargain
 🈹️	da3 zhe2
 🈹️	fu2 hao4
 🈹️	ge1
@@ -5080,11 +5093,16 @@ use_preset_vocabulary: false
 ㊗️	zhu4 an1 kang1
 ㊗️	zhu4 fu2
 ㊗️	zhu4 he4
+💮	bai2 hua1
+💮	whiteflower
+💮	welldone
 🅰	biao1 zhi4
-🅰️	xue xing
+🅰️	xue3 xing2
+🅰️	bloodtypea
 🆎	a b
 🆎	biao1 zhi4
-🆎	xue xing
+🆎	xue3 xing2
+🆎	bloodtypeab
 🅱	biao1 zhi4
 🅱️	xue3 xing2
 capslock	caps
@@ -5132,6 +5150,8 @@ option	alt
 🅿	biao1 zhi4
 🅿️	ting2 che1
 🅿️	ting2 che1 chang3
+🅿️	parking
+🅿️	pbutton
 shift	shift
 🆘	fu2 hao4
 🆘	hu1 jiu4
@@ -5140,6 +5160,7 @@ shift	shift
 🆘	sos
 ™️	fu hao
 ™	shang1 biao1
+™️	trademark
 🆙	ding3
 🆙	fu2 hao4
 🆙	up
@@ -5149,7 +5170,10 @@ shift	shift
 🆚	dui4 kang
 🆚	fu2 hao4
 🆚	vs
-🈂️	xiao fei
+🈂️	xiao3 fei4
+🈂️	servicecharge
+🈂️	service
+🈂️	サビス
 	ping2 guo3
 🤙	da3 dian4 hua4
 🤙	dian4 hua4 lian2 xi4
@@ -5342,6 +5366,7 @@ shift	shift
 🥙	jiu3 cai4 he2 zi
 🥙	rou4 jia1 mo2
 🥙	xian4 bing3
+🥙	pitasandwich
 🥚	dan4
 🥚	ji1 dan4
 🥛	niu2 nai3
@@ -5393,6 +5418,53 @@ shift	shift
 🧦	socks
 🧤	shou3 tao4
 🧤	gloves
+🥡	wai4 mai4
+🥡	takeout
+🥡	takeoutbox
+🥠	fortunecookie
+🥧	pie
+🥧	pai4
+🥢	kuai4 zi1
+🥢	chopsticks
+🧠	da4 nao3
+🧠	nao3 zi1
+🧠	brain
+🧣	scarf
+🧣	wei2 jin1
+🧣	wei2 bo2
+🧥	coat
+🧥	wai4 tao4
+🧥	shang4 yi1
+🧢	dai4 yan2 mao4
+🧢	mao4
+🧢	mao4 zi1
+🧢	billedcap
+🧢	billedhat
+🦒	giraffe
+🦒	chang2 jing3 lu4
+🦒	lu4
+🦒	dong4 wu4
+🥦	broccoli
+🥦	hua1 cai4
+🥦	zhi2 wu4
+🥦	hua1 ye1 cai4
+🦔	ci4 wei4
+🦔	hedgehog
+🦗	cricket
+🦗	qu1 qu1
+🦗	xi1 shuai4
+🦗	kun1 chong2
+🦕	dinosaru
+🦕	kong3 long2
+🦕	xi1 jiao3 long2
+🥫	guan4
+🥫	guan4 tou2
+🥫	guan4 zhuang1 shi2 pin3
+🥫	cannedfood
+🥣	bowlwithspoon
+🥣	tang1 he2 shao2
+🥪	sandwich
+🥪	san1 ming2 zhi4
 #Unicode 11.0 and Emoji 11.0 in 2018
 🦚	dong4 wu4
 🦚	kong3 que4
