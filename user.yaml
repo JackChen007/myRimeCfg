@@ -1,8 +1,8 @@
 var:
-  last_build_time: 1538659192
+  last_build_time: 1538801326
   option:
     full_shape: false
-    simplification: false
+    simplification: true
   previously_selected_schema: td_pinyin
   schema_access_time:
     bopomofo: 1536386402

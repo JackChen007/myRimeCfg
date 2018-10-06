@@ -47,3 +47,5 @@ luna_pinyin.userdb/LOG
 luna_pinyin.userdb/LOCK
 luna_pinyin.userdb/lost/MANIFEST-000068
 luna_pinyin.userdb/MANIFEST-000063
+build/nihongo-r.schema.yaml
+td_pinyin.userdb/MANIFEST-000046

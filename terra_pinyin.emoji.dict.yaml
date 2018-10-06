@@ -1371,6 +1371,7 @@ use_preset_vocabulary: false
 🍆	jia
 🍆	jia zi
 🍆	qie2 zi1
+🍆	eggplant
 🍆	shu1 cai4
 🍆	shui3 guo3
 🍇	pu2 tao2
@@ -1494,7 +1495,7 @@ use_preset_vocabulary: false
 🍠	fan1 shu3
 🍠	hong2 shu3
 🍠	kao3 di4 gua1
-🍠	kao hong shu
+🍠	kao3 hong2 shu3
 🍠	shi2 wu4
 🍠	shu
 🍠	zi3 shu3
@@ -2181,9 +2182,6 @@ use_preset_vocabulary: false
 🐁	dong4 wu4
 🐁	lao3 shu3
 🐁	xiao3 bai2 shu3
-🦙	cao3 ni2 ma3
-🦙	yang2 tuo2
-🦙	dong4 wu4
 🐂	dong4 wu4
 🐂	gong1 niu2
 🐂	niu2
@@ -3029,43 +3027,43 @@ use_preset_vocabulary: false
 💂‍♀️	tou xiang
 💂‍♀️	wei bing
 💂‍♀️	wei shi
-💃	jiao se
-💃	jue se
-💃	tan ge
-💃	tiao wu
-💃	tiao wu zhe
+💃	jiao3 se4
+💃	jue2 se4
+💃	tan4 ge1
+💃	tiao4 wu3
+💃	tiao4 wu3 zhe3
 💃	tou xiang
-💃	wu dao jia
-💃	wu nv
+💃	wu3 dao3 jia1
+💃	wu3 nv3
 💃	wu xie
-💃	wu zhe
+💃	wu3 zhe3
 💄	bian se chun gao
-💄	chun cai
-💄	chun gao
+💄	chun2 cai3
+💄	chun2 gao1
 💄	chun mi
 💄	chun zhuang
-💄	huo dong
-💄	kou hong
+💄	huo2 dong4
+💄	kou3 hong2
 💅	huo dong
 💅	mei jia
 💅	mo zhi jia you
 💅	zhi jia you
-💆	an mo
-💆	mei rong
-💆	tou bu an mo
+💆	an4 mo1
+💆	mei3 rong2
+💆	tou2 bu4 an4 mo1
 💆	tou xiang
-💆‍♂️	an mo
+💆‍♂️	an4 mo1
 💆‍♂️	mei rong
 💆‍♂️	tou bu an mo
 💆‍♂️	tou xiang
-💇	chang fa
-💇	jian fa
+💇	chang2 fa4
+💇	jian3 fa4
 💇	jian liu hai
-💇	jian tou
-💇	jian tou fa
-💇	li fa
-💇	li fa shi
-💇	ti tou
+💇	jian3 tou2
+💇	jian3 tou2 fa4
+💇	li3 fa4
+💇	li3 fa4 shi1
+💇	ti4 tou2
 💇	tou xiang
 💇	zhang fa
 💇‍♂️	chang fa
@@ -3073,66 +3071,66 @@ use_preset_vocabulary: false
 💇‍♂️	jian liu hai
 💇‍♂️	jian tou
 💇‍♂️	jian tou fa
-💇‍♂️	li fa
+💇‍♂️	li3 fa4
 💇‍♂️	li fa shi
 💇‍♂️	ti tou
 💇‍♂️	tou xiang
 💇‍♂️	zhang fa
-💈	fa lang
-💈	huo dong
-💈	li fa
-💈	li fa dian
-💉	chou xue
-💉	da zhen
+💈	fa4 lang2
+💈	huo2 dong4
+💈	li3 fa4
+💈	li3 fa4 dian4
+💉	chou1 xue3
+💉	da3 zhen1
 💉	huo dong
-💉	yi liao
+💉	yi1 liao2
 💉	zhen ji
-💉	zhen tong
-💉	zhu she
-💉	zhu she qi
-💊	chi yao
-💊	huo dong
-💊	jiao nang
-💊	yao
-💊	yao wan
+💉	zhen1 tong3
+💉	zhu4 she4
+💉	zhu4 she4 qi4
+💊	chi1 yao4
+💊	huo2 dong4
+💊	jiao1 nang2
+💊	yao4
+💊	yao4 wan2
 💊	yao xiao
-💊	yi liao
-💋	chun yin
-💋	hong chun
-💋	jie wen
-💋	lang man
-💋	qin yi kou
-💋	qin zui
-💋	wen
-💌	lang man
-💌	qing shu
+💊	yi1 liao2
+💋	chun2 yin4
+💋	hong2 chun2
+💋	jie1 wen3
+💋	lang4 man4
+💋	qin1 yi1 kou3
+💋	qin1 zui3
+💋	wen3
+💌	lang4 man4
+💌	qing2 shu1
 💌	yi wen feng zhen
-💍	hun jie
-💍	jie zhi
-💍	ke la
-💍	lang man
-💍	shou shi
-💍	zhi huan
-💍	zuan jie
-💎	bao shi
-💎	lang man
+💍	hun1 jie4
+💍	jie4 zhi3
+💍	ke1 la1
+💍	lang4 man4
+💍	shou3 shi4
+💍	zhi3 huan2
+💍	zuan4 jie4
+💎	bao3 shi2
+💎	lang4 man4
 💎	zhu bao
-💎	zuan shi
-💏	ai qing tian mi
+💎	zuan4 shi2
+💏	ai2 qing2 tian2 mi4
 💏	jie wen
 💏	lang man
 💏	nan nv qin wen
-💏	qin wen
-💐	cha hua
-💐	hua
-💐	hua shu
+💏	qin1 wen3
+💐	cha1 hua1
+💐	hua1
+💐	hua1 shu4
 💐	hua yi
 💐	lang man
 💐	peng hua
 💐	xian hua
-💑	ai qing
-💑	ai qing tian mi
-💑	fu fu
+💑	ai4 qing2
+💑	ai4 qing2 tian2 mi4
+💑	fu1 fu4
 💑	lang man
 💑	lian ren
 💑	nan ren ai nv ren
@@ -3144,31 +3142,31 @@ use_preset_vocabulary: false
 💒	hun li
 💒	jiao tang
 💒	lang man
-💓	ai
-💓	ai qing
-💓	lang man
+💓	ai4
+💓	ai4 qing2
+💓	lang4 man4
 💓	tiao dong de xin
-💓	xi huan
-💓	xin dong
-💓	xin tiao
-💔	lang man
-💔	shang xin
-💔	shi lian
-💔	xin sui
+💓	xi3 huan1
+💓	xin1 dong4
+💓	xin1 tiao4
+💔	lang4 man4
+💔	shang1 xin1
+💔	shi1 lian4
+💔	xin1 sui4
 💕	lang man
-💕	liang ke xin
-💕	xin
-💕	xin xin xiang yin
-💖	lang man
+💕	liang3 ke1 xin1
+💕	xin1
+💕	xin1 xin1 xiang1 yin4
+💖	lang4 man4
 💖	shan liang de xin
 💖	shan yao de xin
-💖	xin
-💗	ai
-💗	ai xin
-💗	jin zhang
-💗	lang man
-💗	xin dong
-💗	xin tiao
+💖	xin1
+💗	ai4
+💗	ai4 xin1
+💗	jin3 zhang1
+💗	lang4 man4
+💗	xin1 dong4
+💗	xin1 tiao4
 💗	yue dong de xin
 💘	lang man
 💘	yi jian chuan xin
@@ -3179,7 +3177,7 @@ use_preset_vocabulary: false
 💙	lan xin
 💙	lang man
 💚	cai xin
-💚	lang man
+💚	lang4 man4
 💚	lv se de xin
 💚	lv se xin xing
 💚	lv xin
@@ -3187,9 +3185,9 @@ use_preset_vocabulary: false
 💛	huang se de xin
 💛	huang se xin xing
 💛	huang xin
-💛	lang man
+💛	lang4 man4
 💜	cai xin
-💜	lang man
+💜	lang4 man4
 💜	zi se de xin
 💜	zi se xin xing
 💜	zi xin
@@ -3456,48 +3454,48 @@ use_preset_vocabulary: false
 📔	huang pi bi ji ben
 📔	shang wu
 📕	bei wang lu
-📕	hong pi shu
-📕	hong se shu ben
-📕	shang wu
-📖	cha xun
+📕	hong2 pi2 shu1
+📕	hong2 se4 shu1 ben3
+📕	shang1 wu4
+📖	cha2 xun2
 📖	da kai de shu ben
-📖	fan shu
-📖	shang wu
-📖	shu
-📖	shu ben
-📖	tu shu
-📗	jiao ke shu
-📗	lv se shu ben
-📗	shang wu
-📘	lan pi shu
-📘	lan se shu ben
-📘	shang wu
-📙	bi ji ben
+📖	fan1 shu1
+📖	shang1 wu4
+📖	shu1
+📖	shu1 ben3
+📖	tu2 shu1
+📗	jiao4 ke1 shu1
+📗	lv4 se4 shu1 ben3
+📗	shang1 wu4
+📘	lan2 pi2 shu1
+📘	lan2 se4 shu1 ben3
+📘	shang1 wu4
+📙	bi3 ji4 ben3
 📙	cheng pi shu
 📙	ju se shu ben
-📙	shang wu
-📚	shang wu
-📚	shu ben
-📚	shu dui
+📙	shang1 wu4
+📚	shang1 wu4
+📚	shu1 ben3
+📚	shu1 dui1
 📚	shu ji
 📛	ming pai
 📛	shang wu
 📛	xing ming pai
-📜	juan zhou
-📜	juan zong
-📜	shang wu
+📜	juan3 zhou2
+📜	juan4 zong1
+📜	shang1 wu4
 📜	yang pi zhi juan
 📝	bei wang
 📝	bei wang lu
-📝	bi lu
-📝	ji lu
+📝	bi3 lu4
+📝	ji4 lu4
 📝	ji shi
-📝	xin xi
-📞	dian hua
+📝	xin4 xi1
+📞	dian4 hua4
 📞	dian hua ting tong
-📞	shang wu
-📞	ting tong
-📞	tong xun
+📞	shang1 wu4
+📞	ting1 tong3
+📞	tong1 xun4
 📟	chuan2 hu1 ji1
 📟	hu1 ji1
 📟	shang1 wu4
@@ -3666,56 +3664,57 @@ use_preset_vocabulary: false
 🔊	sheng yin
 🔊	xin xi
 🔊	yang sheng qi
-🔊	yin liang
-🔋	chong dian
-🔋	dian chi
-🔋	dian liang
-🔋	gong ju
+🔊	yin1 liang4
+🔋	chong1 dian4
+🔋	dian4 chi2
+🔋	dian4 liang4
+🔋	battery
+🔋	gong1 ju4
 🔌	cha tou
 🔌	dian cha tou
 🔌	dian yuan
 🔌	gong ju
-🔍	cha xun
-🔍	fang da jing
-🔍	gong ju
-🔍	sou suo
-🔍	sou xun
-🔎	fang da jing
-🔎	gong ju
-🔎	qing bao
+🔍	cha2 xun2
+🔍	fang4 da4 jing4
+🔍	gong1 ju4
+🔍	sou1 suo3
+🔍	sou1 xun2
+🔎	fang4 da4 jing4
+🔎	gong1 ju4
+🔎	qing2 bao4
 🔎	xiang qing
-🔎	xiang xi
+🔎	xiang2 xi4
 🔏	gong ju
 🔏	yin mi
 🔏	yin si
 🔐	an quan
 🔐	gong ju
 🔐	jia mi
-🔑	gong ju
-🔑	jin yao shi
+🔑	gong1 ju4
+🔑	jin1 yao4 shi
 🔑	yao shi
 🔒	gong ju
 🔒	shang suo
-🔒	suo
+🔒	suo3
 🔒	suo ding
-🔒	suo tou
+🔒	suo3 tou2
 🔓	gong ju
 🔓	jie suo
-🔓	kai suo
-🔔	ding
-🔔	gong ju
-🔔	ling dang
-🔔	ti xing
-🔔	xiang ling
-🔔	zhong sheng
+🔓	kai1 suo3
+🔔	ding1
+🔔	gong1 ju4
+🔔	ling2 dang1
+🔔	ti2 xing3
+🔔	xiang3 ling2
+🔔	zhong1 sheng1
 🔕	jin zhi xiang ling
-🔖	gong ju
-🔖	shu qian
-🔗	gong ju
+🔖	gong1 ju4
+🔖	shu1 qian1
+🔗	gong1 ju1
 🔗	huan kou
-🔗	lian jie
-🔗	tie suo
-🔘	an niu
+🔗	lian2 jie1
+🔗	tie3 suo3
+🔘	an4 niu3
 🔘	dan xuan an niu
 🔘	gong ju
 🔘	yuan xing an niu
@@ -3741,14 +3740,14 @@ use_preset_vocabulary: false
 🔝	top
 🔝	zhi ding
 🔞	biao zhi
-🔞	cheng ren
-🔞	cheng ren jie mu
+🔞	cheng2 ren2
+🔞	cheng2 ren2 jie2 mu4
 🔞	shao er bu yi
-🔞	shi ba jin
-🔞	wei cheng nian
+🔞	shi2 ba1 jin4
+🔞	wei4 cheng2 nian2
 🔞	wei cheng nian jin zhi
-🔟	fu hao
-🔟	shi
+🔟	fu2 hao4
+🔟	shi2
 🔠	da xie zi mu
 🔠	fu hao
 🔠	ying wen da xie
@@ -3763,26 +3762,26 @@ use_preset_vocabulary: false
 🔤	qie huan shu ru
 🔤	ying wen shu ru fa
 🔤	ying wen zi
-🔥	chai huo
-🔥	dian huo
-🔥	dian ran
-🔥	huo
-🔥	huo miao
+🔥	chai2 huo3
+🔥	dian3 huo3
+🔥	dian3 ran2
+🔥	huo3
+🔥	huo3 miao2
 🔥	huo re
-🔥	huo yan
+🔥	huo3 yan4
 🔥	huo zhong
 🔥	lie huo
-🔥	ran shao
-🔥	shao
+🔥	ran2 shao1
+🔥	shao1
 🔥	shi huo
 🔥	ye huo
 🔥	zi ran
 🔦	gong ju
 🔦	shou dian tong
 🔦	zhao ming
-🔧	ban shou
-🔧	gong ju
-🔧	xiu li
+🔧	ban1 shou3
+🔧	gong1 ju4
+🔧	xiu1 li3
 🔨	chui2 zi
 🔨	gong1 ju4
 🔨	qiao1 da3
@@ -3790,33 +3789,33 @@ use_preset_vocabulary: false
 🔩	gong1 ju4
 🔩	luo mu ji luo shuan
 🔩	luo shuan tao jian
-🔩	luo si
-🔪	cai dao
-🔪	dao
+🔩	luo2 si1
+🔪	cai4 dao1
+🔪	dao1
 🔪	gong ju
-🔪	kan
-🔪	qie
-🔪	qie rou dao
-🔪	shui guo dao
-🔪	xiao dao
-🔫	gong ju
-🔫	qiang
-🔫	qiang xie
-🔫	she ji
-🔫	shou qiang
-🔫	shui qiang
-🔬	gong ju
+🔪	kan3
+🔪	qie1
+🔪	qie1 rou4 dao1
+🔪	shui3 guo3 dao1
+🔪	xiao3 dao1
+🔫	gong1 ju4
+🔫	qiang1
+🔫	qiang1 xie4
+🔫	she4 ji1
+🔫	shou2 qiang1
+🔫	shui3 qiang1
+🔬	gong1 ju4
 🔬	ke xue
-🔬	xian wei jing
+🔬	xian3 wei1 jing4
 🔬	zuo shi yan
-🔭	gong ju
-🔭	tian wen
-🔭	tian wen guan cha
-🔭	wang yuan jing
+🔭	gong1 ju4
+🔭	tian1 wen2
+🔭	tian1 wen2 guan1 cha2
+🔭	wang4 yuan2 jing4
 🔮	fu hao
-🔮	shui jing qiu
-🔮	zhan bo
-🔮	zhan bu
+🔮	shui3 jing1 qiu2
+🔮	zhan1 bo2
+🔮	zhan1 bu3
 🔮	zi shui jing
 🔯	fu2 hao4
 🔯	liu4 jiao3 xing1
@@ -3829,8 +3828,8 @@ use_preset_vocabulary: false
 🔱	san cha ji
 🔲	hei xian fang kuang
 🔳	bai xian fang kuang
-🔴	hong se yuan quan
-🔵	lan se yuan quan
+🔴	hong2 se4 yuan2 quan1
+🔵	lan2 se4 yuan2 quan1
 🔷	lan se da ling xing
 🔹	lan se xiao ling xing
 🔼	fu hao
@@ -5402,3 +5401,14 @@ shift	shift
 🦢	dong4 wu4
 🧻	juan3 zhi3
 🧻	rollofpaper
+🦙	cao3 ni2 ma3
+🦙	yang2 tuo2
+🦙	dong4 wu4
+🥰	Smiling Face With 3 Hearts
+🥵	hotface
+🧼	soap
+🧼	fei2 zao4
+🧼	yi1 kuai4 fei2 zao4
+🧼	jie2 cao1
+🥶	coldface
+🥶	leng3 lian3
