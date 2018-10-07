@@ -50,3 +50,8 @@ luna_pinyin.userdb/MANIFEST-000063
 build/nihongo-r.schema.yaml
 td_pinyin.userdb/MANIFEST-000046
 td_pinyin.userdb/MANIFEST-000049
+nihongo-r.userdb/LOCK
+nihongo-r.userdb/CURRENT
+td_pinyin.userdb/MANIFEST-000052
+nihongo-r.userdb/MANIFEST-000002
+nihongo-r.userdb/LOG
