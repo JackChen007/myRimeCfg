@@ -1,5 +1,5 @@
 var:
-  last_build_time: 1538836454
+  last_build_time: 1538890964
   option:
     full_shape: false
     simplification: true
@@ -8,7 +8,8 @@ var:
     bopomofo: 1536386402
     double_pinyin: 1538381859
     luna_pinyin: 1538382547
-    td_pinyin: 1538385147
-    terra_pinyin: 1538382884
+    "nihongo-r": 1538837040
+    td_pinyin: 1538890241
+    terra_pinyin: 1538890233
     tibetan: 1536177734
     wubi86: 1535665587
